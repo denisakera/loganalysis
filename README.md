@@ -381,11 +381,84 @@ python generate_llm_report.py
 - **[LLM Executive Summary](LLM_ANALYSIS_EXECUTIVE_SUMMARY.md)** - LLM executive summary
 - **[LLM Summary Report](llm_analysis_summary_report.md)** - LLM insights summary
 
+## Visualizations
+
+### Static Visualizations (PNG)
+
+#### Speaking Time & Participation
+![Speaking Time Distribution](speaking_time_distribution.png)
+*Speaking time distribution across all speakers*
+
+![Speaking Timeline](speaking_timeline.png)
+*Temporal speaking patterns throughout the meeting*
+
+![Cumulative Speaking Time](cumulative_speaking_time.png)
+*Cumulative speaking time progression*
+
+![Turn Length Distribution](turn_length_distribution.png)
+*Distribution of turn lengths across speakers*
+
+![Participation Heatmap](participation_heatmap.png)
+*Participation patterns heatmap*
+
+#### Speaker Networks & Interactions
+![Speaker Network](speaker_network.png)
+*Speaker interaction network graph*
+
+![Transition Heatmap](transition_heatmap.png)
+*Speaker-to-speaker transition patterns*
+
+![Interruption Network](interruption_network.png)
+*Interruption patterns network*
+
+![Interruption Tolerance](interruption_tolerance.png)
+*Analysis of interruption tolerance asymmetries*
+
+![Floor Holding Interruptions](floor_holding_interruptions.png)
+*Floor holding patterns in relation to interruptions*
+
+![Response Oriented Network](response_oriented_network.png)
+*Response-oriented interaction network*
+
+![Conversational Attractors](conversational_attractors.png)
+*Speakers who attract extended responses*
+
+#### Topic Analysis
+![Topic Timeline](topic_timeline.png)
+*Topic emergence timeline throughout meeting*
+
+![Topic Trajectories](topic_trajectories.png)
+*Topic trajectory visualization*
+
+![Topic Content Table](topic_content_table.png)
+*Topic content visualization*
+
+![Speaker Topic Network](speaker_topic_network.png)
+*Speaker-topic bipartite network*
+
+![Speaker Topic Engagement Matrix](speaker_topic_engagement_matrix.png)
+*Speaker-topic engagement matrix*
+
+#### Inequality & Analysis
+![Inequality Lorenz Curve](inequality_lorenz_curve.png)
+*Inequality metrics (Lorenz curve)*
+
+![Gap Analysis](gap_analysis.png)
+*Gap analysis visualization*
+
+### Interactive Visualizations (HTML)
+- **[Interactive Visualizations](interactive_visualizations.html)** - Main interactive dashboard
+- **[Relational Interaction Visualizations](relational_interaction_visualizations.html)** - Relational interaction views
+- **[Topic Emergence Visualizations](topic_emergence_visualizations.html)** - Topic emergence interactive
+- **[Fine-Grained Power Visualizations](fine_grained_power_visualizations.html)** - Fine-grained power relations
+
+**Note:** To view interactive HTML files locally, run `python start_local_server.py` and open files at `http://localhost:8000/`
+
 ## Output Structure
 
 ### Visualizations
-- **20+ PNG files** - Static visualizations for reports
-- **4 HTML files** - Interactive D3.js visualizations
+- **19 PNG files** - Static visualizations for reports (all displayed above)
+- **4 HTML files** - Interactive D3.js visualizations (linked above)
 
 ### Reports
 - **[ORGANIZATIONAL_POWER_DYNAMICS_SUMMARY.md](ORGANIZATIONAL_POWER_DYNAMICS_SUMMARY.md)** - Main comprehensive report
