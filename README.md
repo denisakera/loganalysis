@@ -73,10 +73,10 @@ loganalysis/
 │   └── gap_analysis.png                          # Gap analysis
 │
 ├── 🌐 INTERACTIVE VISUALIZATIONS (HTML)
-│   ├── interactive_visualizations.html          # Main interactive dashboard
-│   ├── relational_interaction_visualizations.html  # Relational interaction views
-│   ├── topic_emergence_visualizations.html       # Topic emergence interactive
-│   └── fine_grained_power_visualizations.html    # Fine-grained power relations
+│   ├── [interactive_visualizations.html](interactive_visualizations.html)          # Main interactive dashboard
+│   ├── [relational_interaction_visualizations.html](relational_interaction_visualizations.html)  # Relational interaction views
+│   ├── [topic_emergence_visualizations.html](topic_emergence_visualizations.html)       # Topic emergence interactive
+│   └── [fine_grained_power_visualizations.html](fine_grained_power_visualizations.html)    # Fine-grained power relations
 │
 ├── 📝 ADDITIONAL FILES
 │   ├── observable_notebook.md                   # Observable notebook format
@@ -133,7 +133,7 @@ python generate_llm_report.py
 ## Key Reports
 
 ### 📊 Main Organizational Report
-**`ORGANIZATIONAL_POWER_DYNAMICS_SUMMARY.md`** - Comprehensive summary covering:
+**[`ORGANIZATIONAL_POWER_DYNAMICS_SUMMARY.md`](ORGANIZATIONAL_POWER_DYNAMICS_SUMMARY.md)** - Comprehensive summary covering:
 - Speaker-to-speaker relations
 - Speaker-topic relations
 - Overall power dynamics
@@ -142,7 +142,7 @@ python generate_llm_report.py
 - Recommendations for organizational development
 
 ### 🦁 Animal Metaphors
-**`SPEAKER_ANIMAL_METAPHORS.md`** - Ironic, fable-like descriptions of speakers:
+**[`SPEAKER_ANIMAL_METAPHORS.md`](SPEAKER_ANIMAL_METAPHORS.md)** - Ironic, fable-like descriptions of speakers:
 - **🦅 Eagles & 🐺 Wolves:** Strategic hunters (successful agenda setters)
 - **🦁 Lions & 🐘 Elephants:** Dominant presence but unsuccessful hunters
 - **🐆 Leopards:** Stealthy success despite minimal presence
@@ -151,18 +151,20 @@ python generate_llm_report.py
 - **🐁 Mice:** Marginalized, rarely heard
 
 ### 🔍 Fine-Grained Analysis
-**`FINE_GRAINED_POWER_SUMMARY.md`** - Detailed topic-speaker relations:
+**[`FINE_GRAINED_POWER_SUMMARY.md`](FINE_GRAINED_POWER_SUMMARY.md)** - Detailed topic-speaker relations:
 - Topic closure authority
 - Asymmetric topical accountability
 - Topic recycling patterns
 - Topic hijacking vs. alignment
 
-### 🤖 LLM Analysis
-**`LLM_ANALYSIS_COMPREHENSIVE_REPORT.md`** - Interpretive analysis using GPT-4o-mini:
-- Topic emergence detection
-- Speaker orientation patterns
-- Topic transformation analysis
-- Hybrid structural + LLM insights
+### 🤖 LLM Analysis Reports
+- **[`LLM_ANALYSIS_COMPREHENSIVE_REPORT.md`](LLM_ANALYSIS_COMPREHENSIVE_REPORT.md)** - Full interpretive analysis using GPT-4o-mini
+- **[`LLM_ANALYSIS_EXECUTIVE_SUMMARY.md`](LLM_ANALYSIS_EXECUTIVE_SUMMARY.md)** - Executive summary of LLM findings
+- **[`llm_analysis_summary_report.md`](llm_analysis_summary_report.md)** - Summary of LLM insights
+
+### 📋 Additional Reports
+- **[`power_structures_report.md`](power_structures_report.md)** - Detailed power structures analysis
+- **[`TOPIC_ENGAGEMENT_SUMMARY.md`](TOPIC_ENGAGEMENT_SUMMARY.md)** - Topic engagement patterns
 
 ## Analysis Components
 
@@ -359,15 +361,25 @@ python start_local_server.py
 ### Generate Specific Reports
 ```bash
 # Main organizational report (already generated)
-# View: ORGANIZATIONAL_POWER_DYNAMICS_SUMMARY.md
+# View: [ORGANIZATIONAL_POWER_DYNAMICS_SUMMARY.md](ORGANIZATIONAL_POWER_DYNAMICS_SUMMARY.md)
 
 # Animal metaphors (already generated)
-# View: SPEAKER_ANIMAL_METAPHORS.md
+# View: [SPEAKER_ANIMAL_METAPHORS.md](SPEAKER_ANIMAL_METAPHORS.md)
 
 # LLM comprehensive report
 python generate_llm_report.py
-# View: LLM_ANALYSIS_COMPREHENSIVE_REPORT.md
+# View: [LLM_ANALYSIS_COMPREHENSIVE_REPORT.md](LLM_ANALYSIS_COMPREHENSIVE_REPORT.md)
 ```
+
+### View All Reports
+- **[Main Organizational Report](ORGANIZATIONAL_POWER_DYNAMICS_SUMMARY.md)** - Comprehensive analysis
+- **[Animal Metaphors](SPEAKER_ANIMAL_METAPHORS.md)** - Power dynamics as organizational jungle
+- **[Fine-Grained Analysis](FINE_GRAINED_POWER_SUMMARY.md)** - Detailed topic-speaker relations
+- **[Topic Engagement Summary](TOPIC_ENGAGEMENT_SUMMARY.md)** - Topic engagement patterns
+- **[Power Structures Report](power_structures_report.md)** - Power structures analysis
+- **[LLM Comprehensive Report](LLM_ANALYSIS_COMPREHENSIVE_REPORT.md)** - Full LLM analysis
+- **[LLM Executive Summary](LLM_ANALYSIS_EXECUTIVE_SUMMARY.md)** - LLM executive summary
+- **[LLM Summary Report](llm_analysis_summary_report.md)** - LLM insights summary
 
 ## Output Structure
 
@@ -376,13 +388,25 @@ python generate_llm_report.py
 - **4 HTML files** - Interactive D3.js visualizations
 
 ### Reports
-- **5 main Markdown reports** - Comprehensive analyses
-- **3 LLM-specific reports** - Interpretive analysis
-- **Multiple text files** - Detailed analysis outputs
+- **[ORGANIZATIONAL_POWER_DYNAMICS_SUMMARY.md](ORGANIZATIONAL_POWER_DYNAMICS_SUMMARY.md)** - Main comprehensive report
+- **[SPEAKER_ANIMAL_METAPHORS.md](SPEAKER_ANIMAL_METAPHORS.md)** - Animal metaphors analysis
+- **[FINE_GRAINED_POWER_SUMMARY.md](FINE_GRAINED_POWER_SUMMARY.md)** - Fine-grained analysis
+- **[TOPIC_ENGAGEMENT_SUMMARY.md](TOPIC_ENGAGEMENT_SUMMARY.md)** - Topic engagement summary
+- **[power_structures_report.md](power_structures_report.md)** - Power structures report
+- **[LLM_ANALYSIS_COMPREHENSIVE_REPORT.md](LLM_ANALYSIS_COMPREHENSIVE_REPORT.md)** - LLM comprehensive report
+- **[LLM_ANALYSIS_EXECUTIVE_SUMMARY.md](LLM_ANALYSIS_EXECUTIVE_SUMMARY.md)** - LLM executive summary
+- **[llm_analysis_summary_report.md](llm_analysis_summary_report.md)** - LLM summary report
+- **Multiple text files** - Detailed analysis outputs:
+  - [topic_content_analysis.txt](topic_content_analysis.txt)
+  - [fine_grained_topic_power_analysis.txt](fine_grained_topic_power_analysis.txt)
+  - [topic_engagement_power_analysis.txt](topic_engagement_power_analysis.txt)
+  - [llm_hybrid_analysis_report.txt](llm_hybrid_analysis_report.txt)
 
-### Data
-- **5 JSON files** - Structured data for analysis and visualization
-- **3 text analysis files** - Detailed topic and engagement analysis
+### Data Files
+- **[amuta_2026-01-12_1.json](amuta_2026-01-12_1.json)** - Original transcript data
+- **[d3_visualization_data.json](d3_visualization_data.json)** - Processed data for D3.js
+- **[llm_topic_annotations.json](llm_topic_annotations.json)** - LLM annotations
+- **[power_dynamics_report.json](power_dynamics_report.json)** - Power dynamics metrics
 
 ## Contributing
 
