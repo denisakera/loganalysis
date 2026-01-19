@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relational Interaction Analysis - Interactive Visualizations</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #4a90e2;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 40px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+        }
+        .theoretical-note {
+            background: #f0f7ff;
+            border-left: 4px solid #4a90e2;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .theoretical-note h3 {
+            margin-top: 0;
+            color: #2c5aa0;
+        }
+        .visualization {
+            margin: 30px 0;
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 4px;
+        }
+        .tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 4px;
+            pointer-events: none;
+            font-size: 12px;
+            z-index: 1000;
+            max-width: 300px;
+        }
+        .controls {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f0f0f0;
+            border-radius: 4px;
+        }
+        .controls label {
+            display: inline-block;
+            margin: 5px 10px;
+            cursor: pointer;
+        }
+        svg {
+            display: block;
+            margin: 0 auto;
+        }
+        .legend {
+            font-size: 11px;
+        }
+        .node-label {
+            font-size: 10px;
+            font-weight: bold;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Relational Interaction Analysis</h1>
+        <p><strong>Power as Enacted Moment-by-Moment</strong></p>
+        
+        <div class="theoretical-note">
+            <h3>Theoretical Framework</h3>
+            <p>This visualization treats power as something <strong>enacted moment-by-moment</strong>, contingent and relational, rather than owned. Following Goffman's interaction order and Heritage's work on turn design:</p>
+            <ul>
+                <li><strong>Turns as Relations:</strong> Power appears in who orients to whom, who is ignored, and who becomes a conversational attractor</li>
+                <li><strong>Duration-Weighted Responses:</strong> Edge weight encodes duration of response chains, capturing capacity to elicit extended uptake</li>
+                <li><strong>Interruption Tolerance:</strong> Power appears in the ability to continue despite disruption (who maintains floor when interrupted)</li>
+                <li><strong>Layered Views:</strong> Power appears as a pattern across representations, not as a composite score</li>
+            </ul>
+        </div>
+
+        <div class="visualization">
+            <h2>1. Response-Oriented Network</h2>
+            <p><strong>Who orients to whom? Who becomes a conversational attractor?</strong></p>
+            <p>Edge thickness = Duration of response chains (capacity to elicit extended uptake)<br>
+            Edge color = Response frequency (darker = more frequent)<br>
+            Node size = Speaking time</p>
+            <div id="responseNetwork"></div>
+        </div>
+
+        <div class="visualization">
+            <h2>2. Floor Holding with Interruption Attempts</h2>
+            <p><strong>Who maintains floor despite interruption attempts? (Interruption Tolerance)</strong></p>
+            <p>Red X = Floor lost | Orange O = Floor maintained (tolerance)<br>
+            Hover over markers to see interruption details</p>
+            <div id="floorHolding"></div>
+        </div>
+
+        <div class="visualization">
+            <h2>3. Interruption Tolerance Rates</h2>
+            <p><strong>Power as capacity to continue despite disruption</strong></p>
+            <p>Not who interrupts most, but who maintains floor when interrupted</p>
+            <div id="toleranceChart"></div>
+        </div>
+
+        <div class="visualization">
+            <h2>4. Conversational Attractors</h2>
+            <p><strong>Who elicits extended responses? (Agenda setting as structural feature)</strong></p>
+            <p>Duration-weighted measure: capacity to elicit extended uptake</p>
+            <div id="attractors"></div>
+        </div>
+
+        <div class="visualization">
+            <h2>5. Layered Power Patterns</h2>
+            <p><strong>Reading power as pattern across multiple dimensions</strong></p>
+            <p>Compare tolerance, attractor scores, and response patterns together</p>
+            <div id="layeredView"></div>
+        </div>
+    </div>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+        // Load data
+        let data;
+        fetch('d3_visualization_data.json')
+            .then(response => response.json())
+            .then(jsonData => {
+                data = jsonData;
+                if (data.relational_interaction) {
+                    initializeRelationalVisualizations();
+                } else {
+                    document.body.innerHTML = '<div class="container"><h1>Error</h1><p>Relational interaction data not found. Please regenerate d3_visualization_data.json with the updated script.</p></div>';
+                }
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                document.body.innerHTML = '<div class="container"><h1>Error</h1><p>Could not load d3_visualization_data.json. Please ensure the file is in the same directory.</p></div>';
+            });
+
+        function initializeRelationalVisualizations() {
+            createResponseNetwork();
+            createFloorHolding();
+            createToleranceChart();
+            createAttractors();
+            createLayeredView();
+        }
+
+        function createResponseNetwork() {
+            const width = 1000;
+            const height = 800;
+            const margin = {top: 20, right: 20, bottom: 20, left: 20};
+
+            const svg = d3.select("#responseNetwork")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            const relData = data.relational_interaction.response_network;
+            
+            if (!relData || !relData.nodes || !relData.links) {
+                svg.append("text")
+                    .attr("x", width / 2)
+                    .attr("y", height / 2)
+                    .attr("text-anchor", "middle")
+                    .text("Response network data not available");
+                return;
+            }
+
+            const simulation = d3.forceSimulation(relData.nodes)
+                .force("link", d3.forceLink(relData.links).id(d => d.id).distance(150))
+                .force("charge", d3.forceManyBody().strength(-400))
+                .force("center", d3.forceCenter(width / 2, height / 2));
+
+            // Calculate max values for scaling
+            const maxDuration = d3.max(relData.links, d => d.avg_duration) || 1;
+            const maxFreq = d3.max(relData.links, d => d.frequency) || 1;
+            const maxTime = d3.max(relData.nodes, d => d.speaking_time) || 1;
+
+            const link = svg.append("g")
+                .selectAll("line")
+                .data(relData.links)
+                .join("line")
+                .attr("stroke", d => d3.interpolateBlues(d.frequency / maxFreq))
+                .attr("stroke-opacity", 0.7)
+                .attr("stroke-width", d => Math.max(1, (d.avg_duration / maxDuration) * 10));
+
+            const node = svg.append("g")
+                .selectAll("circle")
+                .data(relData.nodes)
+                .join("circle")
+                .attr("r", d => Math.sqrt(d.speaking_time / maxTime) * 25)
+                .attr("fill", "#69b3a2")
+                .attr("stroke", "#333")
+                .attr("stroke-width", 1.5)
+                .call(drag(simulation))
+                .on("mouseover", function(event, d) {
+                    const incoming = relData.links.filter(l => l.target === d.id);
+                    const outgoing = relData.links.filter(l => l.source === d.id);
+                    const avgInDuration = d3.mean(incoming, l => l.avg_duration) || 0;
+                    showTooltip(event, 
+                        `${d.id}<br>` +
+                        `Speaking Time: ${d.speaking_time.toFixed(1)}s<br>` +
+                        `Incoming Responses: ${incoming.length}<br>` +
+                        `Avg Response Duration: ${avgInDuration.toFixed(1)}s<br>` +
+                        `Outgoing Responses: ${outgoing.length}`);
+                })
+                .on("mouseout", hideTooltip);
+
+            const label = svg.append("g")
+                .selectAll("text")
+                .data(relData.nodes)
+                .join("text")
+                .attr("class", "node-label")
+                .text(d => d.id)
+                .attr("dx", d => Math.sqrt(d.speaking_time / maxTime) * 25 + 5)
+                .attr("dy", 4);
+
+            simulation.on("tick", () => {
+                link
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+
+                node
+                    .attr("cx", d => d.x)
+                    .attr("cy", d => d.y);
+
+                label
+                    .attr("x", d => d.x)
+                    .attr("y", d => d.y);
+            });
+
+            function drag(simulation) {
+                function dragstarted(event) {
+                    if (!event.active) simulation.alphaTarget(0.3).restart();
+                    event.subject.fx = event.subject.x;
+                    event.subject.fy = event.subject.y;
+                }
+                function dragged(event) {
+                    event.subject.fx = event.x;
+                    event.subject.fy = event.y;
+                }
+                function dragended(event) {
+                    if (!event.active) simulation.alphaTarget(0);
+                    event.subject.fx = null;
+                    event.subject.fy = null;
+                }
+                return d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended);
+            }
+        }
+
+        function createFloorHolding() {
+            const width = 1200;
+            const height = 500;
+            const margin = {top: 20, right: 20, bottom: 40, left: 120};
+
+            const svg = d3.select("#floorHolding")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            const relData = data.relational_interaction;
+            const timeline = relData.floor_holding_timeline || [];
+            const markers = relData.interruption_markers || [];
+
+            if (timeline.length === 0) {
+                svg.append("text")
+                    .attr("x", width / 2)
+                    .attr("y", height / 2)
+                    .attr("text-anchor", "middle")
+                    .text("Floor holding timeline data not available");
+                return;
+            }
+
+            const x = d3.scaleLinear()
+                .domain([0, data.metadata.meeting_duration])
+                .range([margin.left, width - margin.right]);
+
+            const speakers = [...new Set(timeline.map(d => d.speaker))].slice(0, 10);
+            const y = d3.scaleBand()
+                .domain(speakers)
+                .range([margin.top, height - margin.bottom])
+                .padding(0.1);
+
+            const color = d3.scaleOrdinal(d3.schemeCategory20);
+
+            // Draw floor holding bars
+            svg.append("g")
+                .selectAll("rect")
+                .data(timeline.filter(d => speakers.includes(d.speaker)))
+                .join("rect")
+                .attr("x", d => x(d.start))
+                .attr("y", d => y(d.speaker))
+                .attr("width", d => x(d.end) - x(d.start))
+                .attr("height", y.bandwidth())
+                .attr("fill", d => color(d.speaker))
+                .attr("opacity", 0.7)
+                .attr("stroke", "#333")
+                .attr("stroke-width", 0.5);
+
+            // Draw interruption markers
+            const markerGroup = svg.append("g");
+            markers.filter(m => speakers.includes(m.interrupted)).forEach(marker => {
+                markerGroup.append("circle")
+                    .attr("cx", x(marker.time))
+                    .attr("cy", y(marker.interrupted) + y.bandwidth() / 2)
+                    .attr("r", 8)
+                    .attr("fill", marker.maintained ? "orange" : "red")
+                    .attr("stroke", "#333")
+                    .attr("stroke-width", 2)
+                    .attr("opacity", 0.9)
+                    .on("mouseover", function(event) {
+                        showTooltip(event, 
+                            `Interruption at ${marker.time.toFixed(1)}s<br>` +
+                            `Interrupted: ${marker.interrupted}<br>` +
+                            `Interrupter: ${marker.interrupter}<br>` +
+                            `Floor: ${marker.maintained ? 'Maintained ✓' : 'Lost ✗'}`);
+                    })
+                    .on("mouseout", hideTooltip);
+            });
+
+            svg.append("g")
+                .attr("transform", `translate(0,${margin.top})`)
+                .call(d3.axisLeft(y));
+
+            svg.append("g")
+                .attr("transform", `translate(0,${height - margin.bottom})`)
+                .call(d3.axisBottom(x).tickFormat(d => `${(d/60).toFixed(1)}m`));
+
+            // Legend
+            const legend = svg.append("g")
+                .attr("transform", `translate(${width - 200}, ${margin.top})`);
+            
+            legend.append("circle")
+                .attr("r", 6)
+                .attr("fill", "orange")
+                .attr("stroke", "#333");
+            legend.append("text")
+                .attr("x", 15)
+                .attr("y", 4)
+                .text("Floor maintained")
+                .style("font-size", "11px");
+
+            legend.append("circle")
+                .attr("r", 6)
+                .attr("cy", 20)
+                .attr("fill", "red")
+                .attr("stroke", "#333");
+            legend.append("text")
+                .attr("x", 15)
+                .attr("y", 24)
+                .text("Floor lost")
+                .style("font-size", "11px");
+        }
+
+        function createToleranceChart() {
+            const width = 1000;
+            const height = 500;
+            const margin = {top: 20, right: 100, bottom: 60, left: 200};
+
+            const svg = d3.select("#toleranceChart")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            const toleranceData = data.relational_interaction.tolerance_rates || [];
+            const filtered = toleranceData.filter(d => d.attempts > 0).sort((a, b) => b.tolerance_rate - a.tolerance_rate);
+
+            if (filtered.length === 0) {
+                svg.append("text")
+                    .attr("x", width / 2)
+                    .attr("y", height / 2)
+                    .attr("text-anchor", "middle")
+                    .text("Tolerance data not available");
+                return;
+            }
+
+            const x = d3.scaleLinear()
+                .domain([0, 1])
+                .range([margin.left, width - margin.right]);
+
+            const y = d3.scaleBand()
+                .domain(filtered.map(d => d.speaker))
+                .range([margin.top, height - margin.bottom])
+                .padding(0.2);
+
+            const colorScale = d3.scaleSequential(d3.interpolateRdYlGn)
+                .domain([1, 0]);
+
+            svg.append("g")
+                .selectAll("rect")
+                .data(filtered)
+                .join("rect")
+                .attr("x", margin.left)
+                .attr("y", d => y(d.speaker))
+                .attr("width", d => x(d.tolerance_rate) - margin.left)
+                .attr("height", y.bandwidth())
+                .attr("fill", d => colorScale(d.tolerance_rate))
+                .attr("stroke", "#333")
+                .attr("stroke-width", 1)
+                .on("mouseover", function(event, d) {
+                    showTooltip(event, 
+                        `${d.speaker}<br>` +
+                        `Tolerance Rate: ${(d.tolerance_rate * 100).toFixed(1)}%<br>` +
+                        `Attempts: ${d.attempts}<br>` +
+                        `Maintained: ${d.maintained}`);
+                })
+                .on("mouseout", hideTooltip);
+
+            svg.append("line")
+                .attr("x1", x(0.5))
+                .attr("x2", x(0.5))
+                .attr("y1", margin.top)
+                .attr("y2", height - margin.bottom)
+                .attr("stroke", "#666")
+                .attr("stroke-dasharray", "5,5")
+                .attr("opacity", 0.5);
+
+            svg.append("g")
+                .attr("transform", `translate(0,${margin.top})`)
+                .call(d3.axisLeft(y));
+
+            svg.append("g")
+                .attr("transform", `translate(0,${height - margin.bottom})`)
+                .call(d3.axisBottom(x).tickFormat(d3.format(".0%")));
+
+            svg.append("text")
+                .attr("x", width / 2)
+                .attr("y", height - 10)
+                .attr("text-anchor", "middle")
+                .text("Tolerance Rate (Floor Maintained / Attempts)");
+        }
+
+        function createAttractors() {
+            const width = 1000;
+            const height = 600;
+            const margin = {top: 20, right: 100, bottom: 60, left: 200};
+
+            const svg = d3.select("#attractors")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            const attractors = data.relational_interaction.attractor_scores || [];
+            const filtered = attractors.filter(d => d.incoming_responses > 0)
+                .sort((a, b) => b.avg_response_duration - a.avg_response_duration)
+                .slice(0, 15);
+
+            if (filtered.length === 0) {
+                svg.append("text")
+                    .attr("x", width / 2)
+                    .attr("y", height / 2)
+                    .attr("text-anchor", "middle")
+                    .text("Attractor data not available");
+                return;
+            }
+
+            const x = d3.scaleLinear()
+                .domain([0, d3.max(filtered, d => d.avg_response_duration)])
+                .range([margin.left, width - margin.right]);
+
+            const y = d3.scaleBand()
+                .domain(filtered.map(d => d.speaker))
+                .range([margin.top, height - margin.bottom])
+                .padding(0.2);
+
+            svg.append("g")
+                .selectAll("rect")
+                .data(filtered)
+                .join("rect")
+                .attr("x", margin.left)
+                .attr("y", d => y(d.speaker))
+                .attr("width", d => x(d.avg_response_duration) - margin.left)
+                .attr("height", y.bandwidth())
+                .attr("fill", "steelblue")
+                .attr("opacity", 0.7)
+                .attr("stroke", "#333")
+                .attr("stroke-width", 1)
+                .on("mouseover", function(event, d) {
+                    showTooltip(event, 
+                        `${d.speaker}<br>` +
+                        `Avg Response Duration: ${d.avg_response_duration.toFixed(1)}s<br>` +
+                        `Total Response Duration: ${d.total_response_duration.toFixed(1)}s<br>` +
+                        `Incoming Responses: ${d.incoming_responses}<br>` +
+                        `Max Response: ${d.max_response_duration.toFixed(1)}s`);
+                })
+                .on("mouseout", hideTooltip);
+
+            svg.append("g")
+                .attr("transform", `translate(0,${margin.top})`)
+                .call(d3.axisLeft(y));
+
+            svg.append("g")
+                .attr("transform", `translate(0,${height - margin.bottom})`)
+                .call(d3.axisBottom(x));
+
+            svg.append("text")
+                .attr("x", width / 2)
+                .attr("y", height - 10)
+                .attr("text-anchor", "middle")
+                .text("Average Response Chain Duration (seconds)");
+        }
+
+        function createLayeredView() {
+            const width = 1200;
+            const height = 600;
+            const margin = {top: 40, right: 100, bottom: 60, left: 200};
+
+            const svg = d3.select("#layeredView")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            const tolerance = data.relational_interaction.tolerance_rates || [];
+            const attractors = data.relational_interaction.attractor_scores || [];
+
+            // Combine data
+            const combined = {};
+            tolerance.forEach(d => {
+                if (!combined[d.speaker]) combined[d.speaker] = {};
+                combined[d.speaker].tolerance = d.tolerance_rate;
+                combined[d.speaker].attempts = d.attempts;
+            });
+            attractors.forEach(d => {
+                if (!combined[d.speaker]) combined[d.speaker] = {};
+                combined[d.speaker].attractor = d.avg_response_duration;
+                combined[d.speaker].responses = d.incoming_responses;
+            });
+
+            const speakers = Object.keys(combined).filter(s => 
+                (combined[s].tolerance !== undefined && combined[s].attempts > 0) ||
+                (combined[s].attractor !== undefined)
+            );
+
+            if (speakers.length === 0) {
+                svg.append("text")
+                    .attr("x", width / 2)
+                    .attr("y", height / 2)
+                    .attr("text-anchor", "middle")
+                    .text("Combined data not available");
+                return;
+            }
+
+            const x = d3.scaleLinear()
+                .domain([0, 1])
+                .range([margin.left, width - margin.right]);
+
+            const y = d3.scaleBand()
+                .domain(speakers)
+                .range([margin.top, height - margin.bottom])
+                .padding(0.3);
+
+            // Tolerance bars
+            svg.append("g")
+                .selectAll("rect")
+                .data(speakers.filter(s => combined[s].tolerance !== undefined))
+                .join("rect")
+                .attr("x", margin.left)
+                .attr("y", d => y(d))
+                .attr("width", d => x(combined[d].tolerance) - margin.left)
+                .attr("height", y.bandwidth() * 0.4)
+                .attr("fill", d => d3.interpolateRdYlGn(combined[d].tolerance))
+                .attr("stroke", "#333")
+                .attr("opacity", 0.8)
+                .on("mouseover", function(event, d) {
+                    showTooltip(event, 
+                        `${d} - Tolerance<br>` +
+                        `Rate: ${(combined[d].tolerance * 100).toFixed(1)}%<br>` +
+                        `Attempts: ${combined[d].attempts}`);
+                })
+                .on("mouseout", hideTooltip);
+
+            // Attractor markers
+            const maxAttractor = d3.max(speakers.map(s => combined[s].attractor || 0));
+            const attractorScale = d3.scaleLinear()
+                .domain([0, maxAttractor])
+                .range([0, width - margin.right - margin.left]);
+
+            svg.append("g")
+                .selectAll("circle")
+                .data(speakers.filter(s => combined[s].attractor !== undefined))
+                .join("circle")
+                .attr("cx", d => margin.left + attractorScale(combined[d].attractor))
+                .attr("cy", d => y(d) + y.bandwidth() * 0.7)
+                .attr("r", d => Math.sqrt(combined[d].responses || 1) * 3)
+                .attr("fill", "steelblue")
+                .attr("opacity", 0.7)
+                .attr("stroke", "#333")
+                .on("mouseover", function(event, d) {
+                    showTooltip(event, 
+                        `${d} - Attractor<br>` +
+                        `Avg Response: ${combined[d].attractor.toFixed(1)}s<br>` +
+                        `Responses: ${combined[d].responses}`);
+                })
+                .on("mouseout", hideTooltip);
+
+            svg.append("g")
+                .attr("transform", `translate(0,${margin.top})`)
+                .call(d3.axisLeft(y));
+
+            svg.append("g")
+                .attr("transform", `translate(0,${height - margin.bottom})`)
+                .call(d3.axisBottom(x).tickFormat(d3.format(".0%")));
+
+            svg.append("text")
+                .attr("x", width / 2)
+                .attr("y", height - 10)
+                .attr("text-anchor", "middle")
+                .text("Tolerance Rate (bars) | Attractor Duration (circles, size = response count)");
+
+            // Legend
+            const legend = svg.append("g")
+                .attr("transform", `translate(${width - 150}, ${margin.top})`);
+            
+            legend.append("rect")
+                .attr("width", 15)
+                .attr("height", 15)
+                .attr("fill", d3.interpolateRdYlGn(0.5));
+            legend.append("text")
+                .attr("x", 20)
+                .attr("y", 12)
+                .text("Tolerance")
+                .style("font-size", "11px");
+
+            legend.append("circle")
+                .attr("r", 6)
+                .attr("cy", 25)
+                .attr("fill", "steelblue");
+            legend.append("text")
+                .attr("x", 20)
+                .attr("y", 29)
+                .text("Attractor")
+                .style("font-size", "11px");
+        }
+
+        function showTooltip(event, content) {
+            const tooltip = d3.select("#tooltip");
+            tooltip
+                .style("visibility", "visible")
+                .html(content)
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY - 10) + "px");
+        }
+
+        function hideTooltip() {
+            d3.select("#tooltip").style("visibility", "hidden");
+        }
+    </script>
+</body>
+</html>

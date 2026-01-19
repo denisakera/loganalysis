@@ -1,0 +1,614 @@
+====================================================================================================
+FINE-GRAINED TOPIC-SPEAKER RELATIONS: POWER AS INTERACTIONAL STRUCTURE
+====================================================================================================
+
+This analysis examines power as an interactional structure rather than semantic property,
+focusing on four key phenomena:
+1. Topic Closure Authority
+2. Asymmetric Topical Accountability
+3. Topic Recycling
+4. Topic Hijacking vs Alignment
+
+====================================================================================================
+SECTION 1: TOPIC CLOSURE AUTHORITY
+====================================================================================================
+
+Power is visible in who can end topics without contest.
+When a speaker shifts away from ongoing theme and others follow without repair,
+this indicates capacity to delimit relevance.
+
+Total Topic Closures Detected: 145
+Uncontested Closures (Others Followed): 128
+
+Topic Closure Authority (Who Can End Topics Without Contest):
+----------------------------------------------------------------------------------------------------
+  SPEAKER_09:
+    Total Closures: 24
+    Uncontested: 20 (83.3%)
+
+  SPEAKER_02:
+    Total Closures: 14
+    Uncontested: 13 (92.9%)
+
+  SPEAKER_19:
+    Total Closures: 12
+    Uncontested: 12 (100.0%)
+
+  SPEAKER_07:
+    Total Closures: 12
+    Uncontested: 11 (91.7%)
+
+  SPEAKER_25:
+    Total Closures: 13
+    Uncontested: 9 (69.2%)
+
+  UNKNOWN:
+    Total Closures: 8
+    Uncontested: 8 (100.0%)
+
+  SPEAKER_18:
+    Total Closures: 11
+    Uncontested: 7 (63.6%)
+
+  SPEAKER_01:
+    Total Closures: 5
+    Uncontested: 5 (100.0%)
+
+  SPEAKER_24:
+    Total Closures: 4
+    Uncontested: 4 (100.0%)
+
+  SPEAKER_08:
+    Total Closures: 4
+    Uncontested: 4 (100.0%)
+
+  SPEAKER_03:
+    Total Closures: 4
+    Uncontested: 4 (100.0%)
+
+  SPEAKER_06:
+    Total Closures: 3
+    Uncontested: 3 (100.0%)
+
+  SPEAKER_20:
+    Total Closures: 3
+    Uncontested: 3 (100.0%)
+
+  SPEAKER_15:
+    Total Closures: 3
+    Uncontested: 3 (100.0%)
+
+  SPEAKER_12:
+    Total Closures: 3
+    Uncontested: 3 (100.0%)
+
+  SPEAKER_11:
+    Total Closures: 4
+    Uncontested: 3 (75.0%)
+
+  SPEAKER_04:
+    Total Closures: 2
+    Uncontested: 2 (100.0%)
+
+  SPEAKER_26:
+    Total Closures: 2
+    Uncontested: 2 (100.0%)
+
+  SPEAKER_23:
+    Total Closures: 3
+    Uncontested: 2 (66.7%)
+
+  SPEAKER_00:
+    Total Closures: 2
+    Uncontested: 2 (100.0%)
+
+  SPEAKER_17:
+    Total Closures: 2
+    Uncontested: 2 (100.0%)
+
+  SPEAKER_05:
+    Total Closures: 2
+    Uncontested: 2 (100.0%)
+
+  SPEAKER_14:
+    Total Closures: 1
+    Uncontested: 1 (100.0%)
+
+  SPEAKER_13:
+    Total Closures: 1
+    Uncontested: 1 (100.0%)
+
+  SPEAKER_22:
+    Total Closures: 2
+    Uncontested: 1 (50.0%)
+
+  SPEAKER_21:
+    Total Closures: 1
+    Uncontested: 1 (100.0%)
+
+Top 10 Uncontested Closures:
+----------------------------------------------------------------------------------------------------
+  Topic: TOPIC_17 (proposed by SPEAKER_09)
+    Closed by: SPEAKER_19
+    Followers: 4
+    Topic Content: And also there is like another position which is important for the managing of the muta, which is... which is co-signees, which essentially gives... I...
+    Closure Delay: 0.1s
+
+  Topic: TOPIC_34 (proposed by SPEAKER_23)
+    Closed by: SPEAKER_02
+    Followers: 4
+    Topic Content: Twice a year. One. Speaking from experience in many years of an NGO that were... NGO it was led by an accountant so it was much simpler for the bureau...
+    Closure Delay: 0.2s
+
+  Topic: TOPIC_37 (proposed by SPEAKER_09)
+    Closed by: SPEAKER_02
+    Followers: 4
+    Topic Content: Yeah, so it's like mainly, as far as I can see, again, I'm not an expert in the subject, as far as you can see, a healthy quote unquote NGO is like ha...
+    Closure Delay: 0.8s
+
+  Topic: TOPIC_38 (proposed by SPEAKER_02)
+    Closed by: SPEAKER_09
+    Followers: 4
+    Topic Content: You have a community music event session. You need to say it. Hey, we're supporting a music community....
+    Closure Delay: 0.5s
+
+  Topic: TOPIC_42 (proposed by SPEAKER_18)
+    Closed by: SPEAKER_17
+    Followers: 4
+    Topic Content: So basically activities that NGOs do, they have a few things that you have to list. Essentially, we are sort of doing this thing nowadays, right? It's...
+    Closure Delay: 2.6s
+
+  Topic: TOPIC_43 (proposed by SPEAKER_01)
+    Closed by: SPEAKER_08
+    Followers: 4
+    Topic Content: So, practically speaking, there are ways to do things better, but we need to understand what are the plans that maybe you thought about....
+    Closure Delay: 1.2s
+
+  Topic: TOPIC_44 (proposed by SPEAKER_01)
+    Closed by: SPEAKER_07
+    Followers: 4
+    Topic Content: For everything we're speaking today, like there is a change you want to make....
+    Closure Delay: 1.2s
+
+  Topic: TOPIC_45 (proposed by SPEAKER_07)
+    Closed by: SPEAKER_01
+    Followers: 4
+    Topic Content: So the first one I mentioned, like Alon wants to move away from being a board member? Yeah. Okay, that's easier now....
+    Closure Delay: 0.0s
+
+  Topic: TOPIC_46 (proposed by SPEAKER_01)
+    Closed by: SPEAKER_08
+    Followers: 4
+    Topic Content: But that's the easy part....
+    Closure Delay: 0.4s
+
+  Topic: TOPIC_47 (proposed by SPEAKER_08)
+    Closed by: SPEAKER_09
+    Followers: 4
+    Topic Content: Yeah, sure, sure, sure....
+    Closure Delay: 0.5s
+
+====================================================================================================
+SECTION 2: ASYMMETRIC TOPICAL ACCOUNTABILITY
+====================================================================================================
+
+Uneven demand for clarification/justification signals differential epistemic standing.
+Some speakers are routinely asked to clarify, justify, or provide evidence,
+while others are not.
+
+Accountability Patterns by Speaker:
+----------------------------------------------------------------------------------------------------
+  SPEAKER_03:
+    Topics Proposed: 4
+    Clarification Requests: 0
+    Justification Requests: 4
+    Evidence Requests: 0
+    Total Accountability Demands: 4
+    Accountability Rate: 1.00 per topic
+
+  SPEAKER_26:
+    Topics Proposed: 3
+    Clarification Requests: 0
+    Justification Requests: 2
+    Evidence Requests: 0
+    Total Accountability Demands: 2
+    Accountability Rate: 0.67 per topic
+
+  UNKNOWN:
+    Topics Proposed: 4
+    Clarification Requests: 0
+    Justification Requests: 2
+    Evidence Requests: 0
+    Total Accountability Demands: 2
+    Accountability Rate: 0.50 per topic
+
+  SPEAKER_24:
+    Topics Proposed: 6
+    Clarification Requests: 0
+    Justification Requests: 2
+    Evidence Requests: 0
+    Total Accountability Demands: 2
+    Accountability Rate: 0.33 per topic
+
+  SPEAKER_25:
+    Topics Proposed: 12
+    Clarification Requests: 0
+    Justification Requests: 3
+    Evidence Requests: 0
+    Total Accountability Demands: 3
+    Accountability Rate: 0.25 per topic
+
+  SPEAKER_07:
+    Topics Proposed: 10
+    Clarification Requests: 0
+    Justification Requests: 2
+    Evidence Requests: 0
+    Total Accountability Demands: 2
+    Accountability Rate: 0.20 per topic
+
+  SPEAKER_02:
+    Topics Proposed: 16
+    Clarification Requests: 0
+    Justification Requests: 3
+    Evidence Requests: 0
+    Total Accountability Demands: 3
+    Accountability Rate: 0.19 per topic
+
+  SPEAKER_18:
+    Topics Proposed: 17
+    Clarification Requests: 0
+    Justification Requests: 2
+    Evidence Requests: 0
+    Total Accountability Demands: 2
+    Accountability Rate: 0.12 per topic
+
+  SPEAKER_14:
+    Topics Proposed: 1
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_13:
+    Topics Proposed: 4
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_04:
+    Topics Proposed: 2
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_09:
+    Topics Proposed: 20
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_19:
+    Topics Proposed: 16
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_00:
+    Topics Proposed: 2
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_23:
+    Topics Proposed: 4
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_01:
+    Topics Proposed: 9
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_08:
+    Topics Proposed: 4
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_20:
+    Topics Proposed: 5
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_17:
+    Topics Proposed: 1
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_12:
+    Topics Proposed: 4
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_22:
+    Topics Proposed: 3
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_16:
+    Topics Proposed: 1
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_05:
+    Topics Proposed: 1
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_15:
+    Topics Proposed: 1
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+  SPEAKER_11:
+    Topics Proposed: 2
+    Clarification Requests: 0
+    Justification Requests: 0
+    Evidence Requests: 0
+    Total Accountability Demands: 0
+    Accountability Rate: 0.00 per topic
+
+High Accountability Speakers (Routinely Asked to Clarify/Justify):
+----------------------------------------------------------------------------------------------------
+  SPEAKER_26: 0.67 demands per topic
+  SPEAKER_03: 1.00 demands per topic
+
+Low Accountability Speakers (Never Asked to Clarify/Justify):
+----------------------------------------------------------------------------------------------------
+  SPEAKER_14: 1 topics, 0 accountability demands
+  SPEAKER_13: 4 topics, 0 accountability demands
+  SPEAKER_04: 2 topics, 0 accountability demands
+  SPEAKER_09: 20 topics, 0 accountability demands
+  SPEAKER_19: 16 topics, 0 accountability demands
+  SPEAKER_00: 2 topics, 0 accountability demands
+  SPEAKER_23: 4 topics, 0 accountability demands
+  SPEAKER_01: 9 topics, 0 accountability demands
+  SPEAKER_08: 4 topics, 0 accountability demands
+  SPEAKER_20: 5 topics, 0 accountability demands
+  SPEAKER_17: 1 topics, 0 accountability demands
+  SPEAKER_12: 4 topics, 0 accountability demands
+  SPEAKER_22: 3 topics, 0 accountability demands
+  SPEAKER_16: 1 topics, 0 accountability demands
+  SPEAKER_05: 1 topics, 0 accountability demands
+  SPEAKER_15: 1 topics, 0 accountability demands
+  SPEAKER_11: 2 topics, 0 accountability demands
+
+====================================================================================================
+SECTION 3: TOPIC RECYCLING
+====================================================================================================
+
+Power appears when topics initially ignored gain traction after reintroduction
+by different speaker. Authority is relational rather than propositional.
+
+Total Topic Recycling Cases Detected: 0
+
+====================================================================================================
+SECTION 4: TOPIC HIJACKING vs ALIGNMENT
+====================================================================================================
+
+Reframing topics while preserving legitimacy exercises subtle control over meaning.
+Aligns with Goffman's footing shifts - repositioning within interaction.
+
+Total Topic Responses Analyzed: 205
+  Hijacking/Reframing (0.3-0.6 similarity): 3
+  Complete Shift (<0.3 similarity): 202
+  Alignment (>0.6 similarity): 0
+
+Topic Control Patterns by Speaker:
+----------------------------------------------------------------------------------------------------
+  SPEAKER_18:
+    Hijacking/Reframing: 1
+    Complete Shifts: 15
+    Alignment: 0
+    Total Responses: 16
+
+  SPEAKER_05:
+    Hijacking/Reframing: 1
+    Complete Shifts: 3
+    Alignment: 0
+    Total Responses: 4
+
+  SPEAKER_15:
+    Hijacking/Reframing: 1
+    Complete Shifts: 5
+    Alignment: 0
+    Total Responses: 6
+
+  UNKNOWN:
+    Hijacking/Reframing: 0
+    Complete Shifts: 8
+    Alignment: 0
+    Total Responses: 8
+
+  SPEAKER_04:
+    Hijacking/Reframing: 0
+    Complete Shifts: 2
+    Alignment: 0
+    Total Responses: 2
+
+  SPEAKER_25:
+    Hijacking/Reframing: 0
+    Complete Shifts: 17
+    Alignment: 0
+    Total Responses: 17
+
+  SPEAKER_09:
+    Hijacking/Reframing: 0
+    Complete Shifts: 32
+    Alignment: 0
+    Total Responses: 32
+
+  SPEAKER_26:
+    Hijacking/Reframing: 0
+    Complete Shifts: 2
+    Alignment: 0
+    Total Responses: 2
+
+  SPEAKER_02:
+    Hijacking/Reframing: 0
+    Complete Shifts: 16
+    Alignment: 0
+    Total Responses: 16
+
+  SPEAKER_23:
+    Hijacking/Reframing: 0
+    Complete Shifts: 6
+    Alignment: 0
+    Total Responses: 6
+
+  SPEAKER_19:
+    Hijacking/Reframing: 0
+    Complete Shifts: 19
+    Alignment: 0
+    Total Responses: 19
+
+  SPEAKER_00:
+    Hijacking/Reframing: 0
+    Complete Shifts: 1
+    Alignment: 0
+    Total Responses: 1
+
+  SPEAKER_07:
+    Hijacking/Reframing: 0
+    Complete Shifts: 10
+    Alignment: 0
+    Total Responses: 10
+
+  SPEAKER_03:
+    Hijacking/Reframing: 0
+    Complete Shifts: 4
+    Alignment: 0
+    Total Responses: 4
+
+  SPEAKER_08:
+    Hijacking/Reframing: 0
+    Complete Shifts: 12
+    Alignment: 0
+    Total Responses: 12
+
+  SPEAKER_01:
+    Hijacking/Reframing: 0
+    Complete Shifts: 11
+    Alignment: 0
+    Total Responses: 11
+
+  SPEAKER_24:
+    Hijacking/Reframing: 0
+    Complete Shifts: 5
+    Alignment: 0
+    Total Responses: 5
+
+  SPEAKER_20:
+    Hijacking/Reframing: 0
+    Complete Shifts: 13
+    Alignment: 0
+    Total Responses: 13
+
+  SPEAKER_17:
+    Hijacking/Reframing: 0
+    Complete Shifts: 1
+    Alignment: 0
+    Total Responses: 1
+
+  SPEAKER_12:
+    Hijacking/Reframing: 0
+    Complete Shifts: 11
+    Alignment: 0
+    Total Responses: 11
+
+  SPEAKER_06:
+    Hijacking/Reframing: 0
+    Complete Shifts: 1
+    Alignment: 0
+    Total Responses: 1
+
+  SPEAKER_22:
+    Hijacking/Reframing: 0
+    Complete Shifts: 3
+    Alignment: 0
+    Total Responses: 3
+
+  SPEAKER_21:
+    Hijacking/Reframing: 0
+    Complete Shifts: 1
+    Alignment: 0
+    Total Responses: 1
+
+  SPEAKER_11:
+    Hijacking/Reframing: 0
+    Complete Shifts: 4
+    Alignment: 0
+    Total Responses: 4
+
+Examples of Topic Hijacking/Reframing:
+----------------------------------------------------------------------------------------------------
+  Topic: TOPIC_19 (proposed by SPEAKER_02)
+    Hijacked/Reframed by: SPEAKER_18
+    Type: hijacking
+    Similarity: 0.337
+    Original: The thing is, we sat down last week, a bunch of us, like, a bunch of people that were there, because...
+    Response: So basically I think in further context that we can give is that essentially dealing with these thin...
+
+  Topic: TOPIC_79 (proposed by SPEAKER_17)
+    Hijacked/Reframed by: SPEAKER_05
+    Type: hijacking
+    Similarity: 0.335
+    Original: It has its own problems....
+    Response: I feel like those are the problems you have....
+
+  Topic: TOPIC_99 (proposed by SPEAKER_19)
+    Hijacked/Reframed by: SPEAKER_15
+    Type: reframing
+    Similarity: 0.545
+    Original: I don't know if you have to be a citizen to be a member of the Muta....
+    Response: I don't know....

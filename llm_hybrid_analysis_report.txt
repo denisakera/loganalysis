@@ -1,0 +1,50 @@
+====================================================================================================
+HYBRID TOPIC ANALYSIS: STRUCTURAL + LLM INTERPRETIVE
+====================================================================================================
+
+COMPARISON SUMMARY
+----------------------------------------------------------------------------------------------------
+Structural Analysis Topics: 29
+LLM Analysis Annotations: 30
+Aligned Topics (detected by both): 1
+Structural Only: 0
+LLM Only: 29
+
+LLM STATUS DISTRIBUTION
+----------------------------------------------------------------------------------------------------
+  emerged: 21
+  failed: 9
+
+SPEAKER-TOPIC RELATIONS (LLM Classification)
+----------------------------------------------------------------------------------------------------
+  taken_up: 38
+  ignored: 23
+  recycled: 1
+
+CONFIDENCE DISTRIBUTION
+----------------------------------------------------------------------------------------------------
+  high: 30
+
+====================================================================================================
+ALIGNED TOPICS (Structural + LLM Analysis)
+====================================================================================================
+
+TOPIC 1: TOPIC_1
+----------------------------------------------------------------------------------------------------
+Time: 263.11s - 283.38s
+Introducer: SPEAKER_13
+
+STRUCTURAL ANALYSIS:
+  Status: failed_no_uptake
+  Similarity to Preceding: 0.000
+
+LLM ANALYSIS:
+  Status: failed
+  Confidence: high
+  Justification: The topic introduced by SPEAKER_13 regarding expectations about Ian's conclusion and getting into philosophical college does not continue the preceding interaction, which was largely silent or unrelat...
+
+SPEAKER ORIENTATIONS (LLM):
+  UNKNOWN: ignored
+    Turn 15: The response from UNKNOWN shifts to a different topic about electromagnetic interactions, indicating a lack of engagement with SPEAKER_13's question....
+
+====================================================================================================

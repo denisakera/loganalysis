@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic Emergence Analysis - Interactive Visualizations</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #4a90e2;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 40px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+        }
+        .theoretical-note {
+            background: #f0f7ff;
+            border-left: 4px solid #4a90e2;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .theoretical-note h3 {
+            margin-top: 0;
+            color: #2c5aa0;
+        }
+        .visualization {
+            margin: 30px 0;
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 4px;
+        }
+        .tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 4px;
+            pointer-events: none;
+            font-size: 12px;
+            z-index: 1000;
+            max-width: 400px;
+        }
+        .controls {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f0f0f0;
+            border-radius: 4px;
+        }
+        svg {
+            display: block;
+            margin: 0 auto;
+        }
+        .topic-bar {
+            cursor: pointer;
+        }
+        .topic-bar:hover {
+            opacity: 1;
+            stroke-width: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Topic Emergence Analysis</h1>
+        <p><strong>Topics as Emergent Interactional Objects</strong></p>
+        
+        <div class="theoretical-note">
+            <h3>Analytic Stance</h3>
+            <p>Topics are treated as <strong>emergent interactional objects</strong>, not predefined themes. A topic exists only when it is taken up, resisted, redirected, or ignored by others.</p>
+            <ul>
+                <li><strong>No Semantic Authority:</strong> No assignment of correctness or importance to topics</li>
+                <li><strong>Agenda Setting as Uptake:</strong> Power measured by whose topics attract orientation, not just who proposes</li>
+                <li><strong>Observable Patterns:</strong> All topic dynamics grounded in interaction patterns</li>
+                <li><strong>Resistance as Signal:</strong> Lack of uptake, silence, and redirection are interactional responses</li>
+            </ul>
+        </div>
+
+        <div class="controls">
+            <strong>Filter by Status:</strong>
+            <label><input type="checkbox" id="filterStabilized" checked> Stabilized</label>
+            <label><input type="checkbox" id="filterFailedNoUptake" checked> Failed (no uptake)</label>
+            <label><input type="checkbox" id="filterFailedSilence" checked> Failed (silence)</label>
+        </div>
+
+        <div class="visualization">
+            <h2>1. Topic Timeline</h2>
+            <p><strong>When do topics emerge, stabilize, or fail?</strong></p>
+            <p>Green = Stabilized (uptake) | Orange = Failed (no uptake) | Red = Failed (silence) | Blue* = First response</p>
+            <div id="topicTimeline"></div>
+        </div>
+
+        <div class="visualization">
+            <h2>2. Speaker-Topic Network</h2>
+            <p><strong>Who proposes topics? Who responds? Which topics attract uptake?</strong></p>
+            <p>Circles = Speakers | Squares = Topics | Blue edges = Proposed | Green dashed = Responded</p>
+            <div id="speakerTopicNetwork"></div>
+        </div>
+
+        <div class="visualization">
+            <h2>3. Topic Trajectories</h2>
+            <p><strong>How do topics travel between speakers or stall?</strong></p>
+            <p>Shows speaker participation in each stabilized topic over time</p>
+            <div id="topicTrajectories"></div>
+        </div>
+
+        <div class="visualization">
+            <h2>4. Topic Stabilization Rates</h2>
+            <p><strong>Whose topics attract uptake? (Agenda setting as interactional success)</strong></p>
+            <div id="stabilizationRates"></div>
+        </div>
+
+        <div class="visualization">
+            <h2>5. Speaker Orientation Patterns</h2>
+            <p><strong>Who responds to which topics? With what delay?</strong></p>
+            <div id="orientationPatterns"></div>
+        </div>
+    </div>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+        let data;
+        
+        // Try to load data - works with local server or if CORS allows
+        function loadData() {
+            fetch('d3_visualization_data.json')
+                .then(response => {
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    return response.json();
+                })
+                .then(jsonData => {
+                    data = jsonData;
+                    if (data.topic_emergence) {
+                        initializeTopicVisualizations();
+                    } else {
+                        showError('Topic emergence data not found. Please regenerate d3_visualization_data.json with the updated script.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading data:', error);
+                    showError('Could not load d3_visualization_data.json. <br><br><strong>Solution:</strong> Run <code>python start_local_server.py</code> in this directory, then open this file via http://localhost:8000/topic_emergence_visualizations.html');
+                });
+        }
+        
+        function showError(message) {
+            document.body.innerHTML = '<div class="container"><h1>Error Loading Data</h1><div style="background: #fff3cd; padding: 15px; border-radius: 4px; border-left: 4px solid #ffc107;"><p>' + message + '</p></div></div>';
+        }
+        
+        // Try loading data
+        loadData();
+
+        function initializeTopicVisualizations() {
+            createTopicTimeline();
+            createSpeakerTopicNetwork();
+            createTopicTrajectories();
+            createStabilizationRates();
+            createOrientationPatterns();
+        }
+
+        function createTopicTimeline() {
+            const width = 1200;
+            const height = 600;
+            const margin = {top: 20, right: 200, bottom: 40, left: 150};
+
+            const svg = d3.select("#topicTimeline")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            const topics = data.topic_emergence.topics || [];
+            if (topics.length === 0) {
+                svg.append("text")
+                    .attr("x", width / 2)
+                    .attr("y", height / 2)
+                    .attr("text-anchor", "middle")
+                    .text("No topics detected");
+                return;
+            }
+
+            const x = d3.scaleLinear()
+                .domain([0, data.metadata.meeting_duration])
+                .range([margin.left, width - margin.right]);
+
+            const y = d3.scaleBand()
+                .domain(topics.map(t => t.topic_id))
+                .range([margin.top, height - margin.bottom])
+                .padding(0.1);
+
+            const colorMap = {
+                'stabilized': 'green',
+                'failed_no_uptake': 'orange',
+                'failed_silence': 'red'
+            };
+
+            // Draw topic bars
+            const bars = svg.append("g")
+                .selectAll("rect")
+                .data(topics)
+                .join("rect")
+                .attr("class", "topic-bar")
+                .attr("x", d => x(d.start_time))
+                .attr("y", d => y(d.topic_id))
+                .attr("width", d => x(d.end_time) - x(d.start_time))
+                .attr("height", y.bandwidth())
+                .attr("fill", d => colorMap[d.status] || 'gray')
+                .attr("opacity", 0.7)
+                .attr("stroke", "#333")
+                .attr("stroke-width", 1)
+                .on("mouseover", function(event, d) {
+                    d3.select(this).attr("opacity", 1).attr("stroke-width", 2);
+                    const responders = d.stabilization?.responders || [];
+                    showTooltip(event, 
+                        `${d.topic_id}<br>` +
+                        `Proposer: ${d.proposer}<br>` +
+                        `Status: ${d.status}<br>` +
+                        `Time: ${d.start_time.toFixed(1)}s - ${d.end_time.toFixed(1)}s<br>` +
+                        `Duration: ${(d.end_time - d.start_time).toFixed(1)}s<br>` +
+                        `Responders: ${responders.length}<br>` +
+                        `Text: ${d.text_sample.substring(0, 100)}...`);
+                })
+                .on("mouseout", function() {
+                    d3.select(this).attr("opacity", 0.7).attr("stroke-width", 1);
+                    hideTooltip();
+                });
+
+            // Mark first responses
+            topics.filter(t => t.status === 'stabilized' && t.stabilization?.first_response_time).forEach(topic => {
+                svg.append("circle")
+                    .attr("cx", x(topic.stabilization.first_response_time))
+                    .attr("cy", y(topic.topic_id) + y.bandwidth() / 2)
+                    .attr("r", 6)
+                    .attr("fill", "blue")
+                    .attr("stroke", "white")
+                    .attr("stroke-width", 2)
+                    .on("mouseover", function(event) {
+                        showTooltip(event, 
+                            `First Response<br>` +
+                            `Time: ${topic.stabilization.first_response_time.toFixed(1)}s<br>` +
+                            `Delay: ${topic.stabilization.first_response_delay.toFixed(1)}s`);
+                    })
+                    .on("mouseout", hideTooltip);
+            });
+
+            svg.append("g")
+                .attr("transform", `translate(0,${margin.top})`)
+                .call(d3.axisLeft(y).tickFormat(d => {
+                    const topic = topics.find(t => t.topic_id === d);
+                    return `${d} (${topic?.proposer})`;
+                }));
+
+            svg.append("g")
+                .attr("transform", `translate(0,${height - margin.bottom})`)
+                .call(d3.axisBottom(x).tickFormat(d => `${(d/60).toFixed(1)}m`));
+
+            // Legend
+            const legend = svg.append("g")
+                .attr("transform", `translate(${width - 180}, ${margin.top})`);
+            
+            ['stabilized', 'failed_no_uptake', 'failed_silence'].forEach((status, i) => {
+                legend.append("rect")
+                    .attr("y", i * 20)
+                    .attr("width", 15)
+                    .attr("height", 15)
+                    .attr("fill", colorMap[status]);
+                legend.append("text")
+                    .attr("x", 20)
+                    .attr("y", i * 20 + 12)
+                    .text(status.replace('_', ' '))
+                    .style("font-size", "11px");
+            });
+        }
+
+        function createSpeakerTopicNetwork() {
+            const width = 1200;
+            const height = 800;
+            const margin = {top: 20, right: 20, bottom: 20, left: 20};
+
+            const svg = d3.select("#speakerTopicNetwork")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            const topics = data.topic_emergence.topics || [];
+            const orientations = data.topic_emergence.speaker_orientations || {};
+            const speakerTimes = data.speaker_times || {};
+
+            if (topics.length === 0) {
+                svg.append("text")
+                    .attr("x", width / 2)
+                    .attr("y", height / 2)
+                    .attr("text-anchor", "middle")
+                    .text("No topics detected");
+                return;
+            }
+
+            // Create nodes
+            const nodes = [];
+            const speakers = Object.keys(speakerTimes);
+            speakers.forEach(speaker => {
+                nodes.push({id: speaker, type: 'speaker', size: speakerTimes[speaker]});
+            });
+            topics.forEach(topic => {
+                nodes.push({id: topic.topic_id, type: 'topic', status: topic.status});
+            });
+
+            // Create links
+            const links = [];
+            topics.forEach(topic => {
+                // Proposal link
+                links.push({
+                    source: topic.proposer,
+                    target: topic.topic_id,
+                    type: 'proposed',
+                    weight: topic.end_time - topic.start_time
+                });
+                // Response links
+                if (topic.status === 'stabilized' && topic.stabilization?.responders) {
+                    topic.stabilization.responders.forEach(responder => {
+                        links.push({
+                            source: responder.speaker,
+                            target: topic.topic_id,
+                            type: 'responded',
+                            weight: responder.similarity * 10,
+                            delay: responder.response_delay
+                        });
+                    });
+                }
+            });
+
+            const simulation = d3.forceSimulation(nodes)
+                .force("link", d3.forceLink(links).id(d => d.id).distance(100))
+                .force("charge", d3.forceManyBody().strength(-300))
+                .force("x", d3.forceX().x(d => d.type === 'speaker' ? width * 0.2 : width * 0.8))
+                .force("y", d3.forceY(height / 2));
+
+            const maxTime = d3.max(nodes.filter(n => n.type === 'speaker'), d => d.size) || 1;
+
+            const link = svg.append("g")
+                .selectAll("line")
+                .data(links)
+                .join("line")
+                .attr("stroke", d => d.type === 'proposed' ? "#4a90e2" : "#2ecc71")
+                .attr("stroke-width", d => Math.sqrt(d.weight) / 5)
+                .attr("stroke-dasharray", d => d.type === 'responded' ? "5,5" : "0")
+                .attr("opacity", 0.6);
+
+            const node = svg.append("g")
+                .selectAll("circle")
+                .data(nodes)
+                .join("circle")
+                .attr("r", d => d.type === 'speaker' ? Math.sqrt(d.size / maxTime) * 20 : 12)
+                .attr("fill", d => {
+                    if (d.type === 'speaker') return "#69b3a2";
+                    if (d.status === 'stabilized') return "green";
+                    if (d.status === 'failed_silence') return "red";
+                    if (d.status === 'failed_no_uptake') return "orange";
+                    return "gray";
+                })
+                .attr("stroke", "#333")
+                .attr("stroke-width", 1.5)
+                .call(drag(simulation))
+                .on("mouseover", function(event, d) {
+                    if (d.type === 'speaker') {
+                        const proposed = topics.filter(t => t.proposer === d.id).length;
+                        const responded = orientations[d.id]?.topics_responded_to?.length || 0;
+                        showTooltip(event, 
+                            `${d.id}<br>` +
+                            `Speaking Time: ${d.size.toFixed(1)}s<br>` +
+                            `Topics Proposed: ${proposed}<br>` +
+                            `Topics Responded To: ${responded}`);
+                    } else {
+                        const topic = topics.find(t => t.topic_id === d.id);
+                        showTooltip(event, 
+                            `${d.id}<br>` +
+                            `Proposer: ${topic?.proposer}<br>` +
+                            `Status: ${d.status}<br>` +
+                            `Responders: ${topic?.stabilization?.responders?.length || 0}`);
+                    }
+                })
+                .on("mouseout", hideTooltip);
+
+            const label = svg.append("g")
+                .selectAll("text")
+                .data(nodes)
+                .join("text")
+                .text(d => d.id.length > 15 ? d.id.substring(0, 12) + '...' : d.id)
+                .attr("font-size", "9px")
+                .attr("dx", d => (d.type === 'speaker' ? Math.sqrt(d.size / maxTime) * 20 : 12) + 5)
+                .attr("dy", 4);
+
+            simulation.on("tick", () => {
+                link
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+                node
+                    .attr("cx", d => d.x)
+                    .attr("cy", d => d.y);
+                label
+                    .attr("x", d => d.x)
+                    .attr("y", d => d.y);
+            });
+
+            function drag(simulation) {
+                function dragstarted(event) {
+                    if (!event.active) simulation.alphaTarget(0.3).restart();
+                    event.subject.fx = event.subject.x;
+                    event.subject.fy = event.subject.y;
+                }
+                function dragged(event) {
+                    event.subject.fx = event.x;
+                    event.subject.fy = event.y;
+                }
+                function dragended(event) {
+                    if (!event.active) simulation.alphaTarget(0);
+                    event.subject.fx = null;
+                    event.subject.fy = null;
+                }
+                return d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended);
+            }
+        }
+
+        function createTopicTrajectories() {
+            const width = 1200;
+            const height = 400;
+            const margin = {top: 20, right: 20, bottom: 40, left: 100};
+
+            const svg = d3.select("#topicTrajectories")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            const topics = (data.topic_emergence.topics || []).filter(t => t.status === 'stabilized').slice(0, 3);
+            
+            if (topics.length === 0) {
+                svg.append("text")
+                    .attr("x", width / 2)
+                    .attr("y", height / 2)
+                    .attr("text-anchor", "middle")
+                    .text("No stabilized topics to show trajectories");
+                return;
+            }
+
+            const x = d3.scaleLinear()
+                .domain([0, data.metadata.meeting_duration])
+                .range([margin.left, width - margin.right]);
+
+            // Create subplots for each topic
+            const subplotHeight = (height - margin.top - margin.bottom) / topics.length;
+            const color = d3.scaleOrdinal(d3.schemeCategory20);
+
+            topics.forEach((topic, idx) => {
+                const yOffset = margin.top + idx * subplotHeight;
+                const y = d3.scaleBand()
+                    .domain(topic.stabilization?.responders?.map(r => r.speaker) || [topic.proposer])
+                    .range([yOffset, yOffset + subplotHeight - 10])
+                    .padding(0.1);
+
+                // Get timeline data for this topic (simplified - would need full turn data)
+                const topicStart = topic.start_time;
+                const topicEnd = topic.end_time + 30;
+
+                // Draw proposer bar
+                svg.append("rect")
+                    .attr("x", x(topicStart))
+                    .attr("y", y(topic.proposer))
+                    .attr("width", x(topicEnd) - x(topicStart))
+                    .attr("height", y.bandwidth())
+                    .attr("fill", color(topic.proposer))
+                    .attr("opacity", 0.7)
+                    .attr("stroke", "#333");
+
+                // Mark responders
+                if (topic.stabilization?.responders) {
+                    topic.stabilization.responders.forEach(responder => {
+                        svg.append("rect")
+                            .attr("x", x(responder.time))
+                            .attr("y", y(responder.speaker))
+                            .attr("width", 20)
+                            .attr("height", y.bandwidth())
+                            .attr("fill", color(responder.speaker))
+                            .attr("opacity", 0.9)
+                            .attr("stroke", "#333");
+                    });
+                }
+
+                svg.append("text")
+                    .attr("x", margin.left - 5)
+                    .attr("y", yOffset + subplotHeight / 2)
+                    .attr("text-anchor", "end")
+                    .attr("font-size", "10px")
+                    .text(`${topic.topic_id}`);
+            });
+
+            svg.append("g")
+                .attr("transform", `translate(0,${height - margin.bottom})`)
+                .call(d3.axisBottom(x).tickFormat(d => `${(d/60).toFixed(1)}m`));
+        }
+
+        function createStabilizationRates() {
+            const width = 1000;
+            const height = 500;
+            const margin = {top: 20, right: 100, bottom: 60, left: 200};
+
+            const svg = d3.select("#stabilizationRates")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            const topics = data.topic_emergence.topics || [];
+            const proposerStats = {};
+            
+            topics.forEach(topic => {
+                if (!proposerStats[topic.proposer]) {
+                    proposerStats[topic.proposer] = {proposed: 0, stabilized: 0};
+                }
+                proposerStats[topic.proposer].proposed++;
+                if (topic.status === 'stabilized') {
+                    proposerStats[topic.proposer].stabilized++;
+                }
+            });
+
+            const speakers = Object.keys(proposerStats)
+                .filter(s => proposerStats[s].proposed > 0)
+                .sort((a, b) => proposerStats[b].proposed - proposerStats[a].proposed)
+                .slice(0, 15);
+
+            if (speakers.length === 0) {
+                svg.append("text")
+                    .attr("x", width / 2)
+                    .attr("y", height / 2)
+                    .attr("text-anchor", "middle")
+                    .text("No topic proposers");
+                return;
+            }
+
+            const y = d3.scaleBand()
+                .domain(speakers)
+                .range([margin.top, height - margin.bottom])
+                .padding(0.2);
+
+            const x = d3.scaleLinear()
+                .domain([0, 1])
+                .range([margin.left, width - margin.right]);
+
+            speakers.forEach(speaker => {
+                const stats = proposerStats[speaker];
+                const rate = stats.stabilized / stats.proposed;
+
+                svg.append("rect")
+                    .attr("x", margin.left)
+                    .attr("y", y(speaker))
+                    .attr("width", x(rate) - margin.left)
+                    .attr("height", y.bandwidth())
+                    .attr("fill", d3.interpolateRdYlGn(rate))
+                    .attr("stroke", "#333")
+                    .attr("opacity", 0.8)
+                    .on("mouseover", function(event) {
+                        showTooltip(event, 
+                            `${speaker}<br>` +
+                            `Stabilization Rate: ${(rate * 100).toFixed(1)}%<br>` +
+                            `Proposed: ${stats.proposed}<br>` +
+                            `Stabilized: ${stats.stabilized}`);
+                    })
+                    .on("mouseout", hideTooltip);
+
+                svg.append("text")
+                    .attr("x", x(rate) + 5)
+                    .attr("y", y(speaker) + y.bandwidth() / 2)
+                    .attr("dy", "0.35em")
+                    .text(`${(rate * 100).toFixed(0)}%`)
+                    .style("font-size", "10px");
+            });
+
+            svg.append("g")
+                .attr("transform", `translate(0,${margin.top})`)
+                .call(d3.axisLeft(y));
+
+            svg.append("g")
+                .attr("transform", `translate(0,${height - margin.bottom})`)
+                .call(d3.axisBottom(x).tickFormat(d3.format(".0%")));
+        }
+
+        function createOrientationPatterns() {
+            const width = 1000;
+            const height = 600;
+            const margin = {top: 20, right: 100, bottom: 60, left: 200};
+
+            const svg = d3.select("#orientationPatterns")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            const orientations = data.topic_emergence.speaker_orientations || {};
+            const speakers = Object.keys(orientations)
+                .filter(s => orientations[s].topics_responded_to?.length > 0)
+                .sort((a, b) => orientations[b].topics_responded_to.length - orientations[a].topics_responded_to.length)
+                .slice(0, 15);
+
+            if (speakers.length === 0) {
+                svg.append("text")
+                    .attr("x", width / 2)
+                    .attr("y", height / 2)
+                    .attr("text-anchor", "middle")
+                    .text("No response data available");
+                return;
+            }
+
+            const y = d3.scaleBand()
+                .domain(speakers)
+                .range([margin.top, height - margin.bottom])
+                .padding(0.2);
+
+            const maxResponses = d3.max(speakers, s => orientations[s].topics_responded_to?.length || 0);
+            const x = d3.scaleLinear()
+                .domain([0, maxResponses])
+                .range([margin.left, width - margin.right]);
+
+            speakers.forEach(speaker => {
+                const orientation = orientations[speaker];
+                const responseCount = orientation.topics_responded_to?.length || 0;
+                const avgDelay = orientation.uptake_delays?.length > 0 
+                    ? d3.mean(orientation.uptake_delays) 
+                    : 0;
+
+                svg.append("rect")
+                    .attr("x", margin.left)
+                    .attr("y", y(speaker))
+                    .attr("width", x(responseCount) - margin.left)
+                    .attr("height", y.bandwidth())
+                    .attr("fill", "steelblue")
+                    .attr("opacity", 0.7)
+                    .attr("stroke", "#333")
+                    .on("mouseover", function(event) {
+                        showTooltip(event, 
+                            `${speaker}<br>` +
+                            `Topics Responded To: ${responseCount}<br>` +
+                            `Avg Response Delay: ${avgDelay.toFixed(1)}s<br>` +
+                            `Redirections: ${orientation.redirections?.length || 0}`);
+                    })
+                    .on("mouseout", hideTooltip);
+
+                svg.append("text")
+                    .attr("x", x(responseCount) + 5)
+                    .attr("y", y(speaker) + y.bandwidth() / 2)
+                    .attr("dy", "0.35em")
+                    .text(`${responseCount}`)
+                    .style("font-size", "10px");
+            });
+
+            svg.append("g")
+                .attr("transform", `translate(0,${margin.top})`)
+                .call(d3.axisLeft(y));
+
+            svg.append("g")
+                .attr("transform", `translate(0,${height - margin.bottom})`)
+                .call(d3.axisBottom(x));
+
+            svg.append("text")
+                .attr("x", width / 2)
+                .attr("y", height - 10)
+                .attr("text-anchor", "middle")
+                .text("Number of Topics Responded To");
+        }
+
+        function showTooltip(event, content) {
+            const tooltip = d3.select("#tooltip");
+            tooltip
+                .style("visibility", "visible")
+                .html(content)
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY - 10) + "px");
+        }
+
+        function hideTooltip() {
+            d3.select("#tooltip").style("visibility", "hidden");
+        }
+    </script>
+</body>
+</html>

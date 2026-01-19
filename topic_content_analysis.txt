@@ -1,0 +1,3417 @@
+================================================================================
+TOPIC EMERGENCE CONTENT ANALYSIS
+================================================================================
+
+Total Topics Detected: 152
+
+Stabilized Topics: 3
+Failed (No Uptake): 142
+Failed (Silence): 7
+
+================================================================================
+
+
+TOPIC_0
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_14
+Time: 95.58s - 121.04s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+E-M is... ... ... ... ... ... ... ... ... ... ... ... ...
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_1
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_13
+Time: 263.11s - 283.38s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+So in relation to English, you could probably answer it also. About Ian's conclusion, what do you expect to him? Getting into philosophical college, how do you imagine I get this?
+
+RESPONSES (No Uptake):
+
+  Speaker: UNKNOWN
+  Response Time: 283.40s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Yeah, because like, like listening to audio from electromagnetic interactions with the clouds of the medium. It will produce some electromagnetic field....
+
+================================================================================
+
+
+TOPIC_2
+--------------------------------------------------------------------------------
+Proposer: UNKNOWN
+Time: 283.40s - 300.13s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+Yeah, because like, like listening to audio from electromagnetic interactions with the clouds of the medium. It will produce some electromagnetic field.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_04
+  Response Time: 300.38s
+  Semantic Similarity: 0.134 (below threshold)
+  Response Text: Yeah, that's true. But now, even me and you, like this, the vibrations of the field....
+
+================================================================================
+
+
+TOPIC_3
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_04
+Time: 300.38s - 309.82s
+Status: failed_silence
+Similarity to Preceding: 0.162
+
+TOPIC CONTENT:
+Yeah, that's true. But now, even me and you, like this, the vibrations of the field.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_4
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_13
+Time: 356.67s - 430.63s
+Status: failed_no_uptake
+Similarity to Preceding: 0.059
+
+TOPIC CONTENT:
+Yes, I'm going to make it more. There is a lot of information about the government and the government. There is a lot of information about the government and the government and the government and the government and the government and the government and the government and the government.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_5
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_13
+Time: 467.33s - 492.98s
+Status: failed_no_uptake
+Similarity to Preceding: 0.018
+
+TOPIC CONTENT:
+Hey David, what's going on?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_25
+  Response Time: 493.00s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: I'm looking at you, but in fact, there ain't no webcam. Yo, who is yet? Ah, you've got a few. I didn't think about it. I was really thinking about it. I think that it will be better in the internet. There are a lot of problems with the research. You can write in chat, but it looks like chat works....
+
+================================================================================
+
+
+TOPIC_6
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_25
+Time: 493.00s - 523.99s
+Status: failed_no_uptake
+Similarity to Preceding: 0.018
+
+TOPIC CONTENT:
+I'm looking at you, but in fact, there ain't no webcam. Yo, who is yet? Ah, you've got a few. I didn't think about it. I was really thinking about it. I think that it will be better in the internet. There are a lot of problems with the research. You can write in chat, but it looks like chat works.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_7
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_13
+Time: 528.54s - 583.40s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+... ... Thank you very much.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_8
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 697.98s - 708.98s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+He doesn't want to be a part of the board of directors anymore.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_18
+  Response Time: 710.30s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Can we give some context for us?...
+
+  Speaker: SPEAKER_18
+  Response Time: 716.33s
+  Semantic Similarity: 0.013 (below threshold)
+  Response Text: So basically for whoever may not know. So Tami is a legal amuta. an NGO but makes more sense if you don't know the direct translation basically what this means is that Tami exists like many other NGOs in Israel we have like a formal legal structure meaning that we have members official members of th...
+
+================================================================================
+
+
+TOPIC_9
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 710.30s - 712.82s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+Can we give some context for us?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 712.84s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: For the NGO? Yeah, sure....
+
+================================================================================
+
+
+TOPIC_10
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 712.84s - 714.30s
+Status: failed_no_uptake
+Similarity to Preceding: 0.211
+
+TOPIC CONTENT:
+For the NGO? Yeah, sure.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_18
+  Response Time: 716.33s
+  Semantic Similarity: 0.093 (below threshold)
+  Response Text: So basically for whoever may not know. So Tami is a legal amuta. an NGO but makes more sense if you don't know the direct translation basically what this means is that Tami exists like many other NGOs in Israel we have like a formal legal structure meaning that we have members official members of th...
+
+================================================================================
+
+
+TOPIC_11
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 716.33s - 781.83s
+Status: failed_no_uptake
+Similarity to Preceding: 0.212
+
+TOPIC CONTENT:
+So basically for whoever may not know. So Tami is a legal amuta. an NGO but makes more sense if you don't know the direct translation basically what this means is that Tami exists like many other NGOs in Israel we have like a formal legal structure meaning that we have members official members of the NGO basically registered you can go online to GuideStar where you can look at all of the Israeli NGOs and you can see Tami there as well you can see the annual reporting that Tami makes you can see who are the official members of Tami address all of the legal stuff so yeah every financial every yearly record that we file is there So basically, this is just the context. So we have a few members. Most of the people that are a part of the NGO have been there. The official, yeah, a part of the member.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_12
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 782.79s - 798.95s
+Status: failed_no_uptake
+Similarity to Preceding: 0.223
+
+TOPIC CONTENT:
+We've been using the NGO to essentially be a vehicle for just having TAMI, like, existing. It has no official, you know, it's completely different, essentially. There is TAMI, the physical, and...
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_26
+  Response Time: 799.48s
+  Semantic Similarity: 0.038 (below threshold)
+  Response Text: Tell me the official entity....
+
+================================================================================
+
+
+TOPIC_13
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_26
+Time: 799.48s - 803.03s
+Status: failed_no_uptake
+Similarity to Preceding: 0.075
+
+TOPIC CONTENT:
+Tell me the official entity.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 803.05s
+  Semantic Similarity: 0.116 (below threshold)
+  Response Text: Yeah, there's like the official entity of Tami, which we use to pay our rent and have a bank account and just use it as something that we can do a little bit better than having somebody in the space who has a bank account and we just pay him or whatever, right? This is like the better way of doing t...
+
+================================================================================
+
+
+TOPIC_14
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 976.37s - 977.86s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+Did you ask who can be?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 978.12s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: He asked in general what would be the legal ramification for being... Who is the current director standing? So we have Yair at the moment. We volunteer to fill that position. And Alon, right?...
+
+  Speaker: SPEAKER_25
+  Response Time: 1000.17s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: So Alon is the CEO? One is Deor and me and Jeremy are the two other board members....
+
+================================================================================
+
+
+TOPIC_15
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 978.12s - 997.43s
+Status: failed_no_uptake
+Similarity to Preceding: 0.117
+
+TOPIC CONTENT:
+He asked in general what would be the legal ramification for being... Who is the current director standing? So we have Yair at the moment. We volunteer to fill that position. And Alon, right?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_25
+  Response Time: 1000.17s
+  Semantic Similarity: 0.032 (below threshold)
+  Response Text: So Alon is the CEO? One is Deor and me and Jeremy are the two other board members....
+
+================================================================================
+
+
+TOPIC_16
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_25
+Time: 1000.17s - 1012.49s
+Status: failed_no_uptake
+Similarity to Preceding: 0.100
+
+TOPIC CONTENT:
+So Alon is the CEO? One is Deor and me and Jeremy are the two other board members.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 1013.07s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: And also there is like another position which is important for the managing of the muta, which is... which is co-signees, which essentially gives... It doesn't have to be somebody from the NGO itself. It's just somebody that the General Assembly chooses in order to say, we give you the responsibilit...
+
+================================================================================
+
+
+TOPIC_17
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 1013.07s - 1056.26s
+Status: failed_no_uptake
+Similarity to Preceding: 0.119
+
+TOPIC CONTENT:
+And also there is like another position which is important for the managing of the muta, which is... which is co-signees, which essentially gives... It doesn't have to be somebody from the NGO itself. It's just somebody that the General Assembly chooses in order to say, we give you the responsibility to be able to sign in the name of the NGO. Like signing checks, signing contracts, stuff like that. Usually it will be somebody from the NGO itself, but it doesn't have to. And I don't remember who is the person who is...
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_18
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 1056.32s - 1058.35s
+Status: failed_no_uptake
+Similarity to Preceding: 0.038
+
+TOPIC CONTENT:
+It can be an accomplished person.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 1058.38s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Yeah, it can be anybody, pretty much. There is, of course, you want to be somebody, you want it to be somebody who is a part of the NGO itself, because then the interests are aligned, because it's a legal entity, which can, essentially, if they sign something for the NGO, they can require you to do ...
+
+  Speaker: SPEAKER_02
+  Response Time: 1082.31s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: The thing is, we sat down last week, a bunch of us, like, a bunch of people that were there, because of the leak and the stuff that happened, like, we just opened the bank account to see how much we have to handle this, further stuff that might happen and whatnot. And the bank is, like, it's not in ...
+
+================================================================================
+
+
+TOPIC_19
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 1082.31s - 1105.85s
+Status: stabilized
+Similarity to Preceding: 0.193
+
+TOPIC CONTENT:
+The thing is, we sat down last week, a bunch of us, like, a bunch of people that were there, because of the leak and the stuff that happened, like, we just opened the bank account to see how much we have to handle this, further stuff that might happen and whatnot. And the bank is, like, it's not in a good shape. It's like, hmm?
+
+STABILIZATION - Uptake Received:
+
+  Responder: SPEAKER_18
+  Response Time: 1110.31s
+  Response Delay: 28.00s
+  Semantic Similarity: 0.337
+  Response Duration: 77.96s
+  Response Text: So basically I think in further context that we can give is that essentially dealing with these things, with bureaucracy and stuff like that, it's something that I think most of us don't like. Tommy, again, the NGO is the vessel, right? It's just the thing that, you know, the least pain that we coul...
+
+================================================================================
+
+
+TOPIC_20
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_07
+Time: 1191.42s - 1193.41s
+Status: failed_no_uptake
+Similarity to Preceding: 0.232
+
+TOPIC CONTENT:
+Usually it's on your call and nobody sees it.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_02
+  Response Time: 1193.47s
+  Semantic Similarity: 0.057 (below threshold)
+  Response Text: And it's passive. Rather than being active throughout the year, to be on top. Rather than being active throughout the year, to be on top of things, just to make sure that the NGO is just healthy. And there are a lot of things that can be done to be a healthy NGO. It's just bureaucracy and filing pap...
+
+  Speaker: SPEAKER_09
+  Response Time: 1220.68s
+  Semantic Similarity: 0.209 (below threshold)
+  Response Text: every protocol like there it's a lot of like the two cents for this like having an amuta is you want to do something have a decision with the board members and director have a protocol that you decided that way and then you can proceed to pretty much whatever the amuta the Muta Directive is saying. ...
+
+================================================================================
+
+
+TOPIC_21
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 1193.47s - 1220.70s
+Status: failed_silence
+Similarity to Preceding: 0.206
+
+TOPIC CONTENT:
+And it's passive. Rather than being active throughout the year, to be on top. Rather than being active throughout the year, to be on top of things, just to make sure that the NGO is just healthy. And there are a lot of things that can be done to be a healthy NGO. It's just bureaucracy and filing papers or having a paper trail or declaring stuff.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 1220.68s
+  Semantic Similarity: 0.116 (below threshold)
+  Response Text: every protocol like there it's a lot of like the two cents for this like having an amuta is you want to do something have a decision with the board members and director have a protocol that you decided that way and then you can proceed to pretty much whatever the amuta the Muta Directive is saying. ...
+
+================================================================================
+
+
+TOPIC_22
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_00
+Time: 1328.18s - 1343.04s
+Status: failed_no_uptake
+Similarity to Preceding: 0.109
+
+TOPIC CONTENT:
+What kind of decisions for example a member and members should face in generally common situations?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 1345.83s
+  Semantic Similarity: 0.011 (below threshold)
+  Response Text: So as far as I know and I can tell is NGO member pretty much is like, they have, they can vote for certain things. They are the ones who essentially set the tone for the whole NGO, okay? So if, what? in practice what it will be like that happened in the last three years and in nothing which is uh no...
+
+================================================================================
+
+
+TOPIC_23
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 1393.03s - 1395.67s
+Status: failed_no_uptake
+Similarity to Preceding: 0.083
+
+TOPIC CONTENT:
+Yeah. The actual what happens here?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 1395.69s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Nothing. There has been....
+
+================================================================================
+
+
+TOPIC_24
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 1395.69s - 1398.15s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+Nothing. There has been.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_18
+  Response Time: 1398.85s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: So stuff that happens in Tami, basically, currently, and I assume that this is something that most people here like, right? It's a good thing about Tami. So basically, the people who are a part of the Amutah, they have basically no any other Yeah, they have no other like effect or any other like dec...
+
+================================================================================
+
+
+TOPIC_25
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 1398.85s - 1431.27s
+Status: failed_no_uptake
+Similarity to Preceding: 0.220
+
+TOPIC CONTENT:
+So stuff that happens in Tami, basically, currently, and I assume that this is something that most people here like, right? It's a good thing about Tami. So basically, the people who are a part of the Amutah, they have basically no any other Yeah, they have no other like effect or any other like decision power as opposed to anyone that comes through the door, right?
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_26
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_24
+Time: 1432.14s - 1441.10s
+Status: failed_no_uptake
+Similarity to Preceding: 0.054
+
+TOPIC CONTENT:
+If the membership in the Almonta has not been historically relevant in the past couple of years at the very least, why are you looking for new members now?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_02
+  Response Time: 1441.14s
+  Semantic Similarity: 0.021 (below threshold)
+  Response Text: That's a good question. So to keep something bureaucratically healthy and existing, you need to follow some rules, unfortunately. And we've noticed that, yeah. We've noticed that TAMI is a bit lacking in this sense. And we are very afraid that this lack might result some asshole in the government sa...
+
+================================================================================
+
+
+TOPIC_27
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 1441.14s - 1518.30s
+Status: failed_no_uptake
+Similarity to Preceding: 0.136
+
+TOPIC CONTENT:
+That's a good question. So to keep something bureaucratically healthy and existing, you need to follow some rules, unfortunately. And we've noticed that, yeah. We've noticed that TAMI is a bit lacking in this sense. And we are very afraid that this lack might result some asshole in the government saying, hey, no, you're not playing by the rules. TAMI cannot exist anymore because you've violated for the past few years. For this, we need to do a few things. Locally in TAMI, we need to be better in following these because Because it's a binary decision. You either exist or you don't. It doesn't mean anything for the ongoing participation. It doesn't change anything. The other thing is we might want to look at opening another NGO as a backup. just to be sure so we can start something that's actually bureaucratically healthy like a young kid that didn't do anything so we can have better control and better paperwork for everything from the get-go.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_28
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 1518.97s - 1599.57s
+Status: failed_silence
+Similarity to Preceding: 0.211
+
+TOPIC CONTENT:
+So let me list some of the stuff before I get into what you just said. So some examples, for instance, things that NGOs need to do is have a budget, have a protocol, have decisions. Essentially, TAMI has been working, TAMI, the physical space, has been working under the officially its project, but we never actually formalized that relationship, which is slightly problematic, but easily solved. And all of the things that I'm saying right now is things that I've could look for myself and I, I haven't talked to our CPA yet, our accountant yet, but that will be the next step to actually go there and see, hey, any of these things that we were doing at the moment, is this problematic? How can we fix it? My worry, and this is a part of why we're opening this up, and that ties into what Gili said, that we might not be able to fix it because we've been doing this for a long time. And he might say, if you want to proceed, for instance, with 46, which I'll get into in a moment, we'll have to do changes which are...
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_29
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 1599.55s - 1615.04s
+Status: failed_no_uptake
+Similarity to Preceding: 0.179
+
+TOPIC CONTENT:
+it's like a good terminology for it, is better tool use, right? If the NGO is the tool, right? I think the biggest conversation here is using this tool in a better way, right? So I think this is like the core point.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_19
+  Response Time: 1615.54s
+  Semantic Similarity: 0.030 (below threshold)
+  Response Text: You mean whether they can be able to hire people to sign a contract or wherever, like more formabilities and get a grant, for example....
+
+================================================================================
+
+
+TOPIC_30
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 1925.82s - 1951.97s
+Status: failed_no_uptake
+Similarity to Preceding: 0.165
+
+TOPIC CONTENT:
+The thing is, it mainly will help us to show that there is a real, I'm saying internally we know that there is an activity here, but externally we need to somehow show the tax authority that we want this 46 at some point. We need to show them that there is a real traffic and projects. Yeah. And this is one of the ways of showing that.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_02
+  Response Time: 1951.99s
+  Semantic Similarity: 0.019 (below threshold)
+  Response Text: And essentially, my personal goal is the next time that we have a well in our floor, we'll have something to fix it with, like in sense of funds or whatever. And to get this, other than the gracious donations of everyone here in this room, which is amazing, There is a possibility of getting outside ...
+
+================================================================================
+
+
+TOPIC_31
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 1951.99s - 1989.86s
+Status: failed_no_uptake
+Similarity to Preceding: 0.202
+
+TOPIC CONTENT:
+And essentially, my personal goal is the next time that we have a well in our floor, we'll have something to fix it with, like in sense of funds or whatever. And to get this, other than the gracious donations of everyone here in this room, which is amazing, There is a possibility of getting outside funds for just like as an NGO because of donations. Because companies want to have talent from here or want to have an event space or another.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_32
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_07
+Time: 2041.37s - 2045.09s
+Status: failed_no_uptake
+Similarity to Preceding: 0.164
+
+TOPIC CONTENT:
+day-to-day stays the same. It doesn't even stay, it is.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_00
+  Response Time: 2045.11s
+  Semantic Similarity: 0.018 (below threshold)
+  Response Text: Like what I was trying to say now, because of it, like why we don't like automate anything, everything, like what you have to say, like the GitHub project, the CMS, like maybe with all... Not everything is possible....
+
+  Speaker: SPEAKER_23
+  Response Time: 2064.42s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Twice a year. One. Speaking from experience in many years of an NGO that were... NGO it was led by an accountant so it was much simpler for the bureaucracy but the meetings of the audit committee and the committee once or twice a year depends if you have something important it's for major changes an...
+
+================================================================================
+
+
+TOPIC_33
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_00
+Time: 2045.11s - 2058.07s
+Status: failed_no_uptake
+Similarity to Preceding: 0.220
+
+TOPIC CONTENT:
+Like what I was trying to say now, because of it, like why we don't like automate anything, everything, like what you have to say, like the GitHub project, the CMS, like maybe with all... Not everything is possible.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_07
+  Response Time: 2058.67s
+  Semantic Similarity: 0.266 (below threshold)
+  Response Text: I wish. Like you still need to do this physical, like you can't even do it online....
+
+  Speaker: SPEAKER_23
+  Response Time: 2064.42s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Twice a year. One. Speaking from experience in many years of an NGO that were... NGO it was led by an accountant so it was much simpler for the bureaucracy but the meetings of the audit committee and the committee once or twice a year depends if you have something important it's for major changes an...
+
+================================================================================
+
+
+TOPIC_34
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_23
+Time: 2064.42s - 2099.50s
+Status: failed_no_uptake
+Similarity to Preceding: 0.084
+
+TOPIC CONTENT:
+Twice a year. One. Speaking from experience in many years of an NGO that were... NGO it was led by an accountant so it was much simpler for the bureaucracy but the meetings of the audit committee and the committee once or twice a year depends if you have something important it's for major changes and that's all you need to do 30 minutes of your life or one year to be there that's it.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_35
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 2099.75s - 2115.85s
+Status: failed_no_uptake
+Similarity to Preceding: 0.100
+
+TOPIC CONTENT:
+We need to have something like, hey, we did X and Y and Z throughout the year to be able to say, hey, we're doing something according to the goals of the NGO to be able to get funds or to comply for certain stuff.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_04
+  Response Time: 2115.87s
+  Semantic Similarity: 0.015 (below threshold)
+  Response Text: Yeah, that's basically my question. Does a healthy NGO needs to do anything other than paying rent, essentially? And how do you document it for the outside world? What would be those activities?...
+
+================================================================================
+
+
+TOPIC_36
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_04
+Time: 2115.87s - 2128.78s
+Status: failed_no_uptake
+Similarity to Preceding: 0.102
+
+TOPIC CONTENT:
+Yeah, that's basically my question. Does a healthy NGO needs to do anything other than paying rent, essentially? And how do you document it for the outside world? What would be those activities?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 2131.66s
+  Semantic Similarity: 0.121 (below threshold)
+  Response Text: If I understand the question, it's like you're asking what are they supposed to do except for like paying your rent?...
+
+  Speaker: SPEAKER_03
+  Response Time: 2141.65s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Mostly....
+
+================================================================================
+
+
+TOPIC_37
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 2146.80s - 2197.78s
+Status: failed_no_uptake
+Similarity to Preceding: 0.228
+
+TOPIC CONTENT:
+Yeah, so it's like mainly, as far as I can see, again, I'm not an expert in the subject, as far as you can see, a healthy quote unquote NGO is like having those meetings of the board of direct making the decision and having that protocol, pretty much that's it. But have it on something that you can show outside. For instance, even if it's obvious to us that we have these workshops and everything, just saying as an officially that we made a meeting and said like, oh, we're allocating some money for this workshop, That's already good enough. Even internally nothing changed. But just saying that and having that is like so much better.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_38
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 2198.60s - 2204.32s
+Status: failed_no_uptake
+Similarity to Preceding: 0.156
+
+TOPIC CONTENT:
+You have a community music event session. You need to say it. Hey, we're supporting a music community.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 2204.86s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: This money goes to that. That's it. But everything else still stays the same....
+
+================================================================================
+
+
+TOPIC_39
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 2204.86s - 2210.07s
+Status: failed_no_uptake
+Similarity to Preceding: 0.105
+
+TOPIC CONTENT:
+This money goes to that. That's it. But everything else still stays the same.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_02
+  Response Time: 2210.09s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Yeah, like the goal is to make it healthy and like exploit any kind of situation that we can to get better funds, be healthier and what not....
+
+  Speaker: SPEAKER_19
+  Response Time: 2232.67s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: So I think... If you plan, for example, to receive a grant, after the grant you have to approve what you did with the grant....
+
+================================================================================
+
+
+TOPIC_40
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 2210.09s - 2232.65s
+Status: failed_no_uptake
+Similarity to Preceding: 0.139
+
+TOPIC CONTENT:
+Yeah, like the goal is to make it healthy and like exploit any kind of situation that we can to get better funds, be healthier and what not.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_19
+  Response Time: 2232.67s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: So I think... If you plan, for example, to receive a grant, after the grant you have to approve what you did with the grant....
+
+================================================================================
+
+
+TOPIC_41
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 2232.67s - 2252.01s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+So I think... If you plan, for example, to receive a grant, after the grant you have to approve what you did with the grant.
+
+RESPONSES (No Uptake):
+
+  Speaker: UNKNOWN
+  Response Time: 2252.03s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Yes....
+
+================================================================================
+
+
+TOPIC_42
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 2301.21s - 2458.26s
+Status: failed_no_uptake
+Similarity to Preceding: 0.238
+
+TOPIC CONTENT:
+So basically activities that NGOs do, they have a few things that you have to list. Essentially, we are sort of doing this thing nowadays, right? It's just we're doing it sort of in bulk and in a very general manner. So we're just saying like, you know what, we had like, I don't know, Like, you know, this many, like, you know, some random amount. Yeah, so just like an average amount of, let's say, order of magnitude of how many hours we did, like, some activities in TAMI. This is what we're doing currently. I'm not sure it's actually, flawed in a very substantial way. Again, the activity here is very gray in the way that it happens. Of course. Yeah, of course. It's weird, and it's not necessarily as easy to communicate what happens. But I just want to sort of give because I've been in a few meetings like this over the years. I've set up a few of these over the years, and I just wanted to sort of, like, for anyone who is interested in doing stuff, because I think that the biggest thing to keep in mind is Tami is open, right? It always has been open, right? Every person here, you might have not known it, but if you wanted a week ago, a year ago, today, tomorrow, you wanted to be a part of the Amuta, you wanted to take part in documenting stuff, you wanted to take part in helping with all of these things, with recording activities, with doing any of these things, you can do it today, you could have done it yesterday, and you can do it tomorrow. Now, the biggest point here is that because at the end of the day, we're going to walk out of here, right, and every one of us, and I don't know what the conclusion is going to be, But the point is that this is the biggest thing. It's always open and you can always take part in it. It's crucially important because it sort of has to happen and there has never been a limiting factor in doing things better. The only limiting factor is doing it. It's just doing it. And I'm sure that there are many discussions that can be made about good and bad and what should be done and should not be done. But the point is that it just requires doing. And this is the biggest thing. So if you want to take it in any way, you can literally do it. So this is my biggest point.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_43
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_01
+Time: 2466.14s - 2478.40s
+Status: failed_no_uptake
+Similarity to Preceding: 0.091
+
+TOPIC CONTENT:
+So, practically speaking, there are ways to do things better, but we need to understand what are the plans that maybe you thought about.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_08
+  Response Time: 2479.62s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: For the NGO?...
+
+  Speaker: SPEAKER_07
+  Response Time: 2486.79s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: So the first one I mentioned, like Alon wants to move away from being a board member? Yeah. Okay, that's easier now....
+
+================================================================================
+
+
+TOPIC_44
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_01
+Time: 2481.12s - 2485.57s
+Status: failed_no_uptake
+Similarity to Preceding: 0.156
+
+TOPIC CONTENT:
+For everything we're speaking today, like there is a change you want to make.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_07
+  Response Time: 2486.79s
+  Semantic Similarity: 0.034 (below threshold)
+  Response Text: So the first one I mentioned, like Alon wants to move away from being a board member? Yeah. Okay, that's easier now....
+
+  Speaker: SPEAKER_08
+  Response Time: 2496.28s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Yeah, sure, sure, sure....
+
+  Speaker: SPEAKER_09
+  Response Time: 2505.05s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: It needs to be volunteered and voted in. So the next thing is figuring out with our CPA, which I'm going to probably call tomorrow and ask them, If we wanna do the route to 46, is it possible?...
+
+================================================================================
+
+
+TOPIC_45
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_07
+Time: 2486.79s - 2494.28s
+Status: failed_no_uptake
+Similarity to Preceding: 0.150
+
+TOPIC CONTENT:
+So the first one I mentioned, like Alon wants to move away from being a board member? Yeah. Okay, that's easier now.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_01
+  Response Time: 2494.30s
+  Semantic Similarity: 0.071 (below threshold)
+  Response Text: But that's the easy part....
+
+  Speaker: SPEAKER_08
+  Response Time: 2496.28s
+  Semantic Similarity: 0.029 (below threshold)
+  Response Text: Yeah, sure, sure, sure....
+
+  Speaker: SPEAKER_09
+  Response Time: 2505.05s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: It needs to be volunteered and voted in. So the next thing is figuring out with our CPA, which I'm going to probably call tomorrow and ask them, If we wanna do the route to 46, is it possible?...
+
+================================================================================
+
+
+TOPIC_46
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_01
+Time: 2494.30s - 2495.86s
+Status: failed_no_uptake
+Similarity to Preceding: 0.091
+
+TOPIC CONTENT:
+But that's the easy part.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_08
+  Response Time: 2496.28s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Yeah, sure, sure, sure....
+
+  Speaker: SPEAKER_09
+  Response Time: 2505.05s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: It needs to be volunteered and voted in. So the next thing is figuring out with our CPA, which I'm going to probably call tomorrow and ask them, If we wanna do the route to 46, is it possible?...
+
+================================================================================
+
+
+TOPIC_47
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_08
+Time: 2496.28s - 2504.57s
+Status: failed_no_uptake
+Similarity to Preceding: 0.039
+
+TOPIC CONTENT:
+Yeah, sure, sure, sure.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 2505.05s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: It needs to be volunteered and voted in. So the next thing is figuring out with our CPA, which I'm going to probably call tomorrow and ask them, If we wanna do the route to 46, is it possible?...
+
+================================================================================
+
+
+TOPIC_48
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 2505.05s - 2529.41s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+It needs to be volunteered and voted in. So the next thing is figuring out with our CPA, which I'm going to probably call tomorrow and ask them, If we wanna do the route to 46, is it possible?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_01
+  Response Time: 2529.85s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: What is the requirement?...
+
+================================================================================
+
+
+TOPIC_49
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_01
+Time: 2529.85s - 2532.63s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+What is the requirement?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 2532.67s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Everything I just mentioned, like having, we're not that good in like having that decision, the decision and protocol, what?...
+
+  Speaker: SPEAKER_24
+  Response Time: 2543.06s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Effectively, the 46 thing, it has to go through a committee in the Knesset that I think is 14 years or so....
+
+  Speaker: SPEAKER_09
+  Response Time: 2551.81s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Yeah, but, but, but. We need to look with it. No, but I have notes about it. I'll tell you exactly. I have notes about it. Yeah, yeah. I have it. Let me read it out. Let me read it out. So listen....
+
+================================================================================
+
+
+TOPIC_50
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 2532.67s - 2541.46s
+Status: failed_no_uptake
+Similarity to Preceding: 0.122
+
+TOPIC CONTENT:
+Everything I just mentioned, like having, we're not that good in like having that decision, the decision and protocol, what?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_24
+  Response Time: 2543.06s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Effectively, the 46 thing, it has to go through a committee in the Knesset that I think is 14 years or so....
+
+================================================================================
+
+
+TOPIC_51
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_24
+Time: 2543.06s - 2551.59s
+Status: failed_no_uptake
+Similarity to Preceding: 0.067
+
+TOPIC CONTENT:
+Effectively, the 46 thing, it has to go through a committee in the Knesset that I think is 14 years or so.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 2551.81s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Yeah, but, but, but. We need to look with it. No, but I have notes about it. I'll tell you exactly. I have notes about it. Yeah, yeah. I have it. Let me read it out. Let me read it out. So listen....
+
+================================================================================
+
+
+TOPIC_52
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 2551.81s - 2571.42s
+Status: failed_no_uptake
+Similarity to Preceding: 0.083
+
+TOPIC CONTENT:
+Yeah, but, but, but. We need to look with it. No, but I have notes about it. I'll tell you exactly. I have notes about it. Yeah, yeah. I have it. Let me read it out. Let me read it out. So listen.
+
+RESPONSES (No Uptake):
+
+  Speaker: UNKNOWN
+  Response Time: 2576.39s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: How do they approve that they......
+
+================================================================================
+
+
+TOPIC_53
+--------------------------------------------------------------------------------
+Proposer: UNKNOWN
+Time: 2576.39s - 2577.03s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+How do they approve that they...
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 2578.06s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: No, no, no, listen, so it's like, so it's like, you essentially needs, one sec, I'm trying to find it, okay. So essentially, it's, we need financial reports, which are, went through our audit, internal audit, doesn't have to be external. We needed the new....
+
+  Speaker: SPEAKER_09
+  Response Time: 2605.57s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: I don't know about any of that. That's a part of why I want to be with the NGO, so I can figure these things out. So we audited financial reports, which essentially we have and we should get the next one. um it's it's through we just apply for it and our cpa our account essentially uh says like yeah...
+
+================================================================================
+
+
+TOPIC_54
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 2578.06s - 2598.70s
+Status: failed_no_uptake
+Similarity to Preceding: 0.068
+
+TOPIC CONTENT:
+No, no, no, listen, so it's like, so it's like, you essentially needs, one sec, I'm trying to find it, okay. So essentially, it's, we need financial reports, which are, went through our audit, internal audit, doesn't have to be external. We needed the new.
+
+RESPONSES (No Uptake):
+
+  Speaker: UNKNOWN
+  Response Time: 2602.91s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Can you say in each line you read what you are in compliance with and what you are not, if you know?...
+
+================================================================================
+
+
+TOPIC_55
+--------------------------------------------------------------------------------
+Proposer: UNKNOWN
+Time: 2602.91s - 2604.91s
+Status: failed_no_uptake
+Similarity to Preceding: 0.072
+
+TOPIC CONTENT:
+Can you say in each line you read what you are in compliance with and what you are not, if you know?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 2605.57s
+  Semantic Similarity: 0.016 (below threshold)
+  Response Text: I don't know about any of that. That's a part of why I want to be with the NGO, so I can figure these things out. So we audited financial reports, which essentially we have and we should get the next one. um it's it's through we just apply for it and our cpa our account essentially uh says like yeah...
+
+================================================================================
+
+
+TOPIC_56
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_26
+Time: 2652.70s - 2659.11s
+Status: failed_no_uptake
+Similarity to Preceding: 0.157
+
+TOPIC CONTENT:
+Yeah, which we have and we don't need to change.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 2659.19s
+  Semantic Similarity: 0.132 (below threshold)
+  Response Text: This is the generic thing. And the last one, which is the thing that we need to change practically, is the, I will read it in Hebrew for a sec....
+
+  Speaker: SPEAKER_09
+  Response Time: 2678.54s
+  Semantic Similarity: 0.087 (below threshold)
+  Response Text: Which is essentially, like I said, it's stuff that we've already been doing. We just need a decision and a protocol behind these things from the NGO side. So they would be able to see that this money is actually allocated to the general public, which this is where we're lacking. But it's not uncommo...
+
+================================================================================
+
+
+TOPIC_57
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 2659.19s - 2673.66s
+Status: failed_no_uptake
+Similarity to Preceding: 0.225
+
+TOPIC CONTENT:
+This is the generic thing. And the last one, which is the thing that we need to change practically, is the, I will read it in Hebrew for a sec.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_26
+  Response Time: 2673.88s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Proven activity that complies with the aims of the NGO....
+
+================================================================================
+
+
+TOPIC_58
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_26
+Time: 2673.88s - 2678.52s
+Status: failed_no_uptake
+Similarity to Preceding: 0.024
+
+TOPIC CONTENT:
+Proven activity that complies with the aims of the NGO.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 2678.54s
+  Semantic Similarity: 0.029 (below threshold)
+  Response Text: Which is essentially, like I said, it's stuff that we've already been doing. We just need a decision and a protocol behind these things from the NGO side. So they would be able to see that this money is actually allocated to the general public, which this is where we're lacking. But it's not uncommo...
+
+================================================================================
+
+
+TOPIC_59
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 2743.94s - 2763.34s
+Status: failed_no_uptake
+Similarity to Preceding: 0.204
+
+TOPIC CONTENT:
+One of the best people... Yeah. I think so, I don't really know. But like... The cut-off. The best way to prove that you're doing something is to spend.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_07
+  Response Time: 2764.22s
+  Semantic Similarity: 0.043 (below threshold)
+  Response Text: Actually, like, proving......
+
+  Speaker: SPEAKER_19
+  Response Time: 2772.16s
+  Semantic Similarity: 0.077 (below threshold)
+  Response Text: a person like runs workshop here. Like, I have the workshop, a documented meetup, I have documented emails of people that come to the workshop, that's good, and that's like justified enough for like what we're doing here....
+
+================================================================================
+
+
+TOPIC_60
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 2772.16s - 2787.70s
+Status: failed_no_uptake
+Similarity to Preceding: 0.168
+
+TOPIC CONTENT:
+a person like runs workshop here. Like, I have the workshop, a documented meetup, I have documented emails of people that come to the workshop, that's good, and that's like justified enough for like what we're doing here.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_02
+  Response Time: 2789.06s
+  Semantic Similarity: 0.067 (below threshold)
+  Response Text: I'm not saying you're wrong, I'm just saying that money paper trail, stronger than like something that you advertise. That's the only thing. Therefore, spending money is something good. But to spend money, we need to have money....
+
+================================================================================
+
+
+TOPIC_61
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 2789.06s - 2804.28s
+Status: failed_no_uptake
+Similarity to Preceding: 0.216
+
+TOPIC CONTENT:
+I'm not saying you're wrong, I'm just saying that money paper trail, stronger than like something that you advertise. That's the only thing. Therefore, spending money is something good. But to spend money, we need to have money.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 2804.82s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Chapter 46, you have to have at least 30,000 a year revenue....
+
+  Speaker: SPEAKER_23
+  Response Time: 2818.23s
+  Semantic Similarity: 0.074 (below threshold)
+  Response Text: It's not a... And you need one year of papal trail?...
+
+================================================================================
+
+
+TOPIC_62
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 2804.82s - 2818.21s
+Status: failed_no_uptake
+Similarity to Preceding: 0.026
+
+TOPIC CONTENT:
+Chapter 46, you have to have at least 30,000 a year revenue.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_23
+  Response Time: 2818.23s
+  Semantic Similarity: 0.054 (below threshold)
+  Response Text: It's not a... And you need one year of papal trail?...
+
+================================================================================
+
+
+TOPIC_63
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_23
+Time: 2818.23s - 2822.61s
+Status: failed_no_uptake
+Similarity to Preceding: 0.099
+
+TOPIC CONTENT:
+It's not a... And you need one year of papal trail?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 2824.65s
+  Semantic Similarity: 0.161 (below threshold)
+  Response Text: So before we go into the 46, which is open question, but we want it, for sure. It's just positive, pretty much. I want to just say a word about what it means practically for signing up for the NGO. so you give your full name you give your uh to that zoo id and maybe your phone and email and that exi...
+
+================================================================================
+
+
+TOPIC_64
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 2824.65s - 2946.59s
+Status: failed_no_uptake
+Similarity to Preceding: 0.116
+
+TOPIC CONTENT:
+So before we go into the 46, which is open question, but we want it, for sure. It's just positive, pretty much. I want to just say a word about what it means practically for signing up for the NGO. so you give your full name you give your uh to that zoo id and maybe your phone and email and that exists in our member member book which is can be physical or online but it doesn't expose like you can't uh it's not that easy to uh to see who's member like online you need to pay some money to get the the full report for that and usually it will be only by name but your id is is reducted so it's like it's pretty much if you look online it's just your name And your phone number? Maybe. I don't know if they exposed it. But your ID will still be redacted. So this is what it means practically. And maybe, I don't know if our terms of condition says that or not, but paying the minimum amount a month or whatever for the membership of the junta, which I think for us is zero. I don't think you actually need to pay monthly. Do you know any? Okay. So we don't have it even. we don't we don't no no no not not for if you if you find this if you find that you want to participate in this it'll help to have more people that i can you know we can share them No, not only point out, but share the workload also. If there is something that you can help with, it's easier for me to be like, oh, OK, I can choose you or vote you in for a specific position in order to help with having a better NGO.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_65
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_07
+Time: 3039.18s - 3041.58s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+As long as we take care of decisions and problems,
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_19
+  Response Time: 3046.27s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Like what I mentioned before....
+
+  Speaker: SPEAKER_19
+  Response Time: 3056.66s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Besides the documentation, it would be better the documentation I mentioned to show that we have activities in the NGO, everything is like the same. If we plan to receive money for private money or government money, wherever, if we show that the people who run the projects, especially for a small en...
+
+================================================================================
+
+
+TOPIC_66
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 3078.97s - 3107.41s
+Status: failed_no_uptake
+Similarity to Preceding: 0.228
+
+TOPIC CONTENT:
+I'm not sure, I'm not sure. Yes. For example, if we saw 511, they could look much better, like... As far as I can tell, as far as I can tell, there's always, like, from all the report, NGO reports I've looked at, there were always, like, some people are in, like, being in the general assembly, some people... Yeah, but there's, if that is, they see that people, like, there are people, like, in the, in the board, but no, actually, they're not, actually, in the board, like, they're kind of fake or something like... It's not good.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_07
+  Response Time: 3107.75s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: I just wanted to respond....
+
+================================================================================
+
+
+TOPIC_67
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_07
+Time: 3107.75s - 3117.63s
+Status: failed_no_uptake
+Similarity to Preceding: 0.205
+
+TOPIC CONTENT:
+I just wanted to respond.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_20
+  Response Time: 3117.65s
+  Semantic Similarity: 0.053 (below threshold)
+  Response Text: I thought about it a bit more. I'm not sure. Jeremy is a member of the VAD for many... There are two reasons I wanted to get out of being in the VAD....
+
+  Speaker: SPEAKER_25
+  Response Time: 3132.28s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: By the way......
+
+  Speaker: SPEAKER_20
+  Response Time: 3137.71s
+  Semantic Similarity: 0.049 (below threshold)
+  Response Text: Yes, so the point... I'm sorry for being late. I'm sorry for not hearing everything that came before what I'm responding to. So maybe you guys talked about this before already, I don't know. I'm just saying, me personally, I had two reasons to get out of it. One was that I wasn't physically that inv...
+
+================================================================================
+
+
+TOPIC_68
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_20
+Time: 3117.65s - 3131.94s
+Status: failed_no_uptake
+Similarity to Preceding: 0.115
+
+TOPIC CONTENT:
+I thought about it a bit more. I'm not sure. Jeremy is a member of the VAD for many... There are two reasons I wanted to get out of being in the VAD.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_25
+  Response Time: 3132.28s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: By the way......
+
+================================================================================
+
+
+TOPIC_69
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_20
+Time: 3137.71s - 3235.46s
+Status: failed_no_uptake
+Similarity to Preceding: 0.183
+
+TOPIC CONTENT:
+Yes, so the point... I'm sorry for being late. I'm sorry for not hearing everything that came before what I'm responding to. So maybe you guys talked about this before already, I don't know. I'm just saying, me personally, I had two reasons to get out of it. One was that I wasn't physically that involved with TAMI for a long time, and it felt really weird to be chair of a Namuta, which I visit occasionally, but I'm not really like an active member of. And the second reason was because I'm planning in the summer to go to England for three years or maybe forever. thought it would probably be better for somebody who stays in Israel. But I've been thinking about it since Sunday, or something like that, when Cefil brought it up. No, I mean, you brought up the fact that you want to have a meeting, and you have some vague plan that I didn't really understand. And sort of this came about, this meeting came about, I guess partially as a result of that. And because Jeremy is already a member of the Amutani, lives in Pittsburgh for the last few years, and I don't think anybody gives a damn about that, I'm not sure that's an actual problem for Tommy that I'm not in Israel. So the only thing remaining is my vague unease with being... a non-practicing chairman. So just to sum it up, if there's any good reason to make any changes to Dhammuta, I'm all for it, of course, and I don't have any problem with somebody replacing me, but I no longer require somebody to replace me.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_70
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 3237.95s - 3355.68s
+Status: failed_no_uptake
+Similarity to Preceding: 0.247
+
+TOPIC CONTENT:
+So I would just respond, I just want to respond. Alon, I don't know if you heard what we mentioned this, but this is actually, because we want to, we mentioned this before you came in, because we want to make our Dalmuta healthier, legally and have this decision and protocol which is required for the 46 from the tax authorities. Having the position that you have means that you essentially will have to do more than what you did years before. If you are OK with that, that's great. If you're not, you should know that this is the change that we want to essentially do, is have that external decisions so we can apply for 46 as soon as possible. If it's possible. We don't know yet if it's possible. I'll talk tomorrow with our accountant to see if it's possible. One last thing. Oh, if it's, and I should say, if it's not possible, then tying into what Giddy said, having a backup NGO is not a bad idea in my mind. So we at least can have this and have this properly this time, because we have all the knowledge that we didn't have before. And if you want to sign for that also, that's the same. Everything I said until this point still applies, and you can be, at the TAMI NGO and it can be in the new one, whatever. But like tomorrow we know and I will post and I will say like, okay, he said no or he said yes and this is what we need to do. But having...
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_71
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 3358.59s - 3405.43s
+Status: failed_no_uptake
+Similarity to Preceding: 0.238
+
+TOPIC CONTENT:
+So the different NGO, it's just like a new one. So like, yeah, start from scratch with no strings attached. So yeah, no, no, no, no. We're the good kid now. Like, sure, you might have bad stuff to say on the management of this NGO, because like any number of reasons, like I've had my clashes with the tax authority many times for... like no apparent like where they were wrong but they clashed with me anyway so you can't ever tell and i have horror stories so starting fresh without any history sure you'll have to do a bunch of stuff but that's negligible relatively than trying to get back from a position where someone is like clashing with you actively from the authorities
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_72
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_23
+Time: 3429.62s - 3441.66s
+Status: failed_no_uptake
+Similarity to Preceding: 0.193
+
+TOPIC CONTENT:
+Like I'm not- Yeah. Because I don't think there is any idea Yeah, yeah, I don't know.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 3441.83s
+  Semantic Similarity: 0.212 (below threshold)
+  Response Text: That's what I said. I don't know, but like that idea came, and I think it's not too bad of idea. And I'm saying this here so people would know that it might exist, and if you want to participate, so you can. The same as everything we said until now....
+
+  Speaker: SPEAKER_08
+  Response Time: 3459.12s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Anybody else want to?...
+
+================================================================================
+
+
+TOPIC_73
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_08
+Time: 3459.12s - 3462.01s
+Status: failed_no_uptake
+Similarity to Preceding: 0.104
+
+TOPIC CONTENT:
+Anybody else want to?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_19
+  Response Time: 3462.83s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: The only thing, I don't know, if we start from scratch, we need some history to prove like we can get some benefits. So we start from zero. So it would take maybe a couple of years to be in shape....
+
+  Speaker: SPEAKER_25
+  Response Time: 3485.87s
+  Semantic Similarity: 0.051 (below threshold)
+  Response Text: Okay, I want to thank Kfir for raising the topic, bringing us all together. It's, I think, one of the most active Amutah group we had for a long time. I started my work in Amutah not as a member. I just started helping out with staff. Amutah is... What? With the receipts. With the receipt, just like...
+
+================================================================================
+
+
+TOPIC_74
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 3462.83s - 3484.11s
+Status: failed_no_uptake
+Similarity to Preceding: 0.149
+
+TOPIC CONTENT:
+The only thing, I don't know, if we start from scratch, we need some history to prove like we can get some benefits. So we start from zero. So it would take maybe a couple of years to be in shape.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_25
+  Response Time: 3485.87s
+  Semantic Similarity: 0.018 (below threshold)
+  Response Text: Okay, I want to thank Kfir for raising the topic, bringing us all together. It's, I think, one of the most active Amutah group we had for a long time. I started my work in Amutah not as a member. I just started helping out with staff. Amutah is... What? With the receipts. With the receipt, just like...
+
+================================================================================
+
+
+TOPIC_75
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_25
+Time: 3485.87s - 3565.14s
+Status: failed_no_uptake
+Similarity to Preceding: 0.108
+
+TOPIC CONTENT:
+Okay, I want to thank Kfir for raising the topic, bringing us all together. It's, I think, one of the most active Amutah group we had for a long time. I started my work in Amutah not as a member. I just started helping out with staff. Amutah is... What? With the receipts. With the receipt, just like helping around, and then I got pulled in. I didn't want to be in Damuta. I'm an anarchist. So yeah. Damuta is working from 2014. We are... This is something that kept coming up. We are in good standing. Every year we pay, and this is something that even Amutah, a new Amutah, has to pay. We pay four or 5,000 shekel to our accountant yearly. And he gives us . This is all in the GuideStar. You can see it. It's open now here behind me. So we have every year since our inception. This has not changed. Just regarding this bad management or bad whatever.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_76
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_07
+Time: 4036.49s - 4043.78s
+Status: failed_no_uptake
+Similarity to Preceding: 0.202
+
+TOPIC CONTENT:
+It does not negate moving through the process of making changes in that sense, right?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 4043.80s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: We had this conversation. We talked about this a lot, about how having a budget is not a bad idea, just so you'd know. Yeah, just so you have some buffer if you need to, if you want to move away, whatever. We had this conversation. So it's like having a budget....
+
+  Speaker: SPEAKER_08
+  Response Time: 4062.32s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: It just has to be made....
+
+  Speaker: SPEAKER_05
+  Response Time: 4063.68s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: It just has to be made. It has to be made. Imagine if the lender decides to raise the funds, for example. We can just... It won't be disciplined. Yeah, but getting a credit for my wife, for example, can legit get us......
+
+================================================================================
+
+
+TOPIC_77
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 4043.80s - 4062.34s
+Status: failed_no_uptake
+Similarity to Preceding: 0.199
+
+TOPIC CONTENT:
+We had this conversation. We talked about this a lot, about how having a budget is not a bad idea, just so you'd know. Yeah, just so you have some buffer if you need to, if you want to move away, whatever. We had this conversation. So it's like having a budget.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_08
+  Response Time: 4062.32s
+  Semantic Similarity: 0.203 (below threshold)
+  Response Text: It just has to be made....
+
+  Speaker: SPEAKER_05
+  Response Time: 4063.68s
+  Semantic Similarity: 0.062 (below threshold)
+  Response Text: It just has to be made. It has to be made. Imagine if the lender decides to raise the funds, for example. We can just... It won't be disciplined. Yeah, but getting a credit for my wife, for example, can legit get us......
+
+================================================================================
+
+
+TOPIC_78
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 4080.61s - 4091.99s
+Status: failed_no_uptake
+Similarity to Preceding: 0.151
+
+TOPIC CONTENT:
+It can also get you in trouble. It can also get you in trouble. You overspend on stuff. You get into commitments that you later cannot afford to... And that's...
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_17
+  Response Time: 4092.08s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: It has its own problems....
+
+  Speaker: SPEAKER_05
+  Response Time: 4095.11s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: I feel like those are the problems you have....
+
+  Speaker: SPEAKER_19
+  Response Time: 4103.36s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Sure, fine, then, you know?...
+
+  Speaker: SPEAKER_01
+  Response Time: 4107.45s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: But from... Tami should be a business. No....
+
+================================================================================
+
+
+TOPIC_79
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_17
+Time: 4092.08s - 4095.09s
+Status: stabilized
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+It has its own problems.
+
+STABILIZATION - Uptake Received:
+
+  Responder: SPEAKER_05
+  Response Time: 4095.11s
+  Response Delay: 3.03s
+  Semantic Similarity: 0.335
+  Response Duration: 2.08s
+  Response Text: I feel like those are the problems you have....
+
+================================================================================
+
+
+TOPIC_80
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 4097.59s - 4103.06s
+Status: failed_no_uptake
+Similarity to Preceding: 0.147
+
+TOPIC CONTENT:
+I don't know. Tami is successful currently. Just saying. Tami is a big, but it can be good.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_19
+  Response Time: 4103.36s
+  Semantic Similarity: 0.050 (below threshold)
+  Response Text: Sure, fine, then, you know?...
+
+  Speaker: SPEAKER_01
+  Response Time: 4107.45s
+  Semantic Similarity: 0.139 (below threshold)
+  Response Text: But from... Tami should be a business. No....
+
+  Speaker: SPEAKER_19
+  Response Time: 4113.13s
+  Semantic Similarity: 0.022 (below threshold)
+  Response Text: Okay, from the point of view of Yair, my question is, which kind of organization we want to be? Like, we want to be an organization like everybody that is, like, come here to do what is good, who is doing that? we want to make an organization like, okay, we will maintain all the places we do by ours...
+
+================================================================================
+
+
+TOPIC_81
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 4103.36s - 4107.43s
+Status: failed_no_uptake
+Similarity to Preceding: 0.066
+
+TOPIC CONTENT:
+Sure, fine, then, you know?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_01
+  Response Time: 4107.45s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: But from... Tami should be a business. No....
+
+================================================================================
+
+
+TOPIC_82
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_01
+Time: 4107.45s - 4111.49s
+Status: failed_no_uptake
+Similarity to Preceding: 0.178
+
+TOPIC CONTENT:
+But from... Tami should be a business. No.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_19
+  Response Time: 4113.13s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Okay, from the point of view of Yair, my question is, which kind of organization we want to be? Like, we want to be an organization like everybody that is, like, come here to do what is good, who is doing that? we want to make an organization like, okay, we will maintain all the places we do by ours...
+
+================================================================================
+
+
+TOPIC_83
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 4113.13s - 4163.05s
+Status: failed_no_uptake
+Similarity to Preceding: 0.186
+
+TOPIC CONTENT:
+Okay, from the point of view of Yair, my question is, which kind of organization we want to be? Like, we want to be an organization like everybody that is, like, come here to do what is good, who is doing that? we want to make an organization like, okay, we will maintain all the places we do by ourselves. I mean, it's an open question. Like, it's an open question. We can have an organization we have. I mean, like, if we, I think, if we concentrate, if we, like, everybody come here and do what is good doing is good, and leave to somebody else, like, If you need a plumber, we need a plumber.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_84
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 4166.06s - 4172.03s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+Yeah, money. We cannot solve everything for ourselves.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_18
+  Response Time: 4172.13s
+  Semantic Similarity: 0.058 (below threshold)
+  Response Text: By the way, for the people who want to know how this was solved currently, or the current solution was, basically for the water stuff, right? So what happened was uh we were abroad a lot of us on ccc the situation was kind of bad it was uh manhandling it uh and and i don't know if some other people ...
+
+================================================================================
+
+
+TOPIC_85
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 4365.44s - 4371.73s
+Status: failed_no_uptake
+Similarity to Preceding: 0.077
+
+TOPIC CONTENT:
+Point is, we still need to decide on... I don't need to decide if he wants to remain in his position.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_12
+  Response Time: 4371.83s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: This is up to... No, but like, technically......
+
+================================================================================
+
+
+TOPIC_86
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_12
+Time: 4371.83s - 4381.78s
+Status: failed_no_uptake
+Similarity to Preceding: 0.173
+
+TOPIC CONTENT:
+This is up to... No, but like, technically...
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_02
+  Response Time: 4385.83s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: I don't think anyone wants actively to be a Sherman. Yeah....
+
+  Speaker: SPEAKER_20
+  Response Time: 4397.14s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Yeah....
+
+================================================================================
+
+
+TOPIC_87
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 4385.83s - 4393.76s
+Status: failed_no_uptake
+Similarity to Preceding: 0.241
+
+TOPIC CONTENT:
+I don't think anyone wants actively to be a Sherman. Yeah.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_20
+  Response Time: 4397.14s
+  Semantic Similarity: 0.201 (below threshold)
+  Response Text: Yeah....
+
+  Speaker: SPEAKER_12
+  Response Time: 4400.23s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Look....
+
+  Speaker: SPEAKER_20
+  Response Time: 4402.61s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: I was actually....
+
+  Speaker: UNKNOWN
+  Response Time: 4405.49s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Hello. Hello. Hello....
+
+  Speaker: SPEAKER_20
+  Response Time: 4411.73s
+  Semantic Similarity: 0.058 (below threshold)
+  Response Text: I was feeling like maybe I'm sort of like a firewall for Tami, like in my position, because I don't really care that much about like doing something else with it, and things seem to be sort of cruising along. So maybe it's a good thing....
+
+================================================================================
+
+
+TOPIC_88
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_20
+Time: 4411.73s - 4424.36s
+Status: failed_no_uptake
+Similarity to Preceding: 0.076
+
+TOPIC CONTENT:
+I was feeling like maybe I'm sort of like a firewall for Tami, like in my position, because I don't really care that much about like doing something else with it, and things seem to be sort of cruising along. So maybe it's a good thing.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_25
+  Response Time: 4424.70s
+  Semantic Similarity: 0.295 (below threshold)
+  Response Text: I don't know. I don't like to be in the position because I don't want to be... There is power to the Amuta. The Amutak and especially the three heads have power. I told this alone a long time, like, alone his mode of basically, as a guy who started it in his salon with Jeremy, he was always, he was ...
+
+================================================================================
+
+
+TOPIC_89
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 4529.47s - 4539.92s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+Today, what was the protocol to be a board member, to go in as a board member and to leave as a board member?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_25
+  Response Time: 4541.14s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: I didn't know anything about Amut Almos until a week ago when this started humming. I just dropped it in GPT, the PDF, and I started asking questions. I urge you to do the same. This meeting is practically illegal because you need to, aside from alone, you can just fuck off whenever you want. Everyo...
+
+================================================================================
+
+
+TOPIC_90
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_25
+Time: 4822.95s - 4838.31s
+Status: failed_no_uptake
+Similarity to Preceding: 0.186
+
+TOPIC CONTENT:
+It doesn't need to be yearly. The yearly thing is just to Niulta Kinn, this thing that we're having. Alon, do you agree to the... You didn't read Niulta Kinn? You got it? No.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_19
+  Response Time: 4838.35s
+  Semantic Similarity: 0.046 (below threshold)
+  Response Text: So... So, who will replace Alon?...
+
+  Speaker: SPEAKER_12
+  Response Time: 4846.02s
+  Semantic Similarity: 0.063 (below threshold)
+  Response Text: Just to clarify, I said I don't want to, but if anybody would propose themselves and people would vote for them, I wouldn't vote against it. No, man, you were like a fucking mascot....
+
+================================================================================
+
+
+TOPIC_91
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 4838.35s - 4841.30s
+Status: failed_no_uptake
+Similarity to Preceding: 0.062
+
+TOPIC CONTENT:
+So... So, who will replace Alon?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_25
+  Response Time: 4842.34s
+  Semantic Similarity: 0.099 (below threshold)
+  Response Text: Alon, it seems, doesn't want to be replaced. Okay....
+
+  Speaker: SPEAKER_12
+  Response Time: 4846.02s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Just to clarify, I said I don't want to, but if anybody would propose themselves and people would vote for them, I wouldn't vote against it. No, man, you were like a fucking mascot....
+
+  Speaker: SPEAKER_01
+  Response Time: 4859.78s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Like a very little mascot. In some sense, I feel like I brought everybody here. When you'll be in England, then tell us what you think. That works, actually....
+
+  Speaker: SPEAKER_20
+  Response Time: 4867.90s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: That's what we did with Jeremy for the last few years....
+
+================================================================================
+
+
+TOPIC_92
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_25
+Time: 4842.34s - 4845.52s
+Status: failed_no_uptake
+Similarity to Preceding: 0.120
+
+TOPIC CONTENT:
+Alon, it seems, doesn't want to be replaced. Okay.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_12
+  Response Time: 4846.02s
+  Semantic Similarity: 0.112 (below threshold)
+  Response Text: Just to clarify, I said I don't want to, but if anybody would propose themselves and people would vote for them, I wouldn't vote against it. No, man, you were like a fucking mascot....
+
+  Speaker: SPEAKER_01
+  Response Time: 4859.78s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Like a very little mascot. In some sense, I feel like I brought everybody here. When you'll be in England, then tell us what you think. That works, actually....
+
+  Speaker: SPEAKER_20
+  Response Time: 4867.90s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: That's what we did with Jeremy for the last few years....
+
+  Speaker: SPEAKER_12
+  Response Time: 4870.58s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: That works. I think more differently....
+
+================================================================================
+
+
+TOPIC_93
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_12
+Time: 4846.02s - 4859.12s
+Status: failed_no_uptake
+Similarity to Preceding: 0.170
+
+TOPIC CONTENT:
+Just to clarify, I said I don't want to, but if anybody would propose themselves and people would vote for them, I wouldn't vote against it. No, man, you were like a fucking mascot.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_01
+  Response Time: 4859.78s
+  Semantic Similarity: 0.049 (below threshold)
+  Response Text: Like a very little mascot. In some sense, I feel like I brought everybody here. When you'll be in England, then tell us what you think. That works, actually....
+
+  Speaker: SPEAKER_20
+  Response Time: 4867.90s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: That's what we did with Jeremy for the last few years....
+
+  Speaker: SPEAKER_20
+  Response Time: 4872.82s
+  Semantic Similarity: 0.058 (below threshold)
+  Response Text: I mean, Israel didn't say anything about that, like if they wanted to know that Jeremy is in the United States....
+
+================================================================================
+
+
+TOPIC_94
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_01
+Time: 4859.78s - 4867.88s
+Status: failed_no_uptake
+Similarity to Preceding: 0.076
+
+TOPIC CONTENT:
+Like a very little mascot. In some sense, I feel like I brought everybody here. When you'll be in England, then tell us what you think. That works, actually.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_20
+  Response Time: 4867.90s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: That's what we did with Jeremy for the last few years....
+
+  Speaker: SPEAKER_12
+  Response Time: 4870.58s
+  Semantic Similarity: 0.096 (below threshold)
+  Response Text: That works. I think more differently....
+
+  Speaker: SPEAKER_20
+  Response Time: 4872.82s
+  Semantic Similarity: 0.043 (below threshold)
+  Response Text: I mean, Israel didn't say anything about that, like if they wanted to know that Jeremy is in the United States....
+
+  Speaker: SPEAKER_07
+  Response Time: 4884.26s
+  Semantic Similarity: 0.029 (below threshold)
+  Response Text: So I don't think that's going to be a problem....
+
+================================================================================
+
+
+TOPIC_95
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_20
+Time: 4867.90s - 4870.36s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+That's what we did with Jeremy for the last few years.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_12
+  Response Time: 4870.58s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: That works. I think more differently....
+
+  Speaker: SPEAKER_07
+  Response Time: 4884.26s
+  Semantic Similarity: 0.061 (below threshold)
+  Response Text: So I don't think that's going to be a problem....
+
+  Speaker: SPEAKER_19
+  Response Time: 4892.72s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: I don't know if you have to be a citizen to be a member of the Muta....
+
+================================================================================
+
+
+TOPIC_96
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_12
+Time: 4870.58s - 4872.84s
+Status: failed_silence
+Similarity to Preceding: 0.125
+
+TOPIC CONTENT:
+That works. I think more differently.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_20
+  Response Time: 4872.82s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: I mean, Israel didn't say anything about that, like if they wanted to know that Jeremy is in the United States....
+
+  Speaker: SPEAKER_07
+  Response Time: 4884.26s
+  Semantic Similarity: 0.074 (below threshold)
+  Response Text: So I don't think that's going to be a problem....
+
+  Speaker: SPEAKER_19
+  Response Time: 4892.72s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: I don't know if you have to be a citizen to be a member of the Muta....
+
+  Speaker: SPEAKER_15
+  Response Time: 4898.62s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: I don't know....
+
+================================================================================
+
+
+TOPIC_97
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_20
+Time: 4872.82s - 4884.10s
+Status: failed_no_uptake
+Similarity to Preceding: 0.059
+
+TOPIC CONTENT:
+I mean, Israel didn't say anything about that, like if they wanted to know that Jeremy is in the United States.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_07
+  Response Time: 4884.26s
+  Semantic Similarity: 0.034 (below threshold)
+  Response Text: So I don't think that's going to be a problem....
+
+  Speaker: SPEAKER_19
+  Response Time: 4892.72s
+  Semantic Similarity: 0.072 (below threshold)
+  Response Text: I don't know if you have to be a citizen to be a member of the Muta....
+
+  Speaker: SPEAKER_15
+  Response Time: 4898.62s
+  Semantic Similarity: 0.113 (below threshold)
+  Response Text: I don't know....
+
+  Speaker: SPEAKER_12
+  Response Time: 4899.82s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: We need 10 days to give the Mutam members for convening....
+
+================================================================================
+
+
+TOPIC_98
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_07
+Time: 4884.26s - 4892.65s
+Status: failed_no_uptake
+Similarity to Preceding: 0.133
+
+TOPIC CONTENT:
+So I don't think that's going to be a problem.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_19
+  Response Time: 4892.72s
+  Semantic Similarity: 0.160 (below threshold)
+  Response Text: I don't know if you have to be a citizen to be a member of the Muta....
+
+  Speaker: SPEAKER_15
+  Response Time: 4898.62s
+  Semantic Similarity: 0.262 (below threshold)
+  Response Text: I don't know....
+
+  Speaker: SPEAKER_12
+  Response Time: 4899.82s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: We need 10 days to give the Mutam members for convening....
+
+================================================================================
+
+
+TOPIC_99
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 4892.72s - 4898.56s
+Status: stabilized
+Similarity to Preceding: 0.198
+
+TOPIC CONTENT:
+I don't know if you have to be a citizen to be a member of the Muta.
+
+STABILIZATION - Uptake Received:
+
+  Responder: SPEAKER_15
+  Response Time: 4898.62s
+  Response Delay: 5.91s
+  Semantic Similarity: 0.545
+  Response Duration: 0.98s
+  Response Text: I don't know....
+
+================================================================================
+
+
+TOPIC_100
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_12
+Time: 4899.82s - 4920.23s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+We need 10 days to give the Mutam members for convening.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_25
+  Response Time: 4920.91s
+  Semantic Similarity: 0.034 (below threshold)
+  Response Text: There are like some loopholes. If they don't answer or something, we can have an emergency meeting. I don't think it's called for. I don't think we need an emergency meeting. But I really want to hear from people. Do you think we need to change Tami?...
+
+================================================================================
+
+
+TOPIC_101
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_24
+Time: 4985.99s - 5031.81s
+Status: failed_no_uptake
+Similarity to Preceding: 0.098
+
+TOPIC CONTENT:
+So basically, from my current understanding, there is the issue of the 46. If you want to do that, we presumably need to make some changes to the legal entity of the Almuta. But on the other hand, once we start making changes to the legal entity of the Almuta, we will need to definitely refresh the member list, get people that are more active. and there is a certain fear that, you know, as we make those changes and as the legal entity of Domota, it might have some more impact on the day-to-day of preparations of TAMI and basically we need to have people that we trust that those changes will be positive and won't be abused and it won't like eventually collapse TAMI itself.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_102
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 5033.86s - 5126.53s
+Status: failed_no_uptake
+Similarity to Preceding: 0.121
+
+TOPIC CONTENT:
+just just just just for clarification right for so just for just for just for just for just for just for clarification right currently legally speaking there is no need to make any changes to the amuta for as legal requirements to get anything, not the 46. We are complying with the law fully to get 46. Legal wise, yes. Legal-wise, we're fully compliant with it. It's still subject for review. It's a soft issue. The review is by people who might have interests, who might have a certain decision-making process. This is the majority of the discussion. It's not a clear-cut legal thing. Also, formally speaking, It's not, let's say, a purely legal problem. You could argue theoretically that if things are misreported or something like that, it's not good, right? That might be a problem. But this is a very, let's say, on a, it's an ad hoc thing.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_103
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 5130.88s - 5136.46s
+Status: failed_silence
+Similarity to Preceding: 0.055
+
+TOPIC CONTENT:
+Is there something you know that we're not legally not ?
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_104
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_25
+Time: 5226.51s - 5247.48s
+Status: failed_no_uptake
+Similarity to Preceding: 0.047
+
+TOPIC CONTENT:
+so basically by getting insurance for for like for for getting formal insurance for protecting the members of the from liability
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_18
+  Response Time: 5249.61s
+  Semantic Similarity: 0.163 (below threshold)
+  Response Text: Oh, so, so, okay, so an insurance for the, so, so, so basically, so basically, so basically, so basically, so basically insuring the project itself. You're not necessarily talking about insurance for board members, because they're, because I don't know if that, like. The project itself, but also....
+
+================================================================================
+
+
+TOPIC_105
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_07
+Time: 5269.18s - 5270.10s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+You need to formalize the relationship of the.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_18
+  Response Time: 5270.77s
+  Semantic Similarity: 0.070 (below threshold)
+  Response Text: So basically, you know, it's just like, perhaps if the insurance company requires that, you need to, you need to, you need to make adjustments to the, to the, like, to the goals and whatever of the, of the... No, no, it's not the goals, it's not the goals, it's like how the project operates on the w...
+
+  Speaker: SPEAKER_09
+  Response Time: 5293.55s
+  Semantic Similarity: 0.147 (below threshold)
+  Response Text: project operates underneath the . If you need to formalize that in order to be able to point and say, like, OK, this is the project underneath us, and this is how we need to do this in order to receive insurance, for whatever that cost. Sure, whatever. OK. Yeah, that's what I want to do....
+
+================================================================================
+
+
+TOPIC_106
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 5270.77s - 5293.25s
+Status: failed_no_uptake
+Similarity to Preceding: 0.105
+
+TOPIC CONTENT:
+So basically, you know, it's just like, perhaps if the insurance company requires that, you need to, you need to, you need to make adjustments to the, to the, like, to the goals and whatever of the, of the... No, no, it's not the goals, it's not the goals, it's like how the project operates on the way, how the, I mean, you asked, like, it's on the...
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 5293.55s
+  Semantic Similarity: 0.157 (below threshold)
+  Response Text: project operates underneath the . If you need to formalize that in order to be able to point and say, like, OK, this is the project underneath us, and this is how we need to do this in order to receive insurance, for whatever that cost. Sure, whatever. OK. Yeah, that's what I want to do....
+
+================================================================================
+
+
+TOPIC_107
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Time: 5293.55s - 5314.14s
+Status: failed_no_uptake
+Similarity to Preceding: 0.167
+
+TOPIC CONTENT:
+project operates underneath the . If you need to formalize that in order to be able to point and say, like, OK, this is the project underneath us, and this is how we need to do this in order to receive insurance, for whatever that cost. Sure, whatever. OK. Yeah, that's what I want to do.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_07
+  Response Time: 5314.88s
+  Semantic Similarity: 0.084 (below threshold)
+  Response Text: OK, so getting insurance is cool....
+
+  Speaker: UNKNOWN
+  Response Time: 5318.60s
+  Semantic Similarity: 0.192 (below threshold)
+  Response Text: OK....
+
+  Speaker: SPEAKER_01
+  Response Time: 5319.93s
+  Semantic Similarity: 0.093 (below threshold)
+  Response Text: Okay, so I want to say something that maybe it's above these topics, but for me it's really important about what Tami is for me. I'm not a long time here, but I've known many people and liked or hated different ways of approaching how to do things. The heart of Tami, as I see it, is to allow everyon...
+
+================================================================================
+
+
+TOPIC_108
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_07
+Time: 5314.88s - 5318.58s
+Status: failed_no_uptake
+Similarity to Preceding: 0.242
+
+TOPIC CONTENT:
+OK, so getting insurance is cool.
+
+RESPONSES (No Uptake):
+
+  Speaker: UNKNOWN
+  Response Time: 5318.60s
+  Semantic Similarity: 0.279 (below threshold)
+  Response Text: OK....
+
+  Speaker: SPEAKER_01
+  Response Time: 5319.93s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Okay, so I want to say something that maybe it's above these topics, but for me it's really important about what Tami is for me. I'm not a long time here, but I've known many people and liked or hated different ways of approaching how to do things. The heart of Tami, as I see it, is to allow everyon...
+
+================================================================================
+
+
+TOPIC_109
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_01
+Time: 5319.93s - 5523.75s
+Status: failed_no_uptake
+Similarity to Preceding: 0.215
+
+TOPIC CONTENT:
+Okay, so I want to say something that maybe it's above these topics, but for me it's really important about what Tami is for me. I'm not a long time here, but I've known many people and liked or hated different ways of approaching how to do things. The heart of Tami, as I see it, is to allow everyone to be whatever they want and to do how they want things and to solve things. I really like what Yair said about the water. Fine, we can pay a lot of money, everybody can bring their own donation and bring an instalato, but I like that Yair had an experience and people who were here, and I wish I could be, I've been sick, but I will definitely be a part of other things like that. I think that's the heart of TAMI. Even if TAMI will not survive something that will be destroyed or fallen, the fun about doing things and trying to solve them, even if it seems like you wouldn't be able to do that, that's what TAMI is about. And I think that when we are talking about money, Even if it's for a good thing that will improve TAMI as a place, as a community, as accessories and appliances that are here, it's starting to put some kind of rot in that heart. People are starting to feel uncomfortable. in this kind of vibes we can see like some kind of different camps starting to build about how Tami should be which I think it's like a signal of we shouldn't go in that path because I think Tami should be like even as a voting thing like people can The things we're doing now is very important about many other things. If there is a water issue, we can all meet if someone would want to come or not to come, and vote how we think we should solve this issue, but not by paying to someone to do that, but how we should do that, and everybody can suggest things, and it could take days or weeks to find a solution. Maybe we would not find one. But I think that's one of the things, and I think everything you're suggesting about to improve time in many ways that maybe having more money will help, I think that these are things that we can all decide together how to solve them by each one's skills. If someone is an accountant, he can help.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_110
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_07
+Time: 5523.77s - 5531.74s
+Status: failed_no_uptake
+Similarity to Preceding: 0.159
+
+TOPIC CONTENT:
+There's a huge warning. Do you know about the tyranny of unstructuredlessness?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_08
+  Response Time: 5531.76s
+  Semantic Similarity: 0.041 (below threshold)
+  Response Text: It's like, at the end of the day, we don't really have, you say we,...
+
+  Speaker: SPEAKER_09
+  Response Time: 5538.51s
+  Semantic Similarity: 0.070 (below threshold)
+  Response Text: but it's like at the end of the day it's just individuals maybe operating maybe not and it's like if you need to go if you need to hunt for to go through people in order to be a part of something and And it depends on, yeah, or communication is overhead, like Eran said, but like, but if you need to,...
+
+================================================================================
+
+
+TOPIC_111
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_08
+Time: 5531.76s - 5537.77s
+Status: failed_no_uptake
+Similarity to Preceding: 0.208
+
+TOPIC CONTENT:
+It's like, at the end of the day, we don't really have, you say we,
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_09
+  Response Time: 5538.51s
+  Semantic Similarity: 0.287 (below threshold)
+  Response Text: but it's like at the end of the day it's just individuals maybe operating maybe not and it's like if you need to go if you need to hunt for to go through people in order to be a part of something and And it depends on, yeah, or communication is overhead, like Eran said, but like, but if you need to,...
+
+================================================================================
+
+
+TOPIC_112
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_01
+Time: 5569.82s - 5582.98s
+Status: failed_no_uptake
+Similarity to Preceding: 0.209
+
+TOPIC CONTENT:
+Definitely. Yeah. But it doesn't mean that, it might mean that it won't happen now or it's to chase after something that maybe you should move on to other things?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_19
+  Response Time: 5583.22s
+  Semantic Similarity: 0.013 (below threshold)
+  Response Text: I can make an opinion. Like, we are talking about two different models. One, OK, we will solve everything by ourselves. Different philosophies. Yeah, philosophies. And another says, OK, we concentrate on what we are doing. We are good doing. And the answer has not to be binary. The answer has not to...
+
+================================================================================
+
+
+TOPIC_113
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 5583.22s - 5610.62s
+Status: failed_no_uptake
+Similarity to Preceding: 0.109
+
+TOPIC CONTENT:
+I can make an opinion. Like, we are talking about two different models. One, OK, we will solve everything by ourselves. Different philosophies. Yeah, philosophies. And another says, OK, we concentrate on what we are doing. We are good doing. And the answer has not to be binary. The answer has not to be binary.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_15
+  Response Time: 5610.64s
+  Semantic Similarity: 0.129 (below threshold)
+  Response Text: OK? Yeah, yeah....
+
+================================================================================
+
+
+TOPIC_114
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 5611.52s - 5627.79s
+Status: failed_no_uptake
+Similarity to Preceding: 0.044
+
+TOPIC CONTENT:
+For example, if we have a problem with a pumbling, and someone here had to solve the problem, or had the skill to solve the problem, we can give to this person or this approach a preference.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_06
+  Response Time: 5627.81s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Yes....
+
+================================================================================
+
+
+TOPIC_115
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 5628.47s - 5662.05s
+Status: failed_no_uptake
+Similarity to Preceding: 0.207
+
+TOPIC CONTENT:
+A preference. But if it not solve the problem, or we don't have the skills, we have to move on. and make a different approach. But maybe, maybe we can also investigate and find a solution. Yes, but I mean, we can give some preference of one kind of philosophy or approach, but my suggestion is not to be binary. I mean, not only this way or only this way.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_116
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_01
+Time: 5662.65s - 5666.66s
+Status: failed_no_uptake
+Similarity to Preceding: 0.157
+
+TOPIC CONTENT:
+Yeah, I mean, that's fine, I agree.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_22
+  Response Time: 5667.52s
+  Semantic Similarity: 0.134 (below threshold)
+  Response Text: and yeah okay i feel like a lot of people speak about changing time or something like this part of the people say and other people say it's not not that much changing what i see that is will not be any changes it just look logistic part nothing like part of the people say hey we need the paragraph 4...
+
+================================================================================
+
+
+TOPIC_117
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_22
+Time: 5667.52s - 5795.79s
+Status: failed_no_uptake
+Similarity to Preceding: 0.214
+
+TOPIC CONTENT:
+and yeah okay i feel like a lot of people speak about changing time or something like this part of the people say and other people say it's not not that much changing what i see that is will not be any changes it just look logistic part nothing like part of the people say hey we need the paragraph 46 to get more money and operate easily it's not give those people any power it's not change anything in time like every stand same the only thing they say okay we need some people will operate this However, everyone wanted to do it and there is done. If there is any changes by power or something like this, you just get, I don't know, just some people, if you believe we need to operate in other way, the logistic part, the background, so go and change it. It's not change the mainstream of Tami operation. If I want to get some receives for better operation, I will go and ask for receives and do it by myself. I will go to everyone who makes something in Tami and I will ask for them. So if I believe in this, I can do it. I just change the logic of operation if I believe in it. If not, that's not. No, it's not. Where you see everyone, it's the same how it was. I just believe I want it higher and more money. Yeah, yeah. Yeah, yeah. So this basically what higher here that people say here. So I don't get to what the conversation keeping on or what, about what, because nothing will change.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_118
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 5796.66s - 5805.47s
+Status: failed_no_uptake
+Similarity to Preceding: 0.155
+
+TOPIC CONTENT:
+It's the conversation of things that were not done. You have to hypothesize on how they will look. You don't know.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_22
+  Response Time: 5805.97s
+  Semantic Similarity: 0.172 (below threshold)
+  Response Text: You just need someone who did it. If you wanted to do something, find someone who will do it. That's all. I don't get that much about your point now. Where are you going to? I don't get the point. Where are you going to?...
+
+  Speaker: SPEAKER_03
+  Response Time: 5823.64s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Yeah?...
+
+  Speaker: SPEAKER_22
+  Response Time: 5826.33s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: So if you want to operate in your way, operate in your way. You will believe you want more money....
+
+================================================================================
+
+
+TOPIC_119
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_22
+Time: 5805.97s - 5822.66s
+Status: failed_no_uptake
+Similarity to Preceding: 0.183
+
+TOPIC CONTENT:
+You just need someone who did it. If you wanted to do something, find someone who will do it. That's all. I don't get that much about your point now. Where are you going to? I don't get the point. Where are you going to?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_03
+  Response Time: 5823.64s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Yeah?...
+
+  Speaker: SPEAKER_18
+  Response Time: 5831.33s
+  Semantic Similarity: 0.099 (below threshold)
+  Response Text: I think some proposals that were made, if we can recap right, was one was I think some people want to become members of the Amutah. I heard some people like a week ago, I think that but that's one thing. So I mean, if anyone that didn't think of it can think of it now. I think that as well, I think ...
+
+================================================================================
+
+
+TOPIC_120
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_22
+Time: 5826.33s - 5831.23s
+Status: failed_no_uptake
+Similarity to Preceding: 0.208
+
+TOPIC CONTENT:
+So if you want to operate in your way, operate in your way. You will believe you want more money.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_18
+  Response Time: 5831.33s
+  Semantic Similarity: 0.069 (below threshold)
+  Response Text: I think some proposals that were made, if we can recap right, was one was I think some people want to become members of the Amutah. I heard some people like a week ago, I think that but that's one thing. So I mean, if anyone that didn't think of it can think of it now. I think that as well, I think ...
+
+================================================================================
+
+
+TOPIC_121
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 5831.33s - 5928.63s
+Status: failed_no_uptake
+Similarity to Preceding: 0.210
+
+TOPIC CONTENT:
+I think some proposals that were made, if we can recap right, was one was I think some people want to become members of the Amutah. I heard some people like a week ago, I think that but that's one thing. So I mean, if anyone that didn't think of it can think of it now. I think that as well, I think maybe more people want to look into the 46 stuff to see if they can help out, which is cool. I think we had the proposal of looking into stuff like insurance and whatever that requires. Cool. Insurance for what? For insurance for basically protecting the amutah from the legal entity that is sort of responsible for this place. So, it's important to say, right? It's important to say, we, so basically if you are a member of the Amutah, it's a concern of you. I don't, by the way, I think that anyone that is interested in, I don't know, it's kind of a weird thing because I mean, it's really the responsibility of the board of directors. And if you're not in the board of directors, it's a weird thing for you to worry about. Now, I think if you want to be a part of the board of directors and you say, this is something I want because I want to be a part of the board of directors, then I think it's cool. I mean, it's kind of weird otherwise, I think.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_122
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_16
+Time: 5964.52s - 5973.33s
+Status: failed_no_uptake
+Similarity to Preceding: 0.021
+
+TOPIC CONTENT:
+It's a personal opinion. Sorry, I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. Hey, hey, hey, look, look.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_18
+  Response Time: 5973.53s
+  Semantic Similarity: 0.106 (below threshold)
+  Response Text: I thought, I thought, I thought, I thought, I thought, I thought, I thought, I thought, I just like to say, I just thought in the beginning, the Tommy is open stuff was weird. It's really cool, but I mean, it's not, it's, it's, it's, yeah. I'm sorry. Sorry, my opinion is discouraging, but that's, th...
+
+================================================================================
+
+
+TOPIC_123
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 5973.53s - 5994.15s
+Status: failed_no_uptake
+Similarity to Preceding: 0.209
+
+TOPIC CONTENT:
+I thought, I thought, I thought, I thought, I thought, I thought, I thought, I thought, I just like to say, I just thought in the beginning, the Tommy is open stuff was weird. It's really cool, but I mean, it's not, it's, it's, it's, yeah. I'm sorry. Sorry, my opinion is discouraging, but that's, that's,
+
+RESPONSES (No Uptake):
+
+  Speaker: UNKNOWN
+  Response Time: 5995.72s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Another thing, for me a silent Dhammuta is a sweet Dhammuta for time....
+
+================================================================================
+
+
+TOPIC_124
+--------------------------------------------------------------------------------
+Proposer: UNKNOWN
+Time: 5995.72s - 6002.77s
+Status: failed_no_uptake
+Similarity to Preceding: 0.046
+
+TOPIC CONTENT:
+Another thing, for me a silent Dhammuta is a sweet Dhammuta for time.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_25
+  Response Time: 6003.73s
+  Semantic Similarity: 0.052 (below threshold)
+  Response Text: But we do need more faces in Dhammuta, like people that just to come to this stuff. Again, historically it was just a matter of signing once a year on the scene. I don't remember any time that I voted in my long years. I don't remember that happening. I don't want it to happen, but it's not my......
+
+================================================================================
+
+
+TOPIC_125
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_25
+Time: 6003.73s - 6042.13s
+Status: failed_no_uptake
+Similarity to Preceding: 0.126
+
+TOPIC CONTENT:
+But we do need more faces in Dhammuta, like people that just to come to this stuff. Again, historically it was just a matter of signing once a year on the scene. I don't remember any time that I voted in my long years. I don't remember that happening. I don't want it to happen, but it's not my...
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_126
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_03
+Time: 6042.59s - 6069.20s
+Status: failed_no_uptake
+Similarity to Preceding: 0.079
+
+TOPIC CONTENT:
+Does anyone want? To have actual voting for some issues. What kind of voting can one imagine here? Like, whether to call professional plumber or not, should it be voted? Like, if money from the fund goes to professional plumber or not, is it kind of voting you discussed?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_21
+  Response Time: 6070.86s
+  Semantic Similarity: 0.020 (below threshold)
+  Response Text: Everyone want a battle for Tommy, so if you can get it, do it. You don't need that much....
+
+================================================================================
+
+
+TOPIC_127
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_03
+Time: 6075.69s - 6079.76s
+Status: failed_silence
+Similarity to Preceding: 0.185
+
+TOPIC CONTENT:
+No, voting would be needed for money from Tommy's fund.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_25
+  Response Time: 6086.78s
+  Semantic Similarity: 0.031 (below threshold)
+  Response Text: Maybe I don't see any reason for voting. Of course, there could be, if enough members who share ideology can basically take over them. That's something that can happen. If I want to change , I can enter , and then I can So this is why I like the silent because then we don't have this politics. This ...
+
+================================================================================
+
+
+TOPIC_128
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_25
+Time: 6086.78s - 6149.34s
+Status: failed_no_uptake
+Similarity to Preceding: 0.220
+
+TOPIC CONTENT:
+Maybe I don't see any reason for voting. Of course, there could be, if enough members who share ideology can basically take over them. That's something that can happen. If I want to change , I can enter , and then I can So this is why I like the silent because then we don't have this politics. This is politics. This is one-on-one politics. This is why you have three people in the boat so they can fight each other. Three people is the minimum. No, two people is to fight. Three people is to, you know, make sense into each other. To take sides. To take sides, yeah, exactly.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_129
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_25
+Time: 6158.08s - 6193.95s
+Status: failed_no_uptake
+Similarity to Preceding: 0.250
+
+TOPIC CONTENT:
+The more the merrier. On one end, yeah. But for me, it always was a silent thing. But these people drift away, yeah. These guys who are part of the Amutah. You know, I go over the funds and some of the people I don't even know. Like the big money from Amutah, I don't remember them. They're like, just want to see Tami happen. So the money was never connected to what Tami is or the people who are actually in Tami. And the Amutah was never connected to the guiding. I love this. This is what I want.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_130
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_03
+Time: 6194.53s - 6206.46s
+Status: failed_no_uptake
+Similarity to Preceding: 0.100
+
+TOPIC CONTENT:
+Does anyone want it to be changed? It seems like having funds is a bad thing.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_02
+  Response Time: 6206.68s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: But I don't understand why, though. I get that numbers on the screen get people angry and fight each other....
+
+  Speaker: SPEAKER_24
+  Response Time: 6215.85s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Why is it necessary to have more money, I guess?...
+
+  Speaker: SPEAKER_02
+  Response Time: 6221.92s
+  Semantic Similarity: 0.053 (below threshold)
+  Response Text: Because the next time that you want to have a fix or you want I don't know, to make sure that we do not get toxins in our blood because of the air here or whatever happens here....
+
+================================================================================
+
+
+TOPIC_131
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_24
+Time: 6215.85s - 6221.06s
+Status: failed_no_uptake
+Similarity to Preceding: 0.081
+
+TOPIC CONTENT:
+Why is it necessary to have more money, I guess?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_02
+  Response Time: 6221.92s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Because the next time that you want to have a fix or you want I don't know, to make sure that we do not get toxins in our blood because of the air here or whatever happens here....
+
+  Speaker: SPEAKER_02
+  Response Time: 6238.54s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Yeah, that's why you have in your personal life backups and you have stuff that you still wait for a rainy day. This is helping living....
+
+================================================================================
+
+
+TOPIC_132
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 6221.92s - 6235.23s
+Status: failed_no_uptake
+Similarity to Preceding: 0.170
+
+TOPIC CONTENT:
+Because the next time that you want to have a fix or you want I don't know, to make sure that we do not get toxins in our blood because of the air here or whatever happens here.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_24
+  Response Time: 6235.25s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: That's like fear of the unknown future....
+
+================================================================================
+
+
+TOPIC_133
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_24
+Time: 6235.25s - 6238.26s
+Status: failed_no_uptake
+Similarity to Preceding: 0.054
+
+TOPIC CONTENT:
+That's like fear of the unknown future.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_02
+  Response Time: 6238.54s
+  Semantic Similarity: 0.038 (below threshold)
+  Response Text: Yeah, that's why you have in your personal life backups and you have stuff that you still wait for a rainy day. This is helping living....
+
+  Speaker: SPEAKER_18
+  Response Time: 6253.84s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: But a namuta has to spend the money every year....
+
+  Speaker: SPEAKER_02
+  Response Time: 6256.80s
+  Semantic Similarity: 0.068 (below threshold)
+  Response Text: That's awesome, but it has to have money to spend....
+
+  Speaker: SPEAKER_08
+  Response Time: 6260.27s
+  Semantic Similarity: 0.037 (below threshold)
+  Response Text: Yeah, but you need to spend unless it's allocated. Unless you have a decision that you set. You want this as a buffer....
+
+================================================================================
+
+
+TOPIC_134
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 6238.54s - 6252.90s
+Status: failed_no_uptake
+Similarity to Preceding: 0.051
+
+TOPIC CONTENT:
+Yeah, that's why you have in your personal life backups and you have stuff that you still wait for a rainy day. This is helping living.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_18
+  Response Time: 6253.84s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: But a namuta has to spend the money every year....
+
+  Speaker: SPEAKER_08
+  Response Time: 6260.27s
+  Semantic Similarity: 0.048 (below threshold)
+  Response Text: Yeah, but you need to spend unless it's allocated. Unless you have a decision that you set. You want this as a buffer....
+
+================================================================================
+
+
+TOPIC_135
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 6253.84s - 6256.76s
+Status: failed_no_uptake
+Similarity to Preceding: 0.120
+
+TOPIC CONTENT:
+But a namuta has to spend the money every year.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_02
+  Response Time: 6256.80s
+  Semantic Similarity: 0.168 (below threshold)
+  Response Text: That's awesome, but it has to have money to spend....
+
+  Speaker: SPEAKER_08
+  Response Time: 6260.27s
+  Semantic Similarity: 0.042 (below threshold)
+  Response Text: Yeah, but you need to spend unless it's allocated. Unless you have a decision that you set. You want this as a buffer....
+
+  Speaker: SPEAKER_02
+  Response Time: 6267.78s
+  Semantic Similarity: 0.022 (below threshold)
+  Response Text: Funds is good. It's like we live in a world. No, people who are deciding the funds are all day long. This is the... No, no. Great. Like, I don't want to decide on money. I just want it to be. But in order to be, you need to have funds. And it's not a bad word to say that you need funds....
+
+================================================================================
+
+
+TOPIC_136
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 6256.80s - 6259.25s
+Status: failed_no_uptake
+Similarity to Preceding: 0.196
+
+TOPIC CONTENT:
+That's awesome, but it has to have money to spend.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_08
+  Response Time: 6260.27s
+  Semantic Similarity: 0.088 (below threshold)
+  Response Text: Yeah, but you need to spend unless it's allocated. Unless you have a decision that you set. You want this as a buffer....
+
+================================================================================
+
+
+TOPIC_137
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_08
+Time: 6260.27s - 6267.76s
+Status: failed_no_uptake
+Similarity to Preceding: 0.077
+
+TOPIC CONTENT:
+Yeah, but you need to spend unless it's allocated. Unless you have a decision that you set. You want this as a buffer.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_02
+  Response Time: 6267.78s
+  Semantic Similarity: 0.077 (below threshold)
+  Response Text: Funds is good. It's like we live in a world. No, people who are deciding the funds are all day long. This is the... No, no. Great. Like, I don't want to decide on money. I just want it to be. But in order to be, you need to have funds. And it's not a bad word to say that you need funds....
+
+  Speaker: SPEAKER_25
+  Response Time: 6289.99s
+  Semantic Similarity: 0.028 (below threshold)
+  Response Text: It's not. But you know, it's funny. Like, people sometimes come to Tommy and say, this place can't happen. And they stand in Tommy and say, this place can't happen. And it fucking happens. Like, you know, 40 years, man. No, it hurts. It happens, like in doom and gloom and all this, like, it's, I don...
+
+================================================================================
+
+
+TOPIC_138
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Time: 6267.78s - 6287.83s
+Status: failed_no_uptake
+Similarity to Preceding: 0.109
+
+TOPIC CONTENT:
+Funds is good. It's like we live in a world. No, people who are deciding the funds are all day long. This is the... No, no. Great. Like, I don't want to decide on money. I just want it to be. But in order to be, you need to have funds. And it's not a bad word to say that you need funds.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_25
+  Response Time: 6289.99s
+  Semantic Similarity: 0.122 (below threshold)
+  Response Text: It's not. But you know, it's funny. Like, people sometimes come to Tommy and say, this place can't happen. And they stand in Tommy and say, this place can't happen. And it fucking happens. Like, you know, 40 years, man. No, it hurts. It happens, like in doom and gloom and all this, like, it's, I don...
+
+================================================================================
+
+
+TOPIC_139
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_25
+Time: 6289.99s - 6310.97s
+Status: failed_no_uptake
+Similarity to Preceding: 0.155
+
+TOPIC CONTENT:
+It's not. But you know, it's funny. Like, people sometimes come to Tommy and say, this place can't happen. And they stand in Tommy and say, this place can't happen. And it fucking happens. Like, you know, 40 years, man. No, it hurts. It happens, like in doom and gloom and all this, like, it's, I don't know. Tell me how it happens. Happens.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_03
+  Response Time: 6311.43s
+  Semantic Similarity: 0.084 (below threshold)
+  Response Text: Yeah, sure. I don't want to test that. Like, why do we need to test it? The help, by the moves, the relocations from one place to another. It has already been tested. Yeah. And it continues to function the way it is....
+
+================================================================================
+
+
+TOPIC_140
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_03
+Time: 6311.43s - 6328.07s
+Status: failed_silence
+Similarity to Preceding: 0.145
+
+TOPIC CONTENT:
+Yeah, sure. I don't want to test that. Like, why do we need to test it? The help, by the moves, the relocations from one place to another. It has already been tested. Yeah. And it continues to function the way it is.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_23
+  Response Time: 6334.77s
+  Semantic Similarity: 0.025 (below threshold)
+  Response Text: I'm not sure where is the contradiction on the two sides of the... You can have a silent NGO, and this silent NGO would be functioning well enough to get chapter 46. It is functioning. It is in the way for chapter 46....
+
+================================================================================
+
+
+TOPIC_141
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_23
+Time: 6334.77s - 6351.17s
+Status: failed_no_uptake
+Similarity to Preceding: 0.051
+
+TOPIC CONTENT:
+I'm not sure where is the contradiction on the two sides of the... You can have a silent NGO, and this silent NGO would be functioning well enough to get chapter 46. It is functioning. It is in the way for chapter 46.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_25
+  Response Time: 6351.19s
+  Semantic Similarity: 0.013 (below threshold)
+  Response Text: I love it as much. What we're doing is once we had this long discussion, and I was very angry about it. And then Alon sent me the hummingbird seat. You know the hummingbird seat? There's an RFC for humming. And humming is something that happens in digital culture. And it's about just talking. Not vo...
+
+================================================================================
+
+
+TOPIC_142
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_25
+Time: 6351.19s - 6389.36s
+Status: failed_no_uptake
+Similarity to Preceding: 0.171
+
+TOPIC CONTENT:
+I love it as much. What we're doing is once we had this long discussion, and I was very angry about it. And then Alon sent me the hummingbird seat. You know the hummingbird seat? There's an RFC for humming. And humming is something that happens in digital culture. And it's about just talking. Not voting and not like forcing a side or that. It's just like fucking humming. So yeah, it can be annoying. This talk can be annoying and I really want to smoke. But it's just good to talk. I'm happy this is happening. I'm happy we're like...
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_143
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_05
+Time: 6389.63s - 6406.75s
+Status: failed_no_uptake
+Similarity to Preceding: 0.146
+
+TOPIC CONTENT:
+Talking is good, but if you're talking to any actual politician or government entity, the firm, as I'm concerned, you're disqualified from having anything remotely to do with government. Keep that in mind. That's your opinion. Yeah. I'm not saying we should do anything in Bingo. No.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_15
+  Response Time: 6406.77s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Can I share something with you?...
+
+  Speaker: SPEAKER_11
+  Response Time: 6410.38s
+  Semantic Similarity: 0.108 (below threshold)
+  Response Text: Hi, my name is Jesse. I come from other stock sites. something like culture and art. I had a conversation this week with a friend of mine around the gallery and they had a really big gallery for all their galleries in Calabria because they're going into a new system now in Calabria which has to do w...
+
+================================================================================
+
+
+TOPIC_144
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_15
+Time: 6406.77s - 6409.80s
+Status: failed_no_uptake
+Similarity to Preceding: 0.000
+
+TOPIC CONTENT:
+Can I share something with you?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_11
+  Response Time: 6410.38s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Hi, my name is Jesse. I come from other stock sites. something like culture and art. I had a conversation this week with a friend of mine around the gallery and they had a really big gallery for all their galleries in Calabria because they're going into a new system now in Calabria which has to do w...
+
+================================================================================
+
+
+TOPIC_145
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 6546.03s - 6576.66s
+Status: failed_no_uptake
+Similarity to Preceding: 0.066
+
+TOPIC CONTENT:
+I mean, when you have some money for grants, you always have to tell the story, and the story has to comply with the people who give the money. It means it's always this way. The point is, if we want to apply to grants, if we are in shape to apply to grants, or we want any modification. I hear from Yair, maybe you have. For insurance?
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_146
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_25
+Time: 6596.38s - 6605.72s
+Status: failed_no_uptake
+Similarity to Preceding: 0.222
+
+TOPIC CONTENT:
+I just, on Jackie, Jackie, Jackie knows what she's talking about. She's like, she's doing underground.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_11
+  Response Time: 6605.74s
+  Semantic Similarity: 0.139 (below threshold)
+  Response Text: I have a festival, which runs, it's an independent festival, and I work with the municipality for like, with underground venues, with the municipality for like five years, and with the venues like 15 years, and I'm just like, I have a sense for these things, usually, and it's just, and I, tend to th...
+
+================================================================================
+
+
+TOPIC_147
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_24
+Time: 6629.68s - 6634.46s
+Status: failed_no_uptake
+Similarity to Preceding: 0.092
+
+TOPIC CONTENT:
+Do we actually want to even engage with the municipality?
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_11
+  Response Time: 6634.52s
+  Semantic Similarity: 0.031 (below threshold)
+  Response Text: We'll engage with you. That's what I'm trying to say to you. You don't have to. It's not about the grants. It's not about the money. It's about seeing the .. OK....
+
+  Speaker: SPEAKER_18
+  Response Time: 6649.59s
+  Semantic Similarity: 0.107 (below threshold)
+  Response Text: So essentially, if I may try to reiterate, is that the municipality is actively looking for projects that are similar in characteristics to TAMI. And essentially, the municipality is inclined to look into these activities and is inclined to engage with these activities and this engagement might be p...
+
+================================================================================
+
+
+TOPIC_148
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_11
+Time: 6634.52s - 6645.12s
+Status: failed_no_uptake
+Similarity to Preceding: 0.162
+
+TOPIC CONTENT:
+We'll engage with you. That's what I'm trying to say to you. You don't have to. It's not about the grants. It's not about the money. It's about seeing the .. OK.
+
+RESPONSES (No Uptake):
+
+  Speaker: SPEAKER_24
+  Response Time: 6645.32s
+  Semantic Similarity: 0.000 (below threshold)
+  Response Text: Do you want to hide from them, or do you want to present themselves?...
+
+  Speaker: SPEAKER_18
+  Response Time: 6649.59s
+  Semantic Similarity: 0.089 (below threshold)
+  Response Text: So essentially, if I may try to reiterate, is that the municipality is actively looking for projects that are similar in characteristics to TAMI. And essentially, the municipality is inclined to look into these activities and is inclined to engage with these activities and this engagement might be p...
+
+================================================================================
+
+
+TOPIC_149
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_18
+Time: 6649.59s - 6714.64s
+Status: failed_no_uptake
+Similarity to Preceding: 0.156
+
+TOPIC CONTENT:
+So essentially, if I may try to reiterate, is that the municipality is actively looking for projects that are similar in characteristics to TAMI. And essentially, the municipality is inclined to look into these activities and is inclined to engage with these activities and this engagement might be painful it might be let's say take you in directions that you might necessarily not want Yeah, interfere with what it is that you want to achieve. So I think this might allude more to Gilly's point from the beginning that there are certain things that could be done better. Now, this is something which is like that I think is the point. Is that pretty much like the what?
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_150
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Time: 6714.66s - 6743.05s
+Status: failed_no_uptake
+Similarity to Preceding: 0.050
+
+TOPIC CONTENT:
+I have similar experience in Madrid. But we were running a project supported with the Ministry of Culture. We received a platform of the Ministry of Culture. We somehow were aligned with the Ministry of Culture. There was a change of government. We suffered a lot of change of government. And I mean, you have to link to tell the story that they want to hear. It's a little bit in this direction.
+
+No responses detected within response window.
+
+================================================================================
+
+
+TOPIC_151
+--------------------------------------------------------------------------------
+Proposer: SPEAKER_11
+Time: 6745.15s - 6780.00s
+Status: failed_no_uptake
+Similarity to Preceding: 0.038
+
+TOPIC CONTENT:
+The quantity of NGOs that were closed during the new coalition of 2010-11 was hideous. It was one of the hardest hits to the left underground independent media. So things can happen. I am part of the archive and we're thinking about what can happen and also the National Library is asking and other groups are asking what happens if they take away data or they seize data. Like there is a lot of these questions right now and we're worried. We're worried.
+
+No responses detected within response window.
+
+================================================================================
+
+
+================================================================================
+SPEAKER TOPIC ENGAGEMENT SUMMARY
+================================================================================
+
+SPEAKER_09:
+  Topics Proposed: 20
+  Stabilized: 0 (0.0%)
+  Failed: 20
+
+SPEAKER_18:
+  Topics Proposed: 17
+  Stabilized: 0 (0.0%)
+  Failed: 17
+
+SPEAKER_19:
+  Topics Proposed: 16
+  Stabilized: 1 (6.2%)
+  Failed: 15
+
+SPEAKER_02:
+  Topics Proposed: 16
+  Stabilized: 1 (6.2%)
+  Failed: 15
+
+SPEAKER_25:
+  Topics Proposed: 12
+  Stabilized: 0 (0.0%)
+  Failed: 12
+
+SPEAKER_07:
+  Topics Proposed: 10
+  Stabilized: 0 (0.0%)
+  Failed: 10
+
+SPEAKER_01:
+  Topics Proposed: 9
+  Stabilized: 0 (0.0%)
+  Failed: 9
+
+SPEAKER_24:
+  Topics Proposed: 6
+  Stabilized: 0 (0.0%)
+  Failed: 6
+
+SPEAKER_20:
+  Topics Proposed: 5
+  Stabilized: 0 (0.0%)
+  Failed: 5
+
+SPEAKER_13:
+  Topics Proposed: 4
+  Stabilized: 0 (0.0%)
+  Failed: 4
+
+UNKNOWN:
+  Topics Proposed: 4
+  Stabilized: 0 (0.0%)
+  Failed: 4
+
+SPEAKER_23:
+  Topics Proposed: 4
+  Stabilized: 0 (0.0%)
+  Failed: 4
+
+SPEAKER_08:
+  Topics Proposed: 4
+  Stabilized: 0 (0.0%)
+  Failed: 4
+
+SPEAKER_12:
+  Topics Proposed: 4
+  Stabilized: 0 (0.0%)
+  Failed: 4
+
+SPEAKER_03:
+  Topics Proposed: 4
+  Stabilized: 0 (0.0%)
+  Failed: 4
+
+SPEAKER_26:
+  Topics Proposed: 3
+  Stabilized: 0 (0.0%)
+  Failed: 3
+
+SPEAKER_22:
+  Topics Proposed: 3
+  Stabilized: 0 (0.0%)
+  Failed: 3
+
+SPEAKER_04:
+  Topics Proposed: 2
+  Stabilized: 0 (0.0%)
+  Failed: 2
+
+SPEAKER_00:
+  Topics Proposed: 2
+  Stabilized: 0 (0.0%)
+  Failed: 2
+
+SPEAKER_11:
+  Topics Proposed: 2
+  Stabilized: 0 (0.0%)
+  Failed: 2
+
+SPEAKER_14:
+  Topics Proposed: 1
+  Stabilized: 0 (0.0%)
+  Failed: 1
+
+SPEAKER_17:
+  Topics Proposed: 1
+  Stabilized: 1 (100.0%)
+  Failed: 0
+
+SPEAKER_16:
+  Topics Proposed: 1
+  Stabilized: 0 (0.0%)
+  Failed: 1
+
+SPEAKER_05:
+  Topics Proposed: 1
+  Stabilized: 0 (0.0%)
+  Failed: 1
+
+SPEAKER_15:
+  Topics Proposed: 1
+  Stabilized: 0 (0.0%)
+  Failed: 1

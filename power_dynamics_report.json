@@ -1,0 +1,359 @@
+{
+  "meeting_duration": 6855.064,
+  "speaking_time_dominance": {
+    "SPEAKER_15": {
+      "total_seconds": 29.294000000000292,
+      "percentage": 0.42733372000611947
+    },
+    "SPEAKER_00": {
+      "total_seconds": 195.4459999999998,
+      "percentage": 2.8511185307679083
+    },
+    "SPEAKER_14": {
+      "total_seconds": 48.572000000000045,
+      "percentage": 0.7085564773720573
+    },
+    "SPEAKER_05": {
+      "total_seconds": 75.95200000000202,
+      "percentage": 1.1079692326724013
+    },
+    "SPEAKER_13": {
+      "total_seconds": 152.7589999999999,
+      "percentage": 2.2284109966004677
+    },
+    "UNKNOWN": {
+      "total_seconds": 38.091999999997824,
+      "percentage": 0.5556767960152935
+    },
+    "SPEAKER_04": {
+      "total_seconds": 20.982000000000085,
+      "percentage": 0.30608029334226616
+    },
+    "SPEAKER_03": {
+      "total_seconds": 75.3570000000019,
+      "percentage": 1.0992895179388829
+    },
+    "SPEAKER_25": {
+      "total_seconds": 865.1829999999909,
+      "percentage": 12.62107837359346
+    },
+    "SPEAKER_07": {
+      "total_seconds": 117.52600000000018,
+      "percentage": 1.7144405945735908
+    },
+    "SPEAKER_26": {
+      "total_seconds": 35.23600000000067,
+      "percentage": 0.5140141652944549
+    },
+    "SPEAKER_02": {
+      "total_seconds": 411.9190000000018,
+      "percentage": 6.008973803891572
+    },
+    "SPEAKER_09": {
+      "total_seconds": 1296.4589999999957,
+      "percentage": 18.912427367563538
+    },
+    "SPEAKER_18": {
+      "total_seconds": 1089.2419999999984,
+      "percentage": 15.889596362630579
+    },
+    "SPEAKER_19": {
+      "total_seconds": 394.98499999999956,
+      "percentage": 5.761944746248897
+    },
+    "SPEAKER_23": {
+      "total_seconds": 65.74400000000037,
+      "percentage": 0.9590574209081106
+    },
+    "SPEAKER_24": {
+      "total_seconds": 78.28400000000147,
+      "percentage": 1.1419878793254368
+    },
+    "SPEAKER_06": {
+      "total_seconds": 19.709000000000515,
+      "percentage": 0.28751008013930307
+    },
+    "SPEAKER_17": {
+      "total_seconds": 5.567000000000462,
+      "percentage": 0.08121003684284292
+    },
+    "SPEAKER_01": {
+      "total_seconds": 242.48799999999574,
+      "percentage": 3.537355741682291
+    },
+    "SPEAKER_08": {
+      "total_seconds": 25.693999999998596,
+      "percentage": 0.3748177989293549
+    },
+    "SPEAKER_20": {
+      "total_seconds": 133.538,
+      "percentage": 1.948019741318243
+    },
+    "SPEAKER_12": {
+      "total_seconds": 65.27100000000064,
+      "percentage": 0.9521574123888652
+    },
+    "SPEAKER_22": {
+      "total_seconds": 141.7679999999982,
+      "percentage": 2.0680769720019856
+    },
+    "SPEAKER_16": {
+      "total_seconds": 7.969000000000051,
+      "percentage": 0.11624982640570605
+    },
+    "SPEAKER_21": {
+      "total_seconds": 4.568999999999505,
+      "percentage": 0.06665145649988832
+    },
+    "SPEAKER_11": {
+      "total_seconds": 201.8570000000027,
+      "percentage": 2.9446406335521114
+    }
+  },
+  "turn_taking_structure": {
+    "SPEAKER_15": {
+      "turn_count": 5,
+      "total_duration": 29.655000000000168,
+      "average_turn_length": 5.931000000000034
+    },
+    "SPEAKER_00": {
+      "turn_count": 7,
+      "total_duration": 197.05399999999975,
+      "average_turn_length": 28.150571428571393
+    },
+    "SPEAKER_05": {
+      "turn_count": 6,
+      "total_duration": 77.05299999999988,
+      "average_turn_length": 12.842166666666648
+    },
+    "SPEAKER_17": {
+      "turn_count": 3,
+      "total_duration": 34.42000000000046,
+      "average_turn_length": 11.473333333333485
+    },
+    "SPEAKER_14": {
+      "turn_count": 2,
+      "total_duration": 49.21300000000004,
+      "average_turn_length": 24.60650000000002
+    },
+    "SPEAKER_13": {
+      "turn_count": 9,
+      "total_duration": 272.12599999999986,
+      "average_turn_length": 30.236222222222207
+    },
+    "SPEAKER_21": {
+      "turn_count": 2,
+      "total_duration": 34.257999999999754,
+      "average_turn_length": 17.128999999999877
+    },
+    "UNKNOWN": {
+      "turn_count": 14,
+      "total_duration": 70.19899999999777,
+      "average_turn_length": 5.014214285714126
+    },
+    "SPEAKER_23": {
+      "turn_count": 6,
+      "total_duration": 90.24100000000013,
+      "average_turn_length": 15.040166666666687
+    },
+    "SPEAKER_04": {
+      "turn_count": 2,
+      "total_duration": 22.363,
+      "average_turn_length": 11.1815
+    },
+    "SPEAKER_03": {
+      "turn_count": 7,
+      "total_duration": 78.73400000000049,
+      "average_turn_length": 11.247714285714355
+    },
+    "SPEAKER_25": {
+      "turn_count": 24,
+      "total_duration": 989.6949999999971,
+      "average_turn_length": 41.23729166666654
+    },
+    "SPEAKER_07": {
+      "turn_count": 21,
+      "total_duration": 118.78799999999944,
+      "average_turn_length": 5.656571428571402
+    },
+    "SPEAKER_26": {
+      "turn_count": 5,
+      "total_duration": 35.736999999999966,
+      "average_turn_length": 7.147399999999993
+    },
+    "SPEAKER_02": {
+      "turn_count": 19,
+      "total_duration": 444.6800000000004,
+      "average_turn_length": 23.40421052631581
+    },
+    "SPEAKER_09": {
+      "turn_count": 33,
+      "total_duration": 1379.7710000000002,
+      "average_turn_length": 41.81124242424243
+    },
+    "SPEAKER_18": {
+      "turn_count": 27,
+      "total_duration": 1179.6540000000018,
+      "average_turn_length": 43.690888888888956
+    },
+    "SPEAKER_19": {
+      "turn_count": 22,
+      "total_duration": 420.00700000000086,
+      "average_turn_length": 19.091227272727313
+    },
+    "SPEAKER_24": {
+      "turn_count": 7,
+      "total_duration": 79.14500000000044,
+      "average_turn_length": 11.306428571428635
+    },
+    "SPEAKER_06": {
+      "turn_count": 3,
+      "total_duration": 25.97300000000041,
+      "average_turn_length": 8.657666666666804
+    },
+    "SPEAKER_01": {
+      "turn_count": 9,
+      "total_duration": 254.17099999999846,
+      "average_turn_length": 28.24122222222205
+    },
+    "SPEAKER_08": {
+      "turn_count": 6,
+      "total_duration": 26.295999999999367,
+      "average_turn_length": 4.3826666666665615
+    },
+    "SPEAKER_20": {
+      "turn_count": 7,
+      "total_duration": 139.39199999999983,
+      "average_turn_length": 19.913142857142834
+    },
+    "SPEAKER_12": {
+      "turn_count": 7,
+      "total_duration": 65.67500000000018,
+      "average_turn_length": 9.382142857142883
+    },
+    "SPEAKER_22": {
+      "turn_count": 4,
+      "total_duration": 155.48300000000108,
+      "average_turn_length": 38.87075000000027
+    },
+    "SPEAKER_16": {
+      "turn_count": 1,
+      "total_duration": 8.8100000000004,
+      "average_turn_length": 8.8100000000004
+    },
+    "SPEAKER_11": {
+      "turn_count": 5,
+      "total_duration": 216.2599999999993,
+      "average_turn_length": 43.25199999999986
+    }
+  },
+  "interruption_patterns": {
+    "total_interruptions": 154,
+    "interruption_by_speaker": {
+      "SPEAKER_00": 4,
+      "SPEAKER_17": 2,
+      "SPEAKER_14": 2,
+      "SPEAKER_13": 7,
+      "SPEAKER_21": 1,
+      "UNKNOWN": 8,
+      "SPEAKER_05": 5,
+      "SPEAKER_23": 4,
+      "SPEAKER_04": 2,
+      "SPEAKER_03": 4,
+      "SPEAKER_25": 12,
+      "SPEAKER_07": 12,
+      "SPEAKER_02": 13,
+      "SPEAKER_09": 17,
+      "SPEAKER_19": 16,
+      "SPEAKER_18": 13,
+      "SPEAKER_01": 4,
+      "SPEAKER_08": 4,
+      "SPEAKER_26": 2,
+      "SPEAKER_20": 4,
+      "SPEAKER_12": 5,
+      "SPEAKER_15": 3,
+      "SPEAKER_06": 1,
+      "SPEAKER_22": 1,
+      "SPEAKER_16": 1,
+      "SPEAKER_24": 4,
+      "SPEAKER_11": 3
+    },
+    "interrupted_by_speaker": {
+      "SPEAKER_15": 4,
+      "SPEAKER_05": 5,
+      "SPEAKER_17": 2,
+      "SPEAKER_14": 2,
+      "SPEAKER_13": 8,
+      "SPEAKER_00": 2,
+      "SPEAKER_21": 2,
+      "UNKNOWN": 10,
+      "SPEAKER_23": 4,
+      "SPEAKER_04": 1,
+      "SPEAKER_03": 3,
+      "SPEAKER_26": 4,
+      "SPEAKER_18": 17,
+      "SPEAKER_09": 17,
+      "SPEAKER_19": 11,
+      "SPEAKER_02": 7,
+      "SPEAKER_07": 16,
+      "SPEAKER_24": 4,
+      "SPEAKER_01": 5,
+      "SPEAKER_08": 3,
+      "SPEAKER_20": 5,
+      "SPEAKER_06": 2,
+      "SPEAKER_25": 12,
+      "SPEAKER_12": 3,
+      "SPEAKER_22": 1,
+      "SPEAKER_16": 1,
+      "SPEAKER_11": 3
+    }
+  },
+  "overlap_patterns": {
+    "total_overlaps": 77,
+    "overlap_duration_total": 1.5399999999972636
+  },
+  "interaction_graph": {
+    "total_transitions": 262,
+    "unique_transitions": 159
+  },
+  "agenda_control": {
+    "total_introductions": 45,
+    "introductions_by_speaker": {
+      "SPEAKER_15": 2,
+      "SPEAKER_05": 1,
+      "SPEAKER_13": 1,
+      "SPEAKER_26": 2,
+      "SPEAKER_09": 5,
+      "SPEAKER_18": 5,
+      "SPEAKER_25": 4,
+      "SPEAKER_07": 4,
+      "SPEAKER_00": 2,
+      "SPEAKER_03": 1,
+      "SPEAKER_17": 1,
+      "SPEAKER_01": 1,
+      "UNKNOWN": 4,
+      "SPEAKER_19": 3,
+      "SPEAKER_20": 2,
+      "SPEAKER_02": 2,
+      "SPEAKER_12": 1,
+      "SPEAKER_24": 1,
+      "SPEAKER_23": 1,
+      "SPEAKER_11": 1,
+      "SPEAKER_22": 1
+    }
+  },
+  "inequality_metrics": {
+    "gini_coefficient": -0.6555286162397218,
+    "top_10_percent_share": 40.85480819979647,
+    "top_3_share": 55.670950508796736,
+    "shannon_entropy": 3.6038218247029157,
+    "normalized_entropy": 0.7579194719250836,
+    "max_possible_entropy": 4.754887502163468
+  },
+  "gap_statistics": {
+    "median_gap": 0.3409999999998945,
+    "mean_gap": 0.7732785782901164,
+    "same_speaker_median": 0.3409999999998945,
+    "speaker_change_median": 0.36000000000012733
+  }
+}

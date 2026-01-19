@@ -1,0 +1,52 @@
+METHODOLOGICAL NOTE: TOPIC EMERGENCE AS INTERACTIONAL PHENOMENON
+
+This analysis operationalizes topics as emergent interactional objects, not as predefined
+themes or semantic categories. Topics exist only through observable interaction patterns.
+
+Key Operationalizations:
+
+1. Topic Proposal Detection:
+   - Uses semantic similarity (TF-IDF + cosine similarity) to identify new lexical clusters
+   - Threshold: 0.25 similarity (turns below this threshold relative to preceding window
+     are considered topic proposals)
+   - Window size: 5 preceding turns for comparison
+   - No keyword matching or predefined themes
+
+2. Topic Stabilization:
+   - A topic is stabilized only if at least one other speaker responds with semantic
+     overlap exceeding 0.3 similarity
+   - Response window: 30 seconds after topic proposal
+   - Stabilization = successful topic adoption (agenda setting through uptake)
+
+3. Topic Failure:
+   - Failed (silence): Topic followed by >5 seconds of silence
+   - Failed (no uptake): Topic followed by responses but without semantic overlap
+   - Failure indicates lack of interactional uptake
+
+4. Speaker Orientation:
+   - Uptake: Response with semantic similarity ≥0.3
+   - Redirection: Response with similarity 0.3-0.6 (topic transformation)
+   - Monopolization: Proposer extends topic without others (proposer turns > 2x others)
+
+5. Agenda Setting as Uptake:
+   - Topic introduction alone does not equal agenda setting
+   - Agenda setting occurs only when others orient to the topic
+   - Stabilized topics = successful agenda setting
+   - Failed topics = failed agenda setting
+
+Interpretive Constraints:
+- No assignment of semantic authority or correctness to any topic
+- No inference of intent or strategy
+- All topic dynamics grounded in observable interaction patterns
+- Topics are interactional objects, not abstract concepts
+- Resistance and silence are interactional responses, not absences
+
+Visualization Approach:
+- Topic timeline: Shows emergence, stabilization, and decay over time
+- Speaker-topic network: Bipartite graph showing who proposes and who responds
+- Topic trajectories: Shows how topics travel between speakers or stall
+- All visualizations treat topics as emergent, not predefined
+
+This approach respects the interactional nature of topics, showing how they emerge,
+stabilize, transform, or fail through observable patterns of uptake, resistance, and
+redirection.

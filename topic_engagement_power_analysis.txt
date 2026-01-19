@@ -1,0 +1,777 @@
+====================================================================================================
+TOPIC ENGAGEMENT ANALYSIS: TOPICS DISCUSSED AND POWER DYNAMICS
+====================================================================================================
+
+====================================================================================================
+SECTION 1: MOST DISCUSSED TOPICS (Ranked by Engagement)
+====================================================================================================
+
+RANK #1: TOPIC_107
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_09
+Status: failed_no_uptake
+Engagement Score: 27.37
+Total Responses: 3
+Uptake Responses: 0
+Unique Responders: 3
+Total Response Duration: 207.59s
+Average Semantic Similarity: 0.123
+
+TOPIC CONTENT:
+project operates underneath the . If you need to formalize that in order to be able to point and say, like, OK, this is the project underneath us, and this is how we need to do this in order to receive insurance, for whatever that cost. Sure, whatever. OK. Yeah, that's what I want to do.
+
+RESPONDERS:
+  - SPEAKER_07: 1 response(s)
+  - UNKNOWN: 1 response(s)
+  - SPEAKER_01: 1 response(s)
+
+====================================================================================================
+
+RANK #2: TOPIC_79
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_17
+Status: stabilized
+Engagement Score: 26.89
+Total Responses: 5
+Uptake Responses: 1
+Unique Responders: 4
+Total Response Duration: 65.59s
+Average Semantic Similarity: 0.067
+
+TOPIC CONTENT:
+It has its own problems.
+
+RESPONDERS:
+  - SPEAKER_19: 2 response(s)
+  - SPEAKER_05: 1 response(s)
+  - SPEAKER_18: 1 response(s)
+  - SPEAKER_01: 1 response(s)
+
+====================================================================================================
+
+RANK #3: TOPIC_108
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_07
+Status: failed_no_uptake
+Engagement Score: 25.09
+Total Responses: 2
+Uptake Responses: 0
+Unique Responders: 2
+Total Response Duration: 203.88s
+Average Semantic Similarity: 0.139
+
+TOPIC CONTENT:
+OK, so getting insurance is cool.
+
+RESPONDERS:
+  - UNKNOWN: 1 response(s)
+  - SPEAKER_01: 1 response(s)
+
+====================================================================================================
+
+RANK #4: TOPIC_19
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Status: stabilized
+Engagement Score: 22.87
+Total Responses: 2
+Uptake Responses: 1
+Unique Responders: 2
+Total Response Duration: 80.31s
+Average Semantic Similarity: 0.169
+
+TOPIC CONTENT:
+The thing is, we sat down last week, a bunch of us, like, a bunch of people that were there, because of the leak and the stuff that happened, like, we just opened the bank account to see how much we have to handle this, further stuff that might happen and whatnot. And the bank is, like, it's not in a good shape. It's like, hmm?
+
+RESPONDERS:
+  - SPEAKER_23: 1 response(s)
+  - SPEAKER_18: 1 response(s)
+
+====================================================================================================
+
+RANK #5: TOPIC_99
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Status: stabilized
+Engagement Score: 21.88
+Total Responses: 3
+Uptake Responses: 1
+Unique Responders: 3
+Total Response Duration: 46.89s
+Average Semantic Similarity: 0.239
+
+TOPIC CONTENT:
+I don't know if you have to be a citizen to be a member of the Muta.
+
+RESPONDERS:
+  - SPEAKER_15: 1 response(s)
+  - SPEAKER_12: 1 response(s)
+  - SPEAKER_25: 1 response(s)
+
+====================================================================================================
+
+RANK #6: TOPIC_20
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_07
+Status: failed_no_uptake
+Engagement Score: 18.04
+Total Responses: 2
+Uptake Responses: 0
+Unique Responders: 2
+Total Response Duration: 133.76s
+Average Semantic Similarity: 0.133
+
+TOPIC CONTENT:
+Usually it's on your call and nobody sees it.
+
+RESPONDERS:
+  - SPEAKER_02: 1 response(s)
+  - SPEAKER_09: 1 response(s)
+
+====================================================================================================
+
+RANK #7: TOPIC_67
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_07
+Status: failed_no_uptake
+Engagement Score: 17.64
+Total Responses: 3
+Uptake Responses: 0
+Unique Responders: 2
+Total Response Duration: 114.74s
+Average Semantic Similarity: 0.034
+
+TOPIC CONTENT:
+I just wanted to respond.
+
+RESPONDERS:
+  - SPEAKER_20: 2 response(s)
+  - SPEAKER_25: 1 response(s)
+
+====================================================================================================
+
+RANK #8: TOPIC_143
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_05
+Status: failed_no_uptake
+Engagement Score: 17.50
+Total Responses: 2
+Uptake Responses: 0
+Unique Responders: 2
+Total Response Duration: 132.26s
+Average Semantic Similarity: 0.054
+
+TOPIC CONTENT:
+Talking is good, but if you're talking to any actual politician or government entity, the firm, as I'm concerned, you're disqualified from having anything remotely to do with government. Keep that in mind. That's your opinion. Yeah. I'm not saying we should do anything in Bingo. No.
+
+RESPONDERS:
+  - SPEAKER_15: 1 response(s)
+  - SPEAKER_11: 1 response(s)
+
+====================================================================================================
+
+RANK #9: TOPIC_116
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_01
+Status: failed_no_uptake
+Engagement Score: 15.50
+Total Responses: 1
+Uptake Responses: 0
+Unique Responders: 1
+Total Response Duration: 128.27s
+Average Semantic Similarity: 0.134
+
+TOPIC CONTENT:
+Yeah, I mean, that's fine, I agree.
+
+RESPONDERS:
+  - SPEAKER_22: 1 response(s)
+
+====================================================================================================
+
+RANK #10: TOPIC_63
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_23
+Status: failed_no_uptake
+Engagement Score: 15.00
+Total Responses: 1
+Uptake Responses: 0
+Unique Responders: 1
+Total Response Duration: 121.94s
+Average Semantic Similarity: 0.161
+
+TOPIC CONTENT:
+It's not a... And you need one year of papal trail?
+
+RESPONDERS:
+  - SPEAKER_09: 1 response(s)
+
+====================================================================================================
+
+RANK #11: TOPIC_144
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_15
+Status: failed_no_uptake
+Engagement Score: 14.92
+Total Responses: 1
+Uptake Responses: 0
+Unique Responders: 1
+Total Response Duration: 129.24s
+Average Semantic Similarity: 0.000
+
+TOPIC CONTENT:
+Can I share something with you?
+
+RESPONDERS:
+  - SPEAKER_11: 1 response(s)
+
+====================================================================================================
+
+RANK #12: TOPIC_89
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Status: failed_no_uptake
+Engagement Score: 14.83
+Total Responses: 1
+Uptake Responses: 0
+Unique Responders: 1
+Total Response Duration: 128.27s
+Average Semantic Similarity: 0.000
+
+TOPIC CONTENT:
+Today, what was the protocol to be a board member, to go in as a board member and to leave as a board member?
+
+RESPONDERS:
+  - SPEAKER_25: 1 response(s)
+
+====================================================================================================
+
+RANK #13: TOPIC_84
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_19
+Status: failed_no_uptake
+Engagement Score: 14.43
+Total Responses: 1
+Uptake Responses: 0
+Unique Responders: 1
+Total Response Duration: 121.37s
+Average Semantic Similarity: 0.058
+
+TOPIC CONTENT:
+Yeah, money. We cannot solve everything for ourselves.
+
+RESPONDERS:
+  - SPEAKER_18: 1 response(s)
+
+====================================================================================================
+
+RANK #14: TOPIC_13
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_26
+Status: failed_no_uptake
+Engagement Score: 14.41
+Total Responses: 1
+Uptake Responses: 0
+Unique Responders: 1
+Total Response Duration: 118.33s
+Average Semantic Similarity: 0.116
+
+TOPIC CONTENT:
+Tell me the official entity.
+
+RESPONDERS:
+  - SPEAKER_09: 1 response(s)
+
+====================================================================================================
+
+RANK #15: TOPIC_119
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_22
+Status: failed_no_uptake
+Engagement Score: 14.22
+Total Responses: 2
+Uptake Responses: 0
+Unique Responders: 2
+Total Response Duration: 99.72s
+Average Semantic Similarity: 0.050
+
+TOPIC CONTENT:
+You just need someone who did it. If you wanted to do something, find someone who will do it. That's all. I don't get that much about your point now. Where are you going to? I don't get the point. Where are you going to?
+
+RESPONDERS:
+  - SPEAKER_03: 1 response(s)
+  - SPEAKER_18: 1 response(s)
+
+====================================================================================================
+
+RANK #16: TOPIC_73
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_08
+Status: failed_no_uptake
+Engagement Score: 14.18
+Total Responses: 2
+Uptake Responses: 0
+Unique Responders: 2
+Total Response Duration: 100.56s
+Average Semantic Similarity: 0.026
+
+TOPIC CONTENT:
+Anybody else want to?
+
+RESPONDERS:
+  - SPEAKER_19: 1 response(s)
+  - SPEAKER_25: 1 response(s)
+
+====================================================================================================
+
+RANK #17: TOPIC_88
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_20
+Status: failed_no_uptake
+Engagement Score: 13.74
+Total Responses: 1
+Uptake Responses: 0
+Unique Responders: 1
+Total Response Duration: 102.66s
+Average Semantic Similarity: 0.295
+
+TOPIC CONTENT:
+I was feeling like maybe I'm sort of like a firewall for Tami, like in my position, because I don't really care that much about like doing something else with it, and things seem to be sort of cruising along. So maybe it's a good thing.
+
+RESPONDERS:
+  - SPEAKER_25: 1 response(s)
+
+====================================================================================================
+
+RANK #18: TOPIC_21
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Status: failed_silence
+Engagement Score: 13.23
+Total Responses: 1
+Uptake Responses: 0
+Unique Responders: 1
+Total Response Duration: 106.52s
+Average Semantic Similarity: 0.116
+
+TOPIC CONTENT:
+And it's passive. Rather than being active throughout the year, to be on top. Rather than being active throughout the year, to be on top of things, just to make sure that the NGO is just healthy. And there are a lot of things that can be done to be a healthy NGO. It's just bureaucracy and filing papers or having a paper trail or declaring stuff.
+
+RESPONDERS:
+  - SPEAKER_09: 1 response(s)
+
+====================================================================================================
+
+RANK #19: TOPIC_56
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_26
+Status: failed_no_uptake
+Engagement Score: 12.50
+Total Responses: 2
+Uptake Responses: 0
+Unique Responders: 1
+Total Response Duration: 79.46s
+Average Semantic Similarity: 0.110
+
+TOPIC CONTENT:
+Yeah, which we have and we don't need to change.
+
+RESPONDERS:
+  - SPEAKER_09: 2 response(s)
+
+====================================================================================================
+
+RANK #20: TOPIC_87
+----------------------------------------------------------------------------------------------------
+Proposer: SPEAKER_02
+Status: failed_no_uptake
+Engagement Score: 12.38
+Total Responses: 5
+Uptake Responses: 0
+Unique Responders: 3
+Total Response Duration: 21.22s
+Average Semantic Similarity: 0.052
+
+TOPIC CONTENT:
+I don't think anyone wants actively to be a Sherman. Yeah.
+
+RESPONDERS:
+  - SPEAKER_20: 3 response(s)
+  - SPEAKER_12: 1 response(s)
+  - UNKNOWN: 1 response(s)
+
+====================================================================================================
+
+====================================================================================================
+SECTION 2: TOPICS BY STATUS
+====================================================================================================
+
+STABILIZED TOPICS (Successful Agenda Setting): 3
+----------------------------------------------------------------------------------------------------
+  TOPIC_79 - SPEAKER_17
+    Content: It has its own problems....
+    Responders: SPEAKER_01, SPEAKER_05, SPEAKER_18, SPEAKER_19
+    Engagement Score: 26.89
+
+  TOPIC_19 - SPEAKER_02
+    Content: The thing is, we sat down last week, a bunch of us, like, a bunch of people that were there, because of the leak and the stuff that happened, like, we...
+    Responders: SPEAKER_18, SPEAKER_23
+    Engagement Score: 22.87
+
+  TOPIC_99 - SPEAKER_19
+    Content: I don't know if you have to be a citizen to be a member of the Muta....
+    Responders: SPEAKER_25, SPEAKER_15, SPEAKER_12
+    Engagement Score: 21.88
+
+FAILED TOPICS (No Uptake): 142
+----------------------------------------------------------------------------------------------------
+Top 10 Failed Topics by Engagement:
+  TOPIC_107 - SPEAKER_09
+    Content: project operates underneath the . If you need to formalize that in order to be able to point and say, like, OK, this is the project underneath us, and...
+    Responses: 3 (but no uptake)
+    Responders: UNKNOWN, SPEAKER_01, SPEAKER_07
+
+  TOPIC_108 - SPEAKER_07
+    Content: OK, so getting insurance is cool....
+    Responses: 2 (but no uptake)
+    Responders: UNKNOWN, SPEAKER_01
+
+  TOPIC_20 - SPEAKER_07
+    Content: Usually it's on your call and nobody sees it....
+    Responses: 2 (but no uptake)
+    Responders: SPEAKER_02, SPEAKER_09
+
+  TOPIC_67 - SPEAKER_07
+    Content: I just wanted to respond....
+    Responses: 3 (but no uptake)
+    Responders: SPEAKER_25, SPEAKER_20
+
+  TOPIC_143 - SPEAKER_05
+    Content: Talking is good, but if you're talking to any actual politician or government entity, the firm, as I'm concerned, you're disqualified from having anyt...
+    Responses: 2 (but no uptake)
+    Responders: SPEAKER_15, SPEAKER_11
+
+  TOPIC_116 - SPEAKER_01
+    Content: Yeah, I mean, that's fine, I agree....
+    Responses: 1 (but no uptake)
+    Responders: SPEAKER_22
+
+  TOPIC_63 - SPEAKER_23
+    Content: It's not a... And you need one year of papal trail?...
+    Responses: 1 (but no uptake)
+    Responders: SPEAKER_09
+
+  TOPIC_144 - SPEAKER_15
+    Content: Can I share something with you?...
+    Responses: 1 (but no uptake)
+    Responders: SPEAKER_11
+
+  TOPIC_89 - SPEAKER_19
+    Content: Today, what was the protocol to be a board member, to go in as a board member and to leave as a board member?...
+    Responses: 1 (but no uptake)
+    Responders: SPEAKER_25
+
+  TOPIC_84 - SPEAKER_19
+    Content: Yeah, money. We cannot solve everything for ourselves....
+    Responses: 1 (but no uptake)
+    Responders: SPEAKER_18
+
+FAILED TOPICS (Silence): 7
+----------------------------------------------------------------------------------------------------
+  TOPIC_21 - SPEAKER_02
+    Content: And it's passive. Rather than being active throughout the year, to be on top. Rather than being active throughout the year, to be on top of things, ju...
+
+  TOPIC_96 - SPEAKER_12
+    Content: That works. I think more differently....
+
+  TOPIC_127 - SPEAKER_03
+    Content: No, voting would be needed for money from Tommy's fund....
+
+  TOPIC_140 - SPEAKER_03
+    Content: Yeah, sure. I don't want to test that. Like, why do we need to test it? The help, by the moves, the relocations from one place to another. It has alre...
+
+  TOPIC_3 - SPEAKER_04
+    Content: Yeah, that's true. But now, even me and you, like this, the vibrations of the field....
+
+  TOPIC_28 - SPEAKER_09
+    Content: So let me list some of the stuff before I get into what you just said. So some examples, for instance, things that NGOs need to do is have a budget, h...
+
+  TOPIC_103 - SPEAKER_18
+    Content: Is there something you know that we're not legally not ?...
+
+====================================================================================================
+SECTION 3: SPEAKER ENGAGEMENT PATTERNS
+====================================================================================================
+
+MOST ACTIVE RESPONDERS (Who engages with topics most):
+----------------------------------------------------------------------------------------------------
+  SPEAKER_09: 32 responses to topics
+  SPEAKER_19: 19 responses to topics
+  SPEAKER_25: 17 responses to topics
+  SPEAKER_18: 16 responses to topics
+  SPEAKER_02: 16 responses to topics
+  SPEAKER_20: 13 responses to topics
+  SPEAKER_08: 12 responses to topics
+  SPEAKER_01: 11 responses to topics
+  SPEAKER_12: 11 responses to topics
+  SPEAKER_07: 10 responses to topics
+  UNKNOWN: 8 responses to topics
+  SPEAKER_23: 6 responses to topics
+  SPEAKER_15: 6 responses to topics
+  SPEAKER_24: 5 responses to topics
+  SPEAKER_05: 4 responses to topics
+
+TOPIC PROPOSERS RANKED BY AVERAGE ENGAGEMENT SCORE:
+----------------------------------------------------------------------------------------------------
+  SPEAKER_17:
+    Topics Proposed: 1
+    Average Engagement Score: 26.89
+    Stabilized Topics: 1
+
+  SPEAKER_05:
+    Topics Proposed: 1
+    Average Engagement Score: 17.50
+    Stabilized Topics: 0
+
+  SPEAKER_15:
+    Topics Proposed: 1
+    Average Engagement Score: 14.92
+    Stabilized Topics: 0
+
+  SPEAKER_07:
+    Topics Proposed: 10
+    Average Engagement Score: 12.14
+    Stabilized Topics: 0
+
+  SPEAKER_26:
+    Topics Proposed: 3
+    Average Engagement Score: 11.85
+    Stabilized Topics: 0
+
+  SPEAKER_22:
+    Topics Proposed: 3
+    Average Engagement Score: 8.77
+    Stabilized Topics: 0
+
+  SPEAKER_08:
+    Topics Proposed: 4
+    Average Engagement Score: 8.38
+    Stabilized Topics: 0
+
+  SPEAKER_00:
+    Topics Proposed: 2
+    Average Engagement Score: 7.76
+    Stabilized Topics: 0
+
+  SPEAKER_01:
+    Topics Proposed: 9
+    Average Engagement Score: 7.75
+    Stabilized Topics: 0
+
+  SPEAKER_24:
+    Topics Proposed: 6
+    Average Engagement Score: 7.23
+    Stabilized Topics: 0
+
+  SPEAKER_12:
+    Topics Proposed: 4
+    Average Engagement Score: 7.16
+    Stabilized Topics: 0
+
+  SPEAKER_20:
+    Topics Proposed: 5
+    Average Engagement Score: 7.12
+    Stabilized Topics: 0
+
+  SPEAKER_23:
+    Topics Proposed: 4
+    Average Engagement Score: 6.86
+    Stabilized Topics: 0
+
+  UNKNOWN:
+    Topics Proposed: 4
+    Average Engagement Score: 6.81
+    Stabilized Topics: 0
+
+  SPEAKER_19:
+    Topics Proposed: 16
+    Average Engagement Score: 6.04
+    Stabilized Topics: 1
+
+====================================================================================================
+SECTION 4: POWER DYNAMICS REVEALED THROUGH TOPIC ENGAGEMENT
+====================================================================================================
+
+4.1 AGENDA SETTING CAPACITY (Whose Topics Attract Attention)
+----------------------------------------------------------------------------------------------------
+
+High Engagement Topics (Top 10):
+  1. TOPIC_107 by SPEAKER_09
+     Engagement: 27.37, Responses: 3, Uptake: 0
+     Content: project operates underneath the . If you need to formalize that in order to be able to point and say...
+
+  2. TOPIC_79 by SPEAKER_17
+     Engagement: 26.89, Responses: 5, Uptake: 1
+     Content: It has its own problems....
+
+  3. TOPIC_108 by SPEAKER_07
+     Engagement: 25.09, Responses: 2, Uptake: 0
+     Content: OK, so getting insurance is cool....
+
+  4. TOPIC_19 by SPEAKER_02
+     Engagement: 22.87, Responses: 2, Uptake: 1
+     Content: The thing is, we sat down last week, a bunch of us, like, a bunch of people that were there, because...
+
+  5. TOPIC_99 by SPEAKER_19
+     Engagement: 21.88, Responses: 3, Uptake: 1
+     Content: I don't know if you have to be a citizen to be a member of the Muta....
+
+  6. TOPIC_20 by SPEAKER_07
+     Engagement: 18.04, Responses: 2, Uptake: 0
+     Content: Usually it's on your call and nobody sees it....
+
+  7. TOPIC_67 by SPEAKER_07
+     Engagement: 17.64, Responses: 3, Uptake: 0
+     Content: I just wanted to respond....
+
+  8. TOPIC_143 by SPEAKER_05
+     Engagement: 17.50, Responses: 2, Uptake: 0
+     Content: Talking is good, but if you're talking to any actual politician or government entity, the firm, as I...
+
+  9. TOPIC_116 by SPEAKER_01
+     Engagement: 15.50, Responses: 1, Uptake: 0
+     Content: Yeah, I mean, that's fine, I agree....
+
+  10. TOPIC_63 by SPEAKER_23
+     Engagement: 15.00, Responses: 1, Uptake: 0
+     Content: It's not a... And you need one year of papal trail?...
+
+4.2 RESPONSE ATTRACTION (Who Attracts Responses)
+----------------------------------------------------------------------------------------------------
+
+Speakers whose topics receive most responses:
+  SPEAKER_07: 24 total responses across 10 topics (avg: 2.4 per topic)
+  SPEAKER_02: 21 total responses across 16 topics (avg: 1.3 per topic)
+  SPEAKER_09: 20 total responses across 20 topics (avg: 1.0 per topic)
+  SPEAKER_18: 20 total responses across 17 topics (avg: 1.2 per topic)
+  SPEAKER_19: 18 total responses across 16 topics (avg: 1.1 per topic)
+  SPEAKER_01: 17 total responses across 9 topics (avg: 1.9 per topic)
+  SPEAKER_24: 10 total responses across 6 topics (avg: 1.7 per topic)
+  SPEAKER_12: 10 total responses across 4 topics (avg: 2.5 per topic)
+  SPEAKER_25: 10 total responses across 12 topics (avg: 0.8 per topic)
+  SPEAKER_20: 9 total responses across 5 topics (avg: 1.8 per topic)
+
+4.3 UPTAKE SUCCESS (Whose Topics Achieve Semantic Uptake)
+----------------------------------------------------------------------------------------------------
+
+  SPEAKER_17: 1 uptake responses, 1 stabilized topics out of 1 proposed
+  SPEAKER_02: 1 uptake responses, 1 stabilized topics out of 16 proposed
+  SPEAKER_19: 1 uptake responses, 1 stabilized topics out of 16 proposed
+
+4.4 SPEAKING TIME vs. TOPIC ENGAGEMENT (Power Decoupling)
+----------------------------------------------------------------------------------------------------
+
+High Speaking Time Speakers:
+  SPEAKER_09:
+    Speaking Time: 1296.5s (18.9%)
+    Topics Proposed: 20
+    Stabilized: 0 (0.0%)
+    Avg Engagement Score: 4.67
+
+  SPEAKER_18:
+    Speaking Time: 1089.2s (15.9%)
+    Topics Proposed: 17
+    Stabilized: 0 (0.0%)
+    Avg Engagement Score: 3.64
+
+  SPEAKER_25:
+    Speaking Time: 865.2s (12.6%)
+    Topics Proposed: 12
+    Stabilized: 0 (0.0%)
+    Avg Engagement Score: 3.03
+
+  SPEAKER_02:
+    Speaking Time: 411.9s (6.0%)
+    Topics Proposed: 16
+    Stabilized: 1 (6.2%)
+    Avg Engagement Score: 5.58
+
+  SPEAKER_19:
+    Speaking Time: 395.0s (5.8%)
+    Topics Proposed: 16
+    Stabilized: 1 (6.2%)
+    Avg Engagement Score: 6.04
+
+  SPEAKER_01:
+    Speaking Time: 242.5s (3.5%)
+    Topics Proposed: 9
+    Stabilized: 0 (0.0%)
+    Avg Engagement Score: 7.75
+
+  SPEAKER_11:
+    Speaking Time: 201.9s (2.9%)
+    Topics Proposed: 2
+    Stabilized: 0 (0.0%)
+    Avg Engagement Score: 5.51
+
+  SPEAKER_00:
+    Speaking Time: 195.4s (2.9%)
+    Topics Proposed: 2
+    Stabilized: 0 (0.0%)
+    Avg Engagement Score: 7.76
+
+  SPEAKER_13:
+    Speaking Time: 152.8s (2.2%)
+    Topics Proposed: 4
+    Stabilized: 0 (0.0%)
+    Avg Engagement Score: 2.19
+
+  SPEAKER_22:
+    Speaking Time: 141.8s (2.1%)
+    Topics Proposed: 3
+    Stabilized: 0 (0.0%)
+    Avg Engagement Score: 8.77
+
+4.5 TOPIC THEMES THAT ATTRACT ATTENTION
+----------------------------------------------------------------------------------------------------
+
+Successful Topics (Stabilized):
+  TOPIC_79: It has its own problems.
+    Proposer: SPEAKER_17, Responders: SPEAKER_01, SPEAKER_05, SPEAKER_18, SPEAKER_19
+
+  TOPIC_19: The thing is, we sat down last week, a bunch of us, like, a bunch of people that were there, because of the leak and the stuff that happened, like, we just opened the bank account to see how much we h
+    Proposer: SPEAKER_02, Responders: SPEAKER_18, SPEAKER_23
+
+  TOPIC_99: I don't know if you have to be a citizen to be a member of the Muta.
+    Proposer: SPEAKER_19, Responders: SPEAKER_25, SPEAKER_15, SPEAKER_12
+
+High Engagement Failed Topics (Attracted Responses but No Uptake):
+  TOPIC_107: project operates underneath the . If you need to formalize that in order to be able to point and say, like, OK, this is the project underneath us, and this is how we need to do this in order to receiv
+    Proposer: SPEAKER_09, Responses: 3, Responders: UNKNOWN, SPEAKER_01, SPEAKER_07
+
+  TOPIC_108: OK, so getting insurance is cool.
+    Proposer: SPEAKER_07, Responses: 2, Responders: UNKNOWN, SPEAKER_01
+
+  TOPIC_20: Usually it's on your call and nobody sees it.
+    Proposer: SPEAKER_07, Responses: 2, Responders: SPEAKER_02, SPEAKER_09
+
+  TOPIC_67: I just wanted to respond.
+    Proposer: SPEAKER_07, Responses: 3, Responders: SPEAKER_25, SPEAKER_20
+
+  TOPIC_143: Talking is good, but if you're talking to any actual politician or government entity, the firm, as I'm concerned, you're disqualified from having anything remotely to do with government. Keep that in 
+    Proposer: SPEAKER_05, Responses: 2, Responders: SPEAKER_15, SPEAKER_11
+
+  TOPIC_116: Yeah, I mean, that's fine, I agree.
+    Proposer: SPEAKER_01, Responses: 1, Responders: SPEAKER_22
+
+  TOPIC_63: It's not a... And you need one year of papal trail?
+    Proposer: SPEAKER_23, Responses: 1, Responders: SPEAKER_09
+
+  TOPIC_144: Can I share something with you?
+    Proposer: SPEAKER_15, Responses: 1, Responders: SPEAKER_11
+
+  TOPIC_89: Today, what was the protocol to be a board member, to go in as a board member and to leave as a board member?
+    Proposer: SPEAKER_19, Responses: 1, Responders: SPEAKER_25
+
+  TOPIC_84: Yeah, money. We cannot solve everything for ourselves.
+    Proposer: SPEAKER_19, Responses: 1, Responders: SPEAKER_18

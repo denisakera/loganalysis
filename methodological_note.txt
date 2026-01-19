@@ -1,0 +1,39 @@
+
+METHODOLOGICAL NOTE: OPERATIONALIZING POWER DYNAMICS
+
+This analysis operationalizes interactional power dynamics through structural features
+of conversation, not through semantic interpretation or assumptions about authority.
+
+Key Operationalizations:
+
+1. Speaking Time Dominance: Measured as total duration of non-filler utterances per
+   speaker, expressed as absolute time and percentage of total meeting duration.
+
+2. Turn-Taking Structure: Quantifies the number of turns per speaker and average turn
+   length. Asymmetries emerge when some speakers have many short turns while others
+   have few long turns, indicating different interactional strategies.
+
+3. Interruption Proxy: Detects rapid turn-taking (gaps < 0.5s) between different
+   speakers as a proxy for interruption behavior. This is a structural indicator,
+   not a claim about intentionality.
+
+4. Overlap Detection: Identifies temporal overlaps in speech timestamps, indicating
+   simultaneous speech events.
+
+5. Directed Interaction Graph: Constructs a weighted directed graph where edges
+   represent immediate speaker transitions. Edge weights indicate frequency of
+   transitions, revealing patterns of who responds to whom.
+
+6. Agenda Control Indicators: Identifies speakers who initiate new conversational
+   segments after silence periods (≥2s), operationalizing topic introduction
+   behavior.
+
+Interpretive Constraints:
+- No claims are made about speaker intentions, authority, or argumentative quality.
+- Metrics describe structural patterns only.
+- Normative interpretation (dominant, marginal, aggressive, passive) is left to
+  the human analyst.
+- Speaker labels are treated as unique nodes without identity inference.
+
+All visualizations use neutral color schemes and prioritize legibility over
+aesthetic embellishment.

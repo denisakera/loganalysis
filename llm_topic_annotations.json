@@ -1,0 +1,768 @@
+{
+  "annotations": [
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 45,
+      "end_turn_index": 45,
+      "start_time": 1082.31,
+      "end_time": 1105.85,
+      "introducer": "SPEAKER_02",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_02 introduces a new topic regarding the bank account and its condition, which is not a continuation of the previous discussion about legal positions and responsibilities.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_23",
+          "relation": "taken_up",
+          "turn_index": 46,
+          "justification": "SPEAKER_23 immediately responds by expressing a desire to speak about the topic introduced by SPEAKER_02, indicating engagement with the new topic."
+        },
+        {
+          "speaker": "SPEAKER_18",
+          "relation": "taken_up",
+          "turn_index": 47,
+          "justification": "SPEAKER_18 continues the discussion by providing further context related to the topic of bureaucracy and handling organizational matters, which aligns with the concerns raised by SPEAKER_02."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 144,
+      "end_turn_index": 144,
+      "start_time": 4092.08,
+      "end_time": 4095.09,
+      "introducer": "SPEAKER_17",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_17 introduces a new semantic frame about problems, which is not a direct continuation of the preceding discussion focused on budgeting and financial commitments.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_05",
+          "relation": "taken_up",
+          "turn_index": 145,
+          "justification": "SPEAKER_05 responds immediately after with 'I feel like those are the problems you have,' indicating engagement with the topic introduced by SPEAKER_17."
+        },
+        {
+          "speaker": "SPEAKER_18",
+          "relation": "ignored",
+          "turn_index": 146,
+          "justification": "SPEAKER_18 shifts the focus to a different subject about Tami's success, not addressing the problems mentioned by SPEAKER_17."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 182,
+      "end_turn_index": 182,
+      "start_time": 4892.72,
+      "end_time": 4898.56,
+      "introducer": "SPEAKER_19",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_19 introduces a new question about citizenship and membership in the Muta, which is not a continuation of the previous discussion.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_15",
+          "relation": "taken_up",
+          "turn_index": 183,
+          "justification": "SPEAKER_15 responds with 'I don't know,' indicating engagement with the topic introduced by SPEAKER_19."
+        },
+        {
+          "speaker": "SPEAKER_12",
+          "relation": "taken_up",
+          "turn_index": 184,
+          "justification": "SPEAKER_12 continues the discussion by mentioning the need for members, which relates to the topic of membership."
+        },
+        {
+          "speaker": "SPEAKER_25",
+          "relation": "taken_up",
+          "turn_index": 185,
+          "justification": "SPEAKER_25 further engages with the topic by discussing the need for members and the possibility of an emergency meeting, which connects back to the membership issue."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 4,
+      "end_turn_index": 4,
+      "start_time": 95.58,
+      "end_time": 121.04,
+      "introducer": "SPEAKER_14",
+      "status": "failed",
+      "confidence": "high",
+      "justification": "The introduction of 'E-M is...' by SPEAKER_14 follows a long silence and does not connect to the preceding turns, indicating a new semantic frame.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_13",
+          "relation": "ignored",
+          "turn_index": 5,
+          "justification": "SPEAKER_13 responds with silence, indicating no engagement with the topic introduced by SPEAKER_14."
+        },
+        {
+          "speaker": "SPEAKER_00",
+          "relation": "ignored",
+          "turn_index": 6,
+          "justification": "SPEAKER_00 also responds with silence, further indicating a lack of uptake of the topic."
+        },
+        {
+          "speaker": "SPEAKER_21",
+          "relation": "ignored",
+          "turn_index": 7,
+          "justification": "SPEAKER_21's subsequent silence shows no orientation towards the topic introduced."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "relation": "ignored",
+          "turn_index": 8,
+          "justification": "The UNKNOWN speaker's contribution is also silent, indicating no engagement with the topic."
+        },
+        {
+          "speaker": "SPEAKER_13",
+          "relation": "ignored",
+          "turn_index": 9,
+          "justification": "SPEAKER_13's later turn continues the pattern of silence, confirming the lack of uptake."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 14,
+      "end_turn_index": 15,
+      "start_time": 263.11,
+      "end_time": 283.38,
+      "introducer": "SPEAKER_13",
+      "status": "failed",
+      "confidence": "high",
+      "justification": "The topic introduced by SPEAKER_13 regarding expectations about Ian's conclusion and getting into philosophical college does not continue the preceding interaction, which was largely silent or unrelated. The subsequent response from an UNKNOWN speaker does not engage with the introduced topic.",
+      "speaker_orientations": [
+        {
+          "speaker": "UNKNOWN",
+          "relation": "ignored",
+          "turn_index": 15,
+          "justification": "The response from UNKNOWN shifts to a different topic about electromagnetic interactions, indicating a lack of engagement with SPEAKER_13's question."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 15,
+      "end_turn_index": 15,
+      "start_time": 283.4,
+      "end_time": 300.13,
+      "introducer": "UNKNOWN",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "The introduction of audio from electromagnetic interactions represents a shift from the previous discussion about philosophical college expectations.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_04",
+          "relation": "taken_up",
+          "turn_index": 16,
+          "justification": "SPEAKER_04 responds directly to the introduced topic by referencing vibrations of the field, indicating engagement with the topic."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "relation": "ignored",
+          "turn_index": 17,
+          "justification": "There is a significant silence from UNKNOWN after the introduction, suggesting a lack of further engagement with the topic."
+        },
+        {
+          "speaker": "SPEAKER_14",
+          "relation": "ignored",
+          "turn_index": 18,
+          "justification": "SPEAKER_14's response does not address the topic, indicating a lack of uptake."
+        },
+        {
+          "speaker": "SPEAKER_13",
+          "relation": "ignored",
+          "turn_index": 19,
+          "justification": "SPEAKER_13's lengthy response does not relate to the electromagnetic topic, further indicating a lack of engagement."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "relation": "ignored",
+          "turn_index": 20,
+          "justification": "UNKNOWN's turn does not address the topic, contributing to the lack of uptake."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 16,
+      "end_turn_index": 16,
+      "start_time": 300.38,
+      "end_time": 309.82,
+      "introducer": "SPEAKER_04",
+      "status": "failed",
+      "confidence": "high",
+      "justification": "The introduction of 'the vibrations of the field' by SPEAKER_04 does not connect to the preceding discussion about electromagnetic interactions and philosophical expectations, indicating a shift in semantic framing.",
+      "speaker_orientations": [
+        {
+          "speaker": "UNKNOWN",
+          "relation": "ignored",
+          "turn_index": 17,
+          "justification": "The subsequent turn (Turn 17) consists of silence, indicating no response or engagement with the topic introduced by SPEAKER_04."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 19,
+      "end_turn_index": 21,
+      "start_time": 356.67,
+      "end_time": 431.17,
+      "introducer": "SPEAKER_13",
+      "status": "failed",
+      "confidence": "high",
+      "justification": "SPEAKER_13 introduces a new semantic frame about the government that does not connect with the preceding discussion about electromagnetic interactions. The subsequent turns (20 and 21) show no substantive uptake or engagement with this topic.",
+      "speaker_orientations": [
+        {
+          "speaker": "UNKNOWN",
+          "relation": "ignored",
+          "turn_index": 20,
+          "justification": "Turn 20 is a non-verbal response (silence) that indicates no engagement with the topic introduced by SPEAKER_13."
+        },
+        {
+          "speaker": "SPEAKER_13",
+          "relation": "ignored",
+          "turn_index": 21,
+          "justification": "Turn 21 is also a non-verbal response from SPEAKER_13, further indicating a lack of uptake or engagement with the topic."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 23,
+      "end_turn_index": 24,
+      "start_time": 467.33,
+      "end_time": 492.98,
+      "introducer": "SPEAKER_13",
+      "status": "failed",
+      "confidence": "high",
+      "justification": "The question 'Hey David, what's going on?' introduces a new topic that is not continuous with the preceding turns, particularly after a long stretch of silence and unrelated content.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_25",
+          "relation": "ignored",
+          "turn_index": 24,
+          "justification": "SPEAKER_25 responds with an unrelated statement that does not address SPEAKER_13's question, indicating a lack of uptake."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 24,
+      "end_turn_index": 24,
+      "start_time": 493.0,
+      "end_time": 523.99,
+      "introducer": "SPEAKER_25",
+      "status": "failed",
+      "confidence": "high",
+      "justification": "The topic introduced by SPEAKER_25 about webcams and internet research is semantically distinct from the preceding discussion about government information, indicating a topic emergence.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_13",
+          "relation": "ignored",
+          "turn_index": 25,
+          "justification": "SPEAKER_13's response is a non-sequitur ('... ... Thank you very much.') following silence, indicating a lack of engagement with the topic introduced by SPEAKER_25."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "relation": "ignored",
+          "turn_index": 26,
+          "justification": "The response from UNKNOWN ('What happened?') does not address the topic introduced by SPEAKER_25, further indicating a lack of uptake."
+        },
+        {
+          "speaker": "SPEAKER_07",
+          "relation": "ignored",
+          "turn_index": 27,
+          "justification": "SPEAKER_07's question ('Where did you...?') does not relate to the topic introduced by SPEAKER_25, showing continued disinterest or lack of relevance."
+        },
+        {
+          "speaker": "SPEAKER_26",
+          "relation": "ignored",
+          "turn_index": 28,
+          "justification": "SPEAKER_26's response ('Yeah, all right.') does not engage with the topic introduced by SPEAKER_25, indicating further neglect of the topic."
+        },
+        {
+          "speaker": "SPEAKER_02",
+          "relation": "recycled",
+          "turn_index": 29,
+          "justification": "SPEAKER_02 introduces a new topic about NGO meetings and bureaucracy, which does not directly relate to SPEAKER_25's topic but suggests a shift in focus."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 25,
+      "end_turn_index": 25,
+      "start_time": 528.54,
+      "end_time": 583.4,
+      "introducer": "SPEAKER_13",
+      "status": "failed",
+      "confidence": "high",
+      "justification": "SPEAKER_13's turn introduces a thank you after a silence, which does not connect to the preceding conversation about webcams and research issues.",
+      "speaker_orientations": [
+        {
+          "speaker": "UNKNOWN",
+          "relation": "ignored",
+          "turn_index": 26,
+          "justification": "The following turn from UNKNOWN asks 'What happened?' indicating a lack of uptake or relevance to SPEAKER_13's thank you."
+        },
+        {
+          "speaker": "SPEAKER_07",
+          "relation": "ignored",
+          "turn_index": 27,
+          "justification": "SPEAKER_07's question 'Where did you...?' further illustrates a lack of engagement with the topic introduced by SPEAKER_13."
+        },
+        {
+          "speaker": "SPEAKER_26",
+          "relation": "ignored",
+          "turn_index": 28,
+          "justification": "SPEAKER_26's response 'Yeah, all right.' does not engage with the topic and follows silence, indicating no connection to SPEAKER_13's turn."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 30,
+      "end_turn_index": 30,
+      "start_time": 697.98,
+      "end_time": 708.98,
+      "introducer": "SPEAKER_09",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "The statement by SPEAKER_09 introduces a new topic regarding the board of directors, which is not a continuation of the previous discussion about NGO bureaucracy.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_18",
+          "relation": "taken_up",
+          "turn_index": 31,
+          "justification": "SPEAKER_18 immediately asks for context, indicating an orientation towards the new topic introduced by SPEAKER_09."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 31,
+      "end_turn_index": 33,
+      "start_time": 710.3,
+      "end_time": 781.83,
+      "introducer": "SPEAKER_18",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_18 introduces a new semantic frame by asking for context, which is not a continuation of the previous discussion about board membership and bureaucracy.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_09",
+          "relation": "taken_up",
+          "turn_index": 32,
+          "justification": "SPEAKER_09 responds affirmatively to the request for context, indicating alignment with the new topic introduced by SPEAKER_18."
+        },
+        {
+          "speaker": "SPEAKER_18",
+          "relation": "taken_up",
+          "turn_index": 33,
+          "justification": "SPEAKER_18 elaborates on the context of the NGO, further developing the topic after it has been taken up."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 32,
+      "end_turn_index": 32,
+      "start_time": 712.84,
+      "end_time": 714.3,
+      "introducer": "SPEAKER_09",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_09 introduces a new frame regarding the NGO, which is not a direct continuation of the previous discussion about board membership.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_18",
+          "relation": "taken_up",
+          "turn_index": 33,
+          "justification": "SPEAKER_18 elaborates on the NGO context immediately after SPEAKER_09's introduction, indicating uptake of the topic."
+        },
+        {
+          "speaker": "SPEAKER_09",
+          "relation": "taken_up",
+          "turn_index": 34,
+          "justification": "SPEAKER_09 continues to elaborate on the NGO, further developing the topic introduced in Turn 32."
+        },
+        {
+          "speaker": "SPEAKER_19",
+          "relation": "taken_up",
+          "turn_index": 37,
+          "justification": "SPEAKER_19 asks a clarifying question about the NGO, indicating continued engagement with the topic."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 33,
+      "end_turn_index": 34,
+      "start_time": 716.33,
+      "end_time": 782.79,
+      "introducer": "SPEAKER_18",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_18 introduces the topic of Tami as a legal NGO, which is a shift from the previous discussion about the board of directors and bureaucracy, indicating a new semantic frame.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_09",
+          "relation": "taken_up",
+          "turn_index": 34,
+          "justification": "SPEAKER_09 responds directly to the introduction of Tami as an NGO by elaborating on its function as a vehicle for existence, indicating engagement with the new topic."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 34,
+      "end_turn_index": 36,
+      "start_time": 782.79,
+      "end_time": 921.38,
+      "introducer": "SPEAKER_09",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "Turn 34 introduces a new semantic frame regarding the use of the NGO as a vehicle for TAMI, which is distinct from the preceding discussion about the NGO's legal status.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_26",
+          "relation": "taken_up",
+          "turn_index": 35,
+          "justification": "SPEAKER_26 directly responds to SPEAKER_09's introduction by asking for clarification about the official entity, indicating engagement with the topic."
+        },
+        {
+          "speaker": "SPEAKER_09",
+          "relation": "taken_up",
+          "turn_index": 36,
+          "justification": "SPEAKER_09 continues to elaborate on the topic, providing more details about the official entity of TAMI, which shows ongoing engagement with the introduced topic."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 35,
+      "end_turn_index": 36,
+      "start_time": 799.48,
+      "end_time": 803.03,
+      "introducer": "SPEAKER_26",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "Turn 35 introduces a new request for information ('Tell me the official entity.') that shifts the focus from the previous discussion about the NGO's structure and operations.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_09",
+          "relation": "taken_up",
+          "turn_index": 36,
+          "justification": "SPEAKER_09 responds immediately after the introduction of the topic, elaborating on the official entity of Tami, which directly addresses the request made by SPEAKER_26."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 39,
+      "end_turn_index": 39,
+      "start_time": 976.37,
+      "end_time": 977.86,
+      "introducer": "SPEAKER_18",
+      "status": "failed",
+      "confidence": "high",
+      "justification": "SPEAKER_18's question 'Did you ask who can be?' introduces a new semantic frame that does not continue from the preceding discussion about the NGO's structure and responsibilities.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_09",
+          "relation": "taken_up",
+          "turn_index": 40,
+          "justification": "SPEAKER_09 responds immediately after with a clarification about the question, indicating an attempt to take up the topic but does not engage with SPEAKER_18's question directly."
+        },
+        {
+          "speaker": "SPEAKER_25",
+          "relation": "ignored",
+          "turn_index": 41,
+          "justification": "SPEAKER_25's follow-up does not address SPEAKER_18's question and instead continues the conversation about the board members, indicating a lack of engagement with the introduced topic."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 40,
+      "end_turn_index": 40,
+      "start_time": 978.12,
+      "end_time": 997.43,
+      "introducer": "SPEAKER_09",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "The turn introduces a new question about the legal ramifications and the current director, which shifts the focus from the previous discussion about the official entity and board responsibilities.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_25",
+          "relation": "taken_up",
+          "turn_index": 41,
+          "justification": "SPEAKER_25 responds directly to the question about the current director by asking for clarification about Alon's role, indicating engagement with the topic introduced by SPEAKER_09."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 41,
+      "end_turn_index": 41,
+      "start_time": 1000.17,
+      "end_time": 1012.49,
+      "introducer": "SPEAKER_25",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_25 introduces a new semantic frame regarding the roles of Alon, Deor, and Jeremy as board members, which is distinct from the preceding discussion about legal ramifications and responsibilities.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_09",
+          "relation": "taken_up",
+          "turn_index": 42,
+          "justification": "SPEAKER_09 responds immediately after with additional information about another position related to the NGO, indicating a continuation of the topic introduced by SPEAKER_25."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 42,
+      "end_turn_index": 44,
+      "start_time": 1013.07,
+      "end_time": 1081.97,
+      "introducer": "SPEAKER_09",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_09 introduces a new topic about co-signees, which shifts from the previous discussion focused on board members and legal ramifications.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_19",
+          "relation": "taken_up",
+          "turn_index": 43,
+          "justification": "SPEAKER_19 responds directly to the introduction of co-signees by stating it can be an accomplished person, indicating engagement with the topic."
+        },
+        {
+          "speaker": "SPEAKER_09",
+          "relation": "taken_up",
+          "turn_index": 44,
+          "justification": "SPEAKER_09 elaborates further on the topic of co-signees, reinforcing the relevance of the topic introduced."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 43,
+      "end_turn_index": 44,
+      "start_time": 1056.32,
+      "end_time": 1058.35,
+      "introducer": "SPEAKER_19",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_19 introduces a new frame about the qualifications of a person who can sign for the NGO, which is not a continuation of the previous discussion on legal ramifications and positions within the NGO.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_09",
+          "relation": "taken_up",
+          "turn_index": 44,
+          "justification": "SPEAKER_09 responds immediately after SPEAKER_19, elaborating on the idea that it can be anyone, thus engaging with the introduced topic."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 48,
+      "end_turn_index": 48,
+      "start_time": 1191.42,
+      "end_time": 1193.41,
+      "introducer": "SPEAKER_07",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_07 introduces a new frame about decision-making ('Usually it's on your call and nobody sees it.') that is not continuous with the preceding discussion about bureaucracy and NGO operations.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_02",
+          "relation": "taken_up",
+          "turn_index": 49,
+          "justification": "SPEAKER_02 responds immediately after with a continuation on the topic of NGO operations, indicating an orientation to the previous statement by discussing the need for active management."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 49,
+      "end_turn_index": 50,
+      "start_time": 1193.47,
+      "end_time": 1220.7,
+      "introducer": "SPEAKER_02",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_02 introduces a new semantic frame regarding the passivity and health of the NGO, which is not a continuation of the preceding discussion about bank account issues.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_09",
+          "relation": "taken_up",
+          "turn_index": 50,
+          "justification": "SPEAKER_09 responds immediately after SPEAKER_02's introduction, elaborating on the topic of protocols and decision-making within the NGO, indicating engagement with the newly introduced topic."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_01",
+      "start_turn_index": 51,
+      "end_turn_index": 51,
+      "start_time": 1328.18,
+      "end_time": 1343.04,
+      "introducer": "SPEAKER_00",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_00 introduces a new question about decisions faced by members, which shifts the focus from the previous discussion about NGO protocols.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_09",
+          "relation": "taken_up",
+          "turn_index": 52,
+          "justification": "SPEAKER_09 responds directly to the question posed by SPEAKER_00, elaborating on the role of NGO members and their decision-making powers."
+        },
+        {
+          "speaker": "SPEAKER_18",
+          "relation": "taken_up",
+          "turn_index": 53,
+          "justification": "SPEAKER_18 follows up with a question that relates to the topic introduced by SPEAKER_00, indicating engagement with the topic."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 52,
+      "end_turn_index": 53,
+      "start_time": 1393.03,
+      "end_time": 1395.67,
+      "introducer": "SPEAKER_18",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_18's turn introduces a new question about the situation, diverging from the previous discussion on NGO operations.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_09",
+          "relation": "taken_up",
+          "turn_index": 54,
+          "justification": "SPEAKER_09 responds directly to SPEAKER_18's question with an answer, indicating engagement with the topic."
+        },
+        {
+          "speaker": "SPEAKER_18",
+          "relation": "taken_up",
+          "turn_index": 55,
+          "justification": "SPEAKER_18 elaborates on the topic after SPEAKER_09's response, further developing the discussion."
+        },
+        {
+          "speaker": "SPEAKER_24",
+          "relation": "taken_up",
+          "turn_index": 56,
+          "justification": "SPEAKER_24 poses a follow-up question related to the topic, indicating continued interest and engagement."
+        },
+        {
+          "speaker": "SPEAKER_02",
+          "relation": "taken_up",
+          "turn_index": 57,
+          "justification": "SPEAKER_02 provides an answer to the question posed by SPEAKER_24, further extending the topic."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 54,
+      "end_turn_index": 54,
+      "start_time": 1395.69,
+      "end_time": 1398.15,
+      "introducer": "SPEAKER_09",
+      "status": "failed",
+      "confidence": "high",
+      "justification": "SPEAKER_09 introduces a new frame with 'Nothing. There has been.' which does not connect to the preceding discussion about NGO decisions and actions.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_18",
+          "relation": "taken_up",
+          "turn_index": 55,
+          "justification": "SPEAKER_18 responds immediately after with a related comment about TAMI, indicating some uptake of the topic introduced by SPEAKER_09, but it does not directly engage with the 'nothing' statement."
+        },
+        {
+          "speaker": "SPEAKER_24",
+          "relation": "taken_up",
+          "turn_index": 56,
+          "justification": "SPEAKER_24 follows up with a question about membership relevance, which indirectly relates to the implications of SPEAKER_09's statement about 'nothing' happening."
+        },
+        {
+          "speaker": "SPEAKER_02",
+          "relation": "taken_up",
+          "turn_index": 57,
+          "justification": "SPEAKER_02 addresses the question raised by SPEAKER_24, further extending the conversation but not directly engaging with SPEAKER_09's 'nothing' statement."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 55,
+      "end_turn_index": 57,
+      "start_time": 1398.85,
+      "end_time": 1441.1,
+      "introducer": "SPEAKER_18",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_18 introduces a new semantic frame regarding the situation in Tami and the role of the Amutah, which is not a continuation of the preceding discussion.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_24",
+          "relation": "taken_up",
+          "turn_index": 56,
+          "justification": "SPEAKER_24 directly responds to SPEAKER_18's comments by questioning the relevance of membership in the Amutah, indicating engagement with the topic introduced."
+        },
+        {
+          "speaker": "SPEAKER_02",
+          "relation": "taken_up",
+          "turn_index": 57,
+          "justification": "SPEAKER_02 follows up on the question posed by SPEAKER_24, further elaborating on the topic of TAMI's bureaucratic health and the need for rules, thus continuing the discussion initiated by SPEAKER_18."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 56,
+      "end_turn_index": 56,
+      "start_time": 1432.14,
+      "end_time": 1441.1,
+      "introducer": "SPEAKER_24",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_24 introduces a new question about the relevance of membership in Almonta, which shifts the focus from the previous discussion about decision-making in NGOs.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_02",
+          "relation": "taken_up",
+          "turn_index": 57,
+          "justification": "SPEAKER_02 responds directly to SPEAKER_24's question, indicating it is a good question and elaborating on the need for bureaucratic health in TAMI."
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_1",
+      "start_turn_index": 57,
+      "end_turn_index": 58,
+      "start_time": 1441.14,
+      "end_time": 1518.3,
+      "introducer": "SPEAKER_02",
+      "status": "emerged",
+      "confidence": "high",
+      "justification": "SPEAKER_02 introduces a new semantic frame regarding the bureaucratic health of TAMI, which is not a direct continuation of the previous discussion about membership relevance.",
+      "speaker_orientations": [
+        {
+          "speaker": "SPEAKER_09",
+          "relation": "taken_up",
+          "turn_index": 58,
+          "justification": "SPEAKER_09 responds directly to the points raised by SPEAKER_02 about bureaucratic requirements and the need for formalization, indicating engagement with the topic."
+        }
+      ]
+    }
+  ],
+  "total_topics_analyzed": 30,
+  "model_used": "gpt-4o-mini"
+}
